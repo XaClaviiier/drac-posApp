@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "date": "2026-11-15",
+  "status": "Frozen handoff inputs; reconstruction/render comparison pending",
+  "authority": {
+    "decisions": "../../CONTEXT.md",
+    "tokens": "../DESIGN_POS_Extend.md",
+    "flows": "../../AFD/afd.md"
+  },
+  "rules": [
+    "Poppins, approved blue/supporting palette; refer to token source",
+    "Cash, static merchant QRIS, manual bank transfer; no gateway",
+    "Do not fabricate real QRIS, bank account, branding or printer capability",
+    "Extract visible DOM state from HTML, not every source string or hidden/history state",
+    "Build editable native layers/components; screenshots are comparison aids",
+    "Keep historical pos-ui.figcraft unchanged; use a new candidate file"
+  ],
+  "targets": [
+    {
+      "id": "POS-grid-desktop",
+      "source": "sources/desktop-poppins.html",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "render": "pending corrected HTML capture"
+    },
+    {
+      "id": "POS-list-mobile",
+      "source": "sources/mobile-poppins.html",
+      "viewport": [
+        390,
+        844
+      ],
+      "reference": "screenshots/mobile-list.png"
+    },
+    {
+      "id": "POS-detail-desktop",
+      "source": "sources/detail-so-poppins.html",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "reference": "screenshots/desktop-detail.png"
+    },
+    {
+      "id": "invoice-payment-receipt",
+      "source": "sources/cashier-flow-local.html",
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "states": [
+        "draft",
+        "final invoice",
+        "cash",
+        "QRIS awaiting manual check",
+        "transfer awaiting manual check",
+        "paid receipt per method"
+      ],
+      "render": "Capture each visible state from current HTML; earlier gateway images excluded"
+    }
+  ],
+  "pending": [
+    "Poppins must be available in installed FigCraft engine",
+    "Matched-viewport source snapshots for all final HTML states",
+    "Native component construction and comparison overlays",
+    "Prototype playback/keyboard/scroll tests",
+    "Real QRIS/account details and printer paper choice"
+  ],
+  "files": [
+    {
+      "path": "sources\\desktop-poppins.html",
+      "sha256": "28c5eb4a0e834e9db94cacd373a89a21d312ac1f3318429a431a087e7884ee8f",
+      "role": "Desktop order grid; corrected monetary values, screenshot must be regenerated"
+    },
+    {
+      "path": "sources\\mobile-poppins.html",
+      "sha256": "e677b56d18cf76ef3adb5fa732d339a9b0fcf50d76b6eb312d4d1ce88313fc3e",
+      "role": "Mobile order list; approved screenshot available"
+    },
+    {
+      "path": "sources\\detail-so-poppins.html",
+      "sha256": "9cd9811ff53ed4a9d2d4e9f72c098a137e5f64f286b6fca9bf1631ccc3bc6f71",
+      "role": "Selected SO detail desktop; approved screenshot available"
+    },
+    {
+      "path": "sources\\cashier-flow-local.html",
+      "sha256": "cb23387634540bf4a3e0d540faa23666cfd22b36188985fe7564f27bb377a1dd",
+      "role": "Current draft/payment/receipt concept, manual methods only in visible UI"
+    },
+    {
+      "path": "screenshots\\mobile-list.png",
+      "sha256": "3760810fc0cb7779c4e403834ae1c61f08141720372628a275e5d4cde2428d01",
+      "imagePixels": [
+        780,
+        2358
+      ],
+      "role": "Reviewed Stitch render; image pixel dimensions are not assumed CSS viewport dimensions"
+    },
+    {
+      "path": "screenshots\\desktop-detail.png",
+      "sha256": "1a40cc1d9cd858d0e0dc4753648402e749d0ae30ceb3ecd8e8ce57a9dfdff4f8",
+      "imagePixels": [
+        2560,
+        2054
+      ],
+      "role": "Reviewed Stitch render; image pixel dimensions are not assumed CSS viewport dimensions"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "file": "C:\\Project-Opencode\\POS\\prototype\\figcraft\\pos-kasir.figcraft",
+  "sha256": "8a60f17e4d4a960ba5bea3462a8361a3dbf46a4075810304a9c851e70ec1a895",
+  "bytes": 641672,
+  "pages": [
+    "Desktop",
+    "Ponsel",
+    "Referensi",
+    "Komponen"
+  ],
+  "nodeTypes": {
+    "PAGE": 4,
+    "FRAME": 210,
+    "RECTANGLE": 2026,
+    "LINE": 93,
+    "TEXT": 5486,
+    "VECTOR": 22,
+    "ELLIPSE": 4,
+    "INSTANCE": 1337,
+    "COMPONENT": 19,
+    "COMPONENT_SET": 3
+  },
+  "fonts": {
+    "Poppins": 5486
+  },
+  "imagePages": [
+    {
+      "page": "Desktop",
+      "count": 0
+    },
+    {
+      "page": "Ponsel",
+      "count": 0
+    },
+    {
+      "page": "Referensi",
+      "count": 2
+    },
+    {
+      "page": "Komponen",
+      "count": 0
+    }
+  ],
+  "referenceImageHashes": [
+    "be478be5083bc0253260980fbf148ec94a65755a99357fbce18d0382f8edefc2",
+    "e2af3df821fcd840a0365940966b9b1b32495280a4a9e68a10ca1f6a0ed68d36"
+  ],
+  "newLinksPassed": 552,
+  "regressionSmokeLinksPassed": 64,
+  "realWheelScroll": {
+    "scroll": [
+      0.0,
+      702.0
+    ],
+    "range": [
+      0.0,
+      702.0
+    ],
+    "confirmVisible": true,
+    "confirmClickAndTimerPassed": true
+  },
+  "nativeExports": [
+    "desktop-diag-draft-light.png",
+    "mobile-diag-draft-light.png",
+    "desktop-diag-approve-ready-dark.png",
+    "mobile-diag-readonly-dark.png",
+    "desktop-diag-single-approved-light.png",
+    "desktop-diag-owner-log-dark.png",
+    "desktop-diag-price-so-created-light.png",
+    "mobile-diag-origin-light.png"
+  ],
+  "limits": [
+    "scripted inputs",
+    "sample journeys do not globally synchronize state",
+    "authorization is a design demonstration",
+    "SO progress and realization are deferred",
+    "full keyboard/screen-reader/reflow not verified",
+    "complete Owner editor journey deferred",
+    "no real payment, printer or stock reservation"
+  ],
+  "approvalLabelRevision": {
+    "label": "Setuju",
+    "instances": [
+      {
+        "frame": "desktop-diag-approve",
+        "node": 5246,
+        "label": "Setuju"
+      },
+      {
+        "frame": "desktop-diag-approve-ready",
+        "node": 5304,
+        "label": "\u2713 Setuju"
+      },
+      {
+        "frame": "desktop-diag-price-approve",
+        "node": 5740,
+        "label": "Setuju"
+      },
+      {
+        "frame": "desktop-diag-price-approve-ready",
+        "node": 5798,
+        "label": "\u2713 Setuju"
+      },
+      {
+        "frame": "mobile-diag-approve",
+        "node": 7066,
+        "label": "Setuju"
+      },
+      {
+        "frame": "mobile-diag-approve-ready",
+        "node": 7123,
+        "label": "\u2713 Setuju"
+      },
+      {
+        "frame": "mobile-diag-price-approve",
+        "node": 7551,
+        "label": "Setuju"
+      },
+      {
+        "frame": "mobile-diag-price-approve-ready",
+        "node": 7608,
+        "label": "\u2713 Setuju"
+      },
+      {
+        "frame": "desktop-diag-single-approve",
+        "node": 8384,
+        "label": "Setuju"
+      },
+      {
+        "frame": "desktop-diag-single-approve-ready",
+        "node": 8443,
+        "label": "\u2713 Setuju"
+      },
+      {
+        "frame": "mobile-diag-single-approve",
+        "node": 8842,
+        "label": "Setuju"
+      },
+      {
+        "frame": "mobile-diag-single-approve-ready",
+        "node": 8900,
+        "label": "\u2713 Setuju"
+      }
+    ],
+    "toggleChecks": [
+      "desktop-diag-approve -> desktop-diag-approve-ready",
+      "desktop-diag-approve-ready -> desktop-diag-approve",
+      "mobile-diag-approve -> mobile-diag-approve-ready",
+      "mobile-diag-approve-ready -> mobile-diag-approve"
+    ],
+    "navigationUnchanged": true,
+    "previousFileHash": "6cd515ea9860598c20860760a0c48f70e0f49face3870e10838b31d46c06b1b9"
+  }
+}

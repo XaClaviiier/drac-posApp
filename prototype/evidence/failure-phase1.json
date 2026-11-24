@@ -1,0 +1,30 @@
+{
+  "passed": false,
+  "error": "Page.evaluate: TypeError: Illegal invocation\n    at UtilityScript.evaluate (<anonymous>:377:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "checks_completed": [
+    {
+      "check": "Seed empat kunjungan dummy; legacy berada pada key terpisah",
+      "passed": true
+    },
+    {
+      "check": "Pencarian plat/telepon, detail tepat, kosong, dan filter hari ini",
+      "passed": true
+    },
+    {
+      "check": "Ketiga peran demo dapat dipilih, tanpa klaim login",
+      "passed": true
+    },
+    {
+      "check": "Required, whitespace, format plat dan telepon ditolak",
+      "passed": true
+    },
+    {
+      "check": "Autosave draf, pemulihan, alamat opsional, submit ganda dan reload",
+      "passed": true
+    },
+    {
+      "check": "Input markup ditampilkan sebagai teks, plat boleh berulang untuk kunjungan baru",
+      "passed": true
+    }
+  ]
+}

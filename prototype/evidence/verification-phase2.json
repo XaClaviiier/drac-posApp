@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-12T11:44:00.876124+00:00",
+  "checks": [
+    {
+      "check": "Store Fase 1 terbaca; identitas dan keluhan terhubung tanpa entry ulang",
+      "passed": true
+    },
+    {
+      "check": "Itemized jasa/part dan total tepat; record serta draf registrasi tetap utuh",
+      "passed": true
+    },
+    {
+      "check": "Hapus baris/fokus bekerja; persetujuan tidak otomatis",
+      "passed": true
+    },
+    {
+      "check": "Qty nol/negatif/pecahan/overflow dan harga invalid ditolak; alasan harga wajib",
+      "passed": true
+    },
+    {
+      "check": "Draf estimasi pulih setelah reload; log perubahan harga tersedia untuk Owner",
+      "passed": true
+    },
+    {
+      "check": "Gagal approval tidak mengubah status; approved terkunci termasuk event buatan/reload",
+      "passed": true
+    },
+    {
+      "check": "SO hanya dari approved; gagal write atomik; klik ulang membuka snapshot sama",
+      "passed": true
+    },
+    {
+      "check": "Kasir baca SO/diagnosa; handler mutasi dan log lengkap dibatasi pada simulasi",
+      "passed": true
+    },
+    {
+      "check": "Snapshot harga katalog tetap; markup aman; role switch ditahan saat draf gagal disimpan",
+      "passed": true
+    },
+    {
+      "check": "Konflik draf estimasi mempertahankan isian lokal dan menyimpannya saat kembali",
+      "passed": true
+    },
+    {
+      "check": "Log harga melewati input kosong dan alasan terlambat tetap lengkap dengan provenance",
+      "passed": true
+    },
+    {
+      "check": "Reason gagal write tidak mencemari state; retry hanya menyimpan alasan yang berhasil",
+      "passed": true
+    },
+    {
+      "check": "Approval tab lain: menolak penggantian mempertahankan isian; menerima membuka snapshot terkunci",
+      "passed": true
+    },
+    {
+      "check": "Desktop/tablet/mobile light-dark, 320px, teks 200%, Tab/fokus diperiksa",
+      "passed": true
+    },
+    {
+      "check": "Collection/relasi rusak, total SO salah dan duplikasi SO ditolak tanpa menimpa data",
+      "passed": true
+    },
+    {
+      "check": "Tidak ada console/page error pada alur normal",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "limitations": [
+    "Dummy Chromium headless only",
+    "Client role guards are simulation, not server auth",
+    "Sequential localStorage conflict detection, not atomic concurrency",
+    "SO handoff only; progress and payments not implemented"
+  ]
+}

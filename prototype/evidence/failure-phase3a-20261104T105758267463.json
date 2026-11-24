@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#so-clear-action\")\n    - locator resolved to <button hidden=\"\" type=\"button\" class=\"secondary\" id=\"so-clear-action\">Bersihkan isian</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+  "checks_completed": [
+    {
+      "check": "Menu SO membuka empty state dan entry ke diagnosa",
+      "passed": true
+    },
+    {
+      "check": "SO lama tanpa workflow terbaca tanpa rewrite; cari/filter/detail/kosong bekerja",
+      "passed": true
+    },
+    {
+      "check": "Mulai wajib teknisi; assignment/start tersimpan setelah reload tanpa mengubah estimasi",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#new-registration\")\n    - locator resolved to <button class=\"primary\" id=\"new-registration\">+ Registrasi kendaraan</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+  "checks_completed": [
+    {
+      "check": "Seed empat kunjungan dummy; legacy berada pada key terpisah",
+      "passed": true
+    },
+    {
+      "check": "Pencarian plat/telepon, detail tepat, kosong, dan filter hari ini",
+      "passed": true
+    },
+    {
+      "check": "Ketiga peran demo dapat dipilih, tanpa klaim login",
+      "passed": true
+    }
+  ]
+}

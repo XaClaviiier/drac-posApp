@@ -1,0 +1,42 @@
+{
+  "passed": false,
+  "error": "Locator expected to be focused\nActual value: inactive \nCall log:\n  - Expect \"to_be_focused\" locator(\"#so-heading\") with timeout 5000ms\n  - waiting for locator(\"#so-heading\")\n    14 × locator resolved to <h1 tabindex=\"-1\" id=\"so-heading\">Service Order</h1>\n       - unexpected value \"inactive\"\n\nAria snapshot:\n- link \"Lewati navigasi\":\n  - /url: \"#main\"\n- banner:\n  - button \"Menu\"\n  - text: Simulasi peran\n  - combobox \"Simulasi peran\":\n    - option \"Owner\" [selected]\n    - option \"Teknisi\"\n    - option \"Kasir\"\n  - button \"Tema terang\" [pressed]\n- strong: Data dummy.\n- text: Gunakan data fiktif. Pergantian peran hanya simulasi, bukan login atau otorisasi.\n- main:\n  - status: SO masuk antrean kasir. Biaya dan progres terkunci; belum ada invoice.\n  - region \"Periksa realisasi\":\n    - button \"Kembali ke antrean\"\n    - heading \"Periksa realisasi\" [level=2]\n    - paragraph: DD 1248 KL · Budi Contoh\n    - paragraph: SO-2026-55A7AF61\n    - paragraph: Realisasi sudah diserahkan. Periksa rincian lalu buat invoice draf secara eksplisit.\n    - strong: Filter kabin\n    - text: 1 pcs × Rp 90.000\n    - strong: Rp 90.000\n    - strong: Total rincian tersimpan\n    - strong: Rp 90.000\n    - button \"Buat invoice draf\"\n    - button \"Buka SO lengkap\"",
+  "checks_completed": [
+    {
+      "check": "Antrean kasir membuka keadaan kosong dengan petunjuk dan tanpa invoice palsu",
+      "passed": true
+    },
+    {
+      "check": "SO legacy tanpa handoff terbaca tanpa write; SO aktif tidak bisa diserahkan",
+      "passed": true
+    },
+    {
+      "check": "Konfirmasi batal dan editor dirty menolak penyerahan tanpa autosave",
+      "passed": true
+    },
+    {
+      "check": "Teknisi menyerahkan realisasi Selesai, Kasir melihat antrean tepat tanpa mengubah biaya",
+      "passed": true
+    },
+    {
+      "check": "Queued mengunci biaya/reopen untuk Owner sekalipun; handler Kasir dan submit ganda tidak menulis",
+      "passed": true
+    },
+    {
+      "check": "Owner menarik beralasan lalu merevisi/menyerahkan ulang; riwayat aman dan antrean tidak duplikat",
+      "passed": true
+    },
+    {
+      "check": "Role switch keluar antrean dan membersihkan daftar/riwayat Owner dari DOM Teknisi",
+      "passed": true
+    },
+    {
+      "check": "Gagal write penyerahan/penarikan mempertahankan state/isian; retry tidak replay",
+      "passed": true
+    },
+    {
+      "check": "Konflik penarikan menahan aksi stale, menjaga alasan, dan navigasi dirty tidak membuang isian",
+      "passed": true
+    }
+  ]
+}

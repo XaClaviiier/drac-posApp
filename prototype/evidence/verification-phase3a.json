@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-12T10:29:19.221501+00:00",
+  "checks": [
+    {
+      "check": "Menu SO membuka empty state dan entry ke diagnosa",
+      "passed": true
+    },
+    {
+      "check": "SO lama tanpa workflow terbaca tanpa rewrite; cari/filter/detail/kosong bekerja",
+      "passed": true
+    },
+    {
+      "check": "Mulai wajib teknisi; assignment/start tersimpan setelah reload tanpa mengubah estimasi",
+      "passed": true
+    },
+    {
+      "check": "Tunda beralasan, ganti teknisi, lanjutkan; complete dari paused ditolak di handler",
+      "passed": true
+    },
+    {
+      "check": "Owner/Teknisi wajib menyimpan realisasi; editor dirty menahan selesai tanpa autosave atau riwayat baru",
+      "passed": true
+    },
+    {
+      "check": "Konfirmasi selesai bisa dibatalkan; hanya Owner membuka kembali dengan history tetap",
+      "passed": true
+    },
+    {
+      "check": "Kasir read-only; gagal write mempertahankan input, retry tidak replay status",
+      "passed": true
+    },
+    {
+      "check": "Isian bertahan saat role/conflict; tindakan stale tidak replay, navigasi meminta konfirmasi",
+      "passed": true
+    },
+    {
+      "check": "Tautan registrasi/diagnosa/SO kembali ke dokumen yang sama",
+      "passed": true
+    },
+    {
+      "check": "Markup menjadi teks; pembatalan terminal berkonfirmasi dan mempertahankan estimasi/history",
+      "passed": true
+    },
+    {
+      "check": "Form/detail/history 320px dan 200%, Tab, keyboard submit, error fokus dan reset diverifikasi",
+      "passed": true
+    },
+    {
+      "check": "Desktop/tablet/mobile light-dark, 320px dan teks 200% tidak overflow",
+      "passed": true
+    },
+    {
+      "check": "Workflow/null/status palsu/aktor/alasan/waktu rusak ditolak tanpa menimpa raw data",
+      "passed": true
+    }
+  ],
+  "console_errors": []
+}

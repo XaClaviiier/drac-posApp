@@ -1,0 +1,2760 @@
+{
+  "steps": [
+    {
+      "source": "desktop-maya-demo",
+      "label": "Mulai dari registrasi Maya",
+      "target": "desktop-reg-new",
+      "passed": true
+    },
+    {
+      "source": "desktop-reg-new",
+      "label": "Demo: isi contoh lengkap",
+      "target": "desktop-reg-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-reg-filled",
+      "label": "Periksa registrasi",
+      "target": "desktop-reg-review",
+      "passed": true
+    },
+    {
+      "source": "desktop-reg-review",
+      "label": "Simpan registrasi",
+      "target": "desktop-reg-saving",
+      "passed": true
+    },
+    {
+      "source": "desktop-reg-saving",
+      "timerTarget": "desktop-reg-saved",
+      "passed": true
+    },
+    {
+      "source": "desktop-reg-saved",
+      "label": "Buka Diagnosa",
+      "target": "desktop-diag-no-diagnosis",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-no-diagnosis",
+      "label": "Demo: journey Teknisi",
+      "target": "desktop-diag-origin",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-origin",
+      "label": "Buat diagnosa",
+      "target": "desktop-diag-new",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-new",
+      "label": "Demo: isi pemeriksaan",
+      "target": "desktop-diag-findings",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-findings",
+      "label": "Pilih jasa / part",
+      "target": "desktop-diag-catalog-service",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-catalog-service",
+      "label": "Tambahkan item",
+      "target": "desktop-diag-service",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-service",
+      "label": "Pilih jasa / part",
+      "target": "desktop-diag-catalog-part",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-catalog-part",
+      "label": "Tambahkan item",
+      "target": "desktop-diag-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-draft",
+      "label": "Tinjau dan catat persetujuan",
+      "target": "desktop-diag-approve",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-approve",
+      "label": "Setuju",
+      "target": "desktop-diag-approve-ready",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-approve-ready",
+      "label": "Catat persetujuan",
+      "target": "desktop-diag-approving",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-approving",
+      "timerTarget": "desktop-diag-approved",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-approved",
+      "label": "Buat Service Order",
+      "target": "desktop-diag-so-review",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-so-review",
+      "label": "Buat Service Order",
+      "target": "desktop-diag-so-created",
+      "passed": true
+    },
+    {
+      "source": "desktop-diag-so-created",
+      "label": "Kelola Service Order",
+      "target": "desktop-so-list",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-list",
+      "label": "Buka SO",
+      "target": "desktop-so-ready",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-ready",
+      "label": "Pilih Teknisi",
+      "target": "desktop-so-assign-none",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-assign-none",
+      "label": "Teknisi B",
+      "target": "desktop-so-assign-b",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-assign-b",
+      "label": "Simpan penugasan",
+      "target": "desktop-so-assigned",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-assigned",
+      "label": "Mulai pengerjaan",
+      "target": "desktop-so-start",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-start",
+      "label": "Konfirmasi",
+      "target": "desktop-so-running",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-running",
+      "label": "Realisasi jasa / part",
+      "target": "desktop-so-real-empty",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-empty",
+      "label": "Salin estimasi untuk diperiksa",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Contoh harga Rp60.000",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Isi alasan contoh",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Periksa dan simpan",
+      "target": "desktop-so-real-consent",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-consent",
+      "label": "Setuju",
+      "target": "desktop-so-real-consent-ready",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-consent-ready",
+      "label": "Simpan realisasi",
+      "target": "desktop-so-real-view",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-view",
+      "label": "Kembali ke SO",
+      "target": "desktop-so-running",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-running",
+      "label": "Tandai selesai",
+      "target": "desktop-so-complete",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-complete",
+      "label": "Konfirmasi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Kembali ke antrean",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Tunai",
+      "target": "desktop-maya-cash",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash",
+      "label": "Isi contoh Rp100.000",
+      "target": "desktop-maya-cash-short",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash-short",
+      "label": "Isi contoh Rp200.000",
+      "target": "desktop-maya-cash-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash-filled",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-confirm-cash",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-confirm-cash",
+      "label": "Konfirmasi pembayaran",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "label": "Lihat nota",
+      "target": "desktop-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-receipt",
+      "label": "Cetak / simpan PDF",
+      "target": "desktop-maya-print-info",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-print-info",
+      "label": "Kembali ke nota",
+      "target": "desktop-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-receipt",
+      "label": "Kembali ke detail",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "label": "Kembali ke antrean",
+      "target": "desktop-maya-empty",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-empty",
+      "label": "Lihat riwayat",
+      "target": "desktop-maya-history",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-history",
+      "label": "Buka kunjungan Maya",
+      "target": "desktop-maya-history-detail",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-history-detail",
+      "label": "Buka invoice",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "QRIS",
+      "target": "desktop-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris-checked",
+      "label": "Transfer bank",
+      "target": "desktop-maya-transfer",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer",
+      "label": "Isi referensi contoh",
+      "target": "desktop-maya-transfer-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer-filled",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-transfer-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer-checked",
+      "label": "QRIS",
+      "target": "desktop-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris-checked",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-confirm-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-confirm-qris",
+      "label": "Konfirmasi pembayaran",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "label": "Lihat nota",
+      "target": "desktop-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Owner",
+      "target": "desktop-so-owner-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-owner-completed",
+      "label": "Koreksi realisasi (Owner)",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Contoh harga Rp60.000",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Lepas part",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "QRIS",
+      "target": "desktop-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris-checked",
+      "label": "Transfer bank",
+      "target": "desktop-maya-transfer",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer",
+      "label": "Isi referensi contoh",
+      "target": "desktop-maya-transfer-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer-filled",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-transfer-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer-checked",
+      "label": "QRIS",
+      "target": "desktop-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris-checked",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-confirm-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-confirm-qris",
+      "label": "Konfirmasi pembayaran",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "label": "Lihat nota",
+      "target": "desktop-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Owner",
+      "target": "desktop-so-owner-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-owner-completed",
+      "label": "Koreksi realisasi (Owner)",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Contoh harga Rp60.000",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Lepas part",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Isi alasan contoh",
+      "target": "desktop-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-edit",
+      "label": "Periksa dan simpan",
+      "target": "desktop-so-real-consent",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-consent",
+      "label": "Setuju",
+      "target": "desktop-so-real-consent-ready",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-consent-ready",
+      "label": "Simpan realisasi",
+      "target": "desktop-so-real-view",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-real-view",
+      "label": "Kembali ke SO",
+      "target": "desktop-so-owner-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-owner-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-owner-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-owner-queued",
+      "label": "Buka POS sebagai Owner",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Transfer bank",
+      "target": "desktop-maya-transfer",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer",
+      "label": "Isi referensi contoh",
+      "target": "desktop-maya-transfer-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer-filled",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-transfer-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer-checked",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-confirm-transfer",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-confirm-transfer",
+      "label": "Konfirmasi pembayaran",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "label": "Lihat nota",
+      "target": "desktop-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: baca sebagai Teknisi",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Tunai",
+      "target": "desktop-maya-blocked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-blocked",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: kembali sebagai Kasir",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: koneksi offline",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Tunai",
+      "target": "desktop-maya-cash",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash",
+      "label": "Isi contoh Rp200.000",
+      "target": "desktop-maya-cash-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash-filled",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-offline",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-offline",
+      "label": "Demo: koneksi pulih",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: simpan gagal",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Tunai",
+      "target": "desktop-maya-cash",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash",
+      "label": "Isi contoh Rp200.000",
+      "target": "desktop-maya-cash-filled",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash-filled",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-failed",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-failed",
+      "label": "Demo: periksa status",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: hasil pembayaran belum pasti",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "label": "QRIS",
+      "target": "desktop-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "desktop-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris-checked",
+      "label": "Tinjau pembayaran",
+      "target": "desktop-maya-unknown",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-unknown",
+      "label": "Periksa status transaksi",
+      "target": "desktop-maya-checked-unpaid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-checked-unpaid",
+      "label": "Demo: status belum tercatat",
+      "target": "desktop-maya-final",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: koneksi offline",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-offline",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-offline",
+      "label": "Demo: koneksi pulih",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: koneksi offline",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-offline",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-offline",
+      "label": "Demo: koneksi pulih",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: SO Selesai Rp0 (ulang data)",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "desktop-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "label": "Lihat nota",
+      "target": "desktop-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "desktop-so-completed",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "desktop-so-queued",
+      "passed": true
+    },
+    {
+      "source": "desktop-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "desktop-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-queue",
+      "label": "Buka transaksi",
+      "target": "desktop-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Demo",
+      "target": "desktop-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-demo",
+      "label": "Demo: penyerahan ditarik",
+      "target": "desktop-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "desktop-maya-stale",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Mulai dari registrasi Maya",
+      "target": "mobile-reg-new",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-new",
+      "label": "Demo: isi contoh lengkap",
+      "target": "mobile-reg-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-filled",
+      "label": "Periksa registrasi",
+      "target": "mobile-reg-review",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-review",
+      "label": "Simpan registrasi",
+      "target": "mobile-reg-saving",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-saving",
+      "timerTarget": "mobile-reg-saved",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-saved",
+      "label": "Buka Diagnosa",
+      "target": "mobile-diag-no-diagnosis",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-no-diagnosis",
+      "label": "Demo: journey Teknisi",
+      "target": "mobile-diag-origin",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-origin",
+      "label": "Buat diagnosa",
+      "target": "mobile-diag-new",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-new",
+      "label": "Demo: isi pemeriksaan",
+      "target": "mobile-diag-findings",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-findings",
+      "label": "Pilih jasa / part",
+      "target": "mobile-diag-catalog-service",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-catalog-service",
+      "label": "Tambahkan item",
+      "target": "mobile-diag-service",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-service",
+      "label": "Pilih jasa / part",
+      "target": "mobile-diag-catalog-part",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-catalog-part",
+      "label": "Tambahkan item",
+      "target": "mobile-diag-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-draft",
+      "label": "Tinjau dan catat persetujuan",
+      "target": "mobile-diag-approve",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approve",
+      "label": "Setuju",
+      "target": "mobile-diag-approve-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approve-ready",
+      "label": "Catat persetujuan",
+      "target": "mobile-diag-approving",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approving",
+      "timerTarget": "mobile-diag-approved",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approved",
+      "label": "Buat Service Order",
+      "target": "mobile-diag-so-review",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-so-review",
+      "label": "Buat Service Order",
+      "target": "mobile-diag-so-created",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-so-created",
+      "label": "Kelola Service Order",
+      "target": "mobile-so-list",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-list",
+      "label": "Buka SO",
+      "target": "mobile-so-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-ready",
+      "label": "Pilih Teknisi",
+      "target": "mobile-so-assign-none",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-assign-none",
+      "label": "Teknisi B",
+      "target": "mobile-so-assign-b",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-assign-b",
+      "label": "Simpan penugasan",
+      "target": "mobile-so-assigned",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-assigned",
+      "label": "Mulai pengerjaan",
+      "target": "mobile-so-start",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-start",
+      "label": "Konfirmasi",
+      "target": "mobile-so-running",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-running",
+      "label": "Realisasi jasa / part",
+      "target": "mobile-so-real-empty",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-empty",
+      "label": "Salin estimasi untuk diperiksa",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Contoh harga Rp60.000",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Isi alasan contoh",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Periksa dan simpan",
+      "target": "mobile-so-real-consent",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-consent",
+      "label": "Setuju",
+      "target": "mobile-so-real-consent-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-consent-ready",
+      "label": "Simpan realisasi",
+      "target": "mobile-so-real-view",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-view",
+      "label": "Kembali ke SO",
+      "target": "mobile-so-running",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-running",
+      "label": "Tandai selesai",
+      "target": "mobile-so-complete",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-complete",
+      "label": "Konfirmasi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Mulai dari registrasi Maya",
+      "target": "mobile-reg-new",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-new",
+      "label": "Demo: isi contoh lengkap",
+      "target": "mobile-reg-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-filled",
+      "label": "Periksa registrasi",
+      "target": "mobile-reg-review",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-review",
+      "label": "Simpan registrasi",
+      "target": "mobile-reg-saving",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-saving",
+      "timerTarget": "mobile-reg-saved",
+      "passed": true
+    },
+    {
+      "source": "mobile-reg-saved",
+      "label": "Buka Diagnosa",
+      "target": "mobile-diag-no-diagnosis",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-no-diagnosis",
+      "label": "Demo: journey Teknisi",
+      "target": "mobile-diag-origin",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-origin",
+      "label": "Buat diagnosa",
+      "target": "mobile-diag-new",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-new",
+      "label": "Demo: isi pemeriksaan",
+      "target": "mobile-diag-findings",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-findings",
+      "label": "Pilih jasa / part",
+      "target": "mobile-diag-catalog-service",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-catalog-service",
+      "label": "Tambahkan item",
+      "target": "mobile-diag-service",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-service",
+      "label": "Pilih jasa / part",
+      "target": "mobile-diag-catalog-part",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-catalog-part",
+      "label": "Tambahkan item",
+      "target": "mobile-diag-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-draft",
+      "label": "Tinjau dan catat persetujuan",
+      "target": "mobile-diag-approve",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approve",
+      "label": "Setuju",
+      "target": "mobile-diag-approve-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approve-ready",
+      "label": "Catat persetujuan",
+      "target": "mobile-diag-approving",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approving",
+      "timerTarget": "mobile-diag-approved",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-approved",
+      "label": "Buat Service Order",
+      "target": "mobile-diag-so-review",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-so-review",
+      "label": "Buat Service Order",
+      "target": "mobile-diag-so-created",
+      "passed": true
+    },
+    {
+      "source": "mobile-diag-so-created",
+      "label": "Kelola Service Order",
+      "target": "mobile-so-list",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-list",
+      "label": "Buka SO",
+      "target": "mobile-so-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-ready",
+      "label": "Pilih Teknisi",
+      "target": "mobile-so-assign-none",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-assign-none",
+      "label": "Teknisi B",
+      "target": "mobile-so-assign-b",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-assign-b",
+      "label": "Simpan penugasan",
+      "target": "mobile-so-assigned",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-assigned",
+      "label": "Mulai pengerjaan",
+      "target": "mobile-so-start",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-start",
+      "label": "Konfirmasi",
+      "target": "mobile-so-running",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-running",
+      "label": "Realisasi jasa / part",
+      "target": "mobile-so-real-empty",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-empty",
+      "label": "Salin estimasi untuk diperiksa",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Contoh harga Rp60.000",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Isi alasan contoh",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Periksa dan simpan",
+      "target": "mobile-so-real-consent",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-consent",
+      "label": "Setuju",
+      "target": "mobile-so-real-consent-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-consent-ready",
+      "label": "Simpan realisasi",
+      "target": "mobile-so-real-view",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-view",
+      "label": "Kembali ke SO",
+      "target": "mobile-so-running",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-running",
+      "label": "Tandai selesai",
+      "target": "mobile-so-complete",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-complete",
+      "label": "Konfirmasi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Kembali ke antrean",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Tunai",
+      "target": "mobile-maya-cash",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash",
+      "label": "Isi contoh Rp100.000",
+      "target": "mobile-maya-cash-short",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash-short",
+      "label": "Isi contoh Rp200.000",
+      "target": "mobile-maya-cash-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash-filled",
+      "label": "Tinjau pembayaran",
+      "target": "mobile-maya-confirm-cash",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-confirm-cash",
+      "label": "Konfirmasi pembayaran",
+      "target": "mobile-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-paid",
+      "label": "Lihat nota",
+      "target": "mobile-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-receipt",
+      "label": "Cetak / simpan PDF",
+      "target": "mobile-maya-print-info",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-print-info",
+      "label": "Kembali ke nota",
+      "target": "mobile-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-receipt",
+      "label": "Kembali ke detail",
+      "target": "mobile-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-paid",
+      "label": "Kembali ke antrean",
+      "target": "mobile-maya-empty",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-empty",
+      "label": "Lihat riwayat",
+      "target": "mobile-maya-history",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-history",
+      "label": "Buka kunjungan Maya",
+      "target": "mobile-maya-history-detail",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-history-detail",
+      "label": "Buka invoice",
+      "target": "mobile-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "QRIS",
+      "target": "mobile-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "mobile-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-qris-checked",
+      "label": "Transfer bank",
+      "target": "mobile-maya-transfer",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-transfer",
+      "label": "Isi referensi contoh",
+      "target": "mobile-maya-transfer-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-transfer-filled",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "mobile-maya-transfer-checked",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-transfer-checked",
+      "label": "QRIS",
+      "target": "mobile-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "mobile-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-qris-checked",
+      "label": "Tinjau pembayaran",
+      "target": "mobile-maya-confirm-qris",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-confirm-qris",
+      "label": "Konfirmasi pembayaran",
+      "target": "mobile-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-paid",
+      "label": "Lihat nota",
+      "target": "mobile-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Owner",
+      "target": "mobile-so-owner-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-owner-completed",
+      "label": "Koreksi realisasi (Owner)",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Contoh harga Rp60.000",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Lepas part",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Isi alasan contoh",
+      "target": "mobile-so-real-edit",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-edit",
+      "label": "Periksa dan simpan",
+      "target": "mobile-so-real-consent",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-consent",
+      "label": "Setuju",
+      "target": "mobile-so-real-consent-ready",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-consent-ready",
+      "label": "Simpan realisasi",
+      "target": "mobile-so-real-view",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-real-view",
+      "label": "Kembali ke SO",
+      "target": "mobile-so-owner-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-owner-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-owner-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-owner-queued",
+      "label": "Buka POS sebagai Owner",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Transfer bank",
+      "target": "mobile-maya-transfer",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-transfer",
+      "label": "Isi referensi contoh",
+      "target": "mobile-maya-transfer-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-transfer-filled",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "mobile-maya-transfer-checked",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-transfer-checked",
+      "label": "Tinjau pembayaran",
+      "target": "mobile-maya-confirm-transfer",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-confirm-transfer",
+      "label": "Konfirmasi pembayaran",
+      "target": "mobile-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-paid",
+      "label": "Lihat nota",
+      "target": "mobile-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: baca sebagai Teknisi",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Tunai",
+      "target": "mobile-maya-blocked",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-blocked",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: kembali sebagai Kasir",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: koneksi offline",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Tunai",
+      "target": "mobile-maya-cash",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash",
+      "label": "Isi contoh Rp200.000",
+      "target": "mobile-maya-cash-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash-filled",
+      "label": "Tinjau pembayaran",
+      "target": "mobile-maya-offline",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-offline",
+      "label": "Demo: koneksi pulih",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: simpan gagal",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Tunai",
+      "target": "mobile-maya-cash",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash",
+      "label": "Isi contoh Rp200.000",
+      "target": "mobile-maya-cash-filled",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-cash-filled",
+      "label": "Tinjau pembayaran",
+      "target": "mobile-maya-failed",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-failed",
+      "label": "Demo: periksa status",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: hasil pembayaran belum pasti",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-final",
+      "label": "QRIS",
+      "target": "mobile-maya-qris",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-qris",
+      "label": "Demo: dana masuk diperiksa",
+      "target": "mobile-maya-qris-checked",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-qris-checked",
+      "label": "Tinjau pembayaran",
+      "target": "mobile-maya-unknown",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-unknown",
+      "label": "Periksa status transaksi",
+      "target": "mobile-maya-checked-unpaid",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-checked-unpaid",
+      "label": "Demo: status belum tercatat",
+      "target": "mobile-maya-final",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: koneksi offline",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-offline",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-offline",
+      "label": "Demo: koneksi pulih",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: koneksi offline",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-offline",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-offline",
+      "label": "Demo: koneksi pulih",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: SO Selesai Rp0 (ulang data)",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-issue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-issue",
+      "label": "Terbitkan invoice",
+      "target": "mobile-maya-paid",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-paid",
+      "label": "Lihat nota",
+      "target": "mobile-maya-receipt",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-hub",
+      "label": "Selesai sebagai Teknisi",
+      "target": "mobile-so-completed",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-completed",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-handoff",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-handoff",
+      "label": "Serahkan ke kasir",
+      "target": "mobile-so-queued",
+      "passed": true
+    },
+    {
+      "source": "mobile-so-queued",
+      "label": "Demo: buka POS sebagai Kasir",
+      "target": "mobile-maya-queue",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "label": "Buka transaksi",
+      "target": "mobile-maya-preview",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-preview",
+      "label": "Buat invoice draf",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Demo",
+      "target": "mobile-maya-demo",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-demo",
+      "label": "Demo: penyerahan ditarik",
+      "target": "mobile-maya-draft",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-draft",
+      "label": "Tinjau penerbitan",
+      "target": "mobile-maya-stale",
+      "passed": true
+    }
+  ],
+  "predicates": [
+    {
+      "source": "desktop-maya-queue",
+      "expression": "SOActualTotal == 160000 and MIStage == \"none\" and not SOFinal and SOTechs == \"Teknisi B\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-preview",
+      "expression": "MIStage == \"none\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "expression": "MIStage == \"draft\" and MITotal == 160000 and MIPrice == 60000 and MIHasPart and not SOFinal",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-draft",
+      "expression": "MIStage == \"draft\" and MIInvoice == \"INV-DEMO-0147\" and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "expression": "SOFinal and MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash-short",
+      "expression": "MIReceived == 100000 and MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-cash-filled",
+      "expression": "MIChangeText == \"Rp40.000\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "expression": "MIStage == \"paid\" and MITotal == 160000 and MIDueText == \"Rp0\" and MIPaymentCount == 1 and SOFinal",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-receipt",
+      "expression": "MITotalText == \"Rp160.000\" and MIPriceText == \"Rp60.000\" and MIPartText == \"Rp100.000\" and MIChangeText == \"Rp40.000\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "expression": "MIPaymentCount == 1 and MIStage == \"paid\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer",
+      "expression": "not MIChecked and not MIRefValid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "expression": "not MIChecked and not MIRefValid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "expression": "MIMethod == \"QRIS\" and MIPaymentCount == 1 and MIReceivedText == \"\u2014\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-transfer",
+      "expression": "not MIChecked and not MIRefValid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-qris",
+      "expression": "not MIChecked and not MIRefValid",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "expression": "MIMethod == \"QRIS\" and MIPaymentCount == 1 and MIReceivedText == \"\u2014\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "expression": "MITotal == 60000 and not MIHasPart and MIPartQty == \"Tidak dipakai\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-receipt",
+      "expression": "MITotal == 60000 and MIPaymentCount == 1 and MIReceiptRef == \"DEMO-MAYA-0147\" and MIMethod == \"Transfer bank\"",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-blocked",
+      "expression": "MIActor == \"Teknisi\" and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-offline",
+      "expression": "MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-failed",
+      "expression": "MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-unknown",
+      "expression": "MIStage == \"final\" and MIPaymentCount == 0 and MIUnknown",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-final",
+      "expression": "not MIUnknown and not MIChecked and not MIRefValid and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-offline",
+      "expression": "MIStage == \"draft\" and not SOFinal and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-offline",
+      "expression": "MIStage == \"none\" and not SOFinal and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-paid",
+      "expression": "MIStage == \"paid\" and MITotal == 0 and MIPaymentCount == 0 and MIMethod == \"Tanpa pembayaran\" and SOFinal",
+      "passed": true
+    },
+    {
+      "source": "desktop-maya-stale",
+      "expression": "MIStage == \"draft\" and not SOFinal and MITotal == 150000 and MIPaymentCount == 0",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "expression": "SOActualTotal == 160000 and MIStage == \"none\" and not SOFinal and SOTechs == \"Teknisi B\"",
+      "passed": true
+    },
+    {
+      "source": "mobile-maya-queue",
+      "expression": "SOActualTotal == 160000 and MIStage == \"none\" and not SOFinal and SOTechs == \"Teknisi B\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-preview",
+      "expression": "MIStage == \"none\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-draft",
+      "expression": "MIStage == \"draft\" and MITotal == 160000 and MIPrice == 60000 and MIHasPart and not SOFinal",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-draft",
+      "expression": "MIStage == \"draft\" and MIInvoice == \"INV-DEMO-0147\" and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-final",
+      "expression": "SOFinal and MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-cash-short",
+      "expression": "MIReceived == 100000 and MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-cash-filled",
+      "expression": "MIChangeText == \"Rp40.000\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-paid",
+      "expression": "MIStage == \"paid\" and MITotal == 160000 and MIDueText == \"Rp0\" and MIPaymentCount == 1 and SOFinal",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-receipt",
+      "expression": "MITotalText == \"Rp160.000\" and MIPriceText == \"Rp60.000\" and MIPartText == \"Rp100.000\" and MIChangeText == \"Rp40.000\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-paid",
+      "expression": "MIPaymentCount == 1 and MIStage == \"paid\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-transfer",
+      "expression": "not MIChecked and not MIRefValid",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-qris",
+      "expression": "not MIChecked and not MIRefValid",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-paid",
+      "expression": "MIMethod == \"QRIS\" and MIPaymentCount == 1 and MIReceivedText == \"\u2014\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-final",
+      "expression": "MITotal == 60000 and not MIHasPart and MIPartQty == \"Tidak dipakai\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-receipt",
+      "expression": "MITotal == 60000 and MIPaymentCount == 1 and MIReceiptRef == \"DEMO-MAYA-0147\" and MIMethod == \"Transfer bank\"",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-blocked",
+      "expression": "MIActor == \"Teknisi\" and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-offline",
+      "expression": "MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-failed",
+      "expression": "MIStage == \"final\" and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-unknown",
+      "expression": "MIStage == \"final\" and MIPaymentCount == 0 and MIUnknown",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-final",
+      "expression": "not MIUnknown and not MIChecked and not MIRefValid and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-offline",
+      "expression": "MIStage == \"draft\" and not SOFinal and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-offline",
+      "expression": "MIStage == \"none\" and not SOFinal and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-paid",
+      "expression": "MIStage == \"paid\" and MITotal == 0 and MIPaymentCount == 0 and MIMethod == \"Tanpa pembayaran\" and SOFinal",
+      "passed": true,
+      "backPointerRetried": false
+    },
+    {
+      "source": "mobile-maya-stale",
+      "expression": "MIStage == \"draft\" and not SOFinal and MITotal == 150000 and MIPaymentCount == 0",
+      "passed": true,
+      "backPointerRetried": false
+    }
+  ],
+  "disabledControls": [
+    {
+      "frame": "desktop-maya-qris",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "desktop-maya-transfer",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "desktop-maya-qris",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "desktop-maya-transfer",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "desktop-maya-transfer",
+      "label": "Demo: dana masuk diperiksa",
+      "passed": true
+    },
+    {
+      "frame": "desktop-maya-transfer-filled",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-cash",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-cash-short",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-qris",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-transfer",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-qris",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-transfer",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-transfer",
+      "label": "Demo: dana masuk diperiksa",
+      "passed": true
+    },
+    {
+      "frame": "mobile-maya-transfer-filled",
+      "label": "Tinjau pembayaran",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "maya-desktop-pos-160.png",
+    "maya-desktop-paid-160.png",
+    "maya-desktop-receipt-160.png",
+    "maya-desktop-qris-receipt.png",
+    "maya-desktop-qris-receipt.png",
+    "maya-desktop-transfer-60-receipt.png",
+    "maya-desktop-zero-receipt.png",
+    "maya-mobile-pos-160.png",
+    "maya-mobile-pos-160.png",
+    "maya-mobile-paid-160.png",
+    "maya-mobile-receipt-160.png",
+    "maya-mobile-qris-receipt.png",
+    "maya-mobile-transfer-60-receipt.png",
+    "maya-mobile-zero-receipt.png"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "nativeStepsPassed": 312,
+  "runtimeChecksPassed": 38,
+  "disabledControlsPassed": [
+    {
+      "frame": "desktop-ch-vehicle",
+      "label": "Ubah plat \u00b7 hanya Owner",
+      "passed": true
+    },
+    {
+      "frame": "desktop-ch-choose-inactive",
+      "label": "Maya Lestari \u00b7 nonaktif",
+      "passed": true
+    },
+    {
+      "frame": "desktop-ch-vehicle-inactive",
+      "label": "Registrasi kunjungan baru",
+      "passed": true
+    },
+    {
+      "frame": "mobile-ch-vehicle",
+      "label": "Ubah plat \u00b7 hanya Owner",
+      "passed": true
+    },
+    {
+      "frame": "mobile-ch-choose-inactive",
+      "label": "Maya Lestari \u00b7 nonaktif",
+      "passed": true
+    },
+    {
+      "frame": "mobile-ch-vehicle-inactive",
+      "label": "Registrasi kunjungan baru",
+      "passed": true
+    }
+  ],
+  "staticSnapshotChecks": [
+    {
+      "device": "desktop",
+      "oldSnapshotsNotBoundToMaster": true,
+      "historicInvoiceReadOnly": true
+    },
+    {
+      "device": "mobile",
+      "oldSnapshotsNotBoundToMaster": true,
+      "historicInvoiceReadOnly": true
+    }
+  ],
+  "screenshots": [
+    "customer-history-desktop-plate-log.png",
+    "customer-history-desktop-old-snapshot.png",
+    "customer-history-desktop-new-snapshot.png",
+    "customer-history-desktop-technician-invoice.png",
+    "customer-history-mobile-plate-log.png",
+    "customer-history-mobile-old-snapshot.png",
+    "customer-history-mobile-new-snapshot.png",
+    "customer-history-mobile-technician-invoice.png"
+  ],
+  "fonts": {
+    "families": []
+  },
+  "limits": [
+    "scripted sample inputs",
+    "one new registration fixture per demo reset",
+    "no real database, authentication or stock/payment writes"
+  ]
+}

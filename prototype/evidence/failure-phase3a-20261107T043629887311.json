@@ -1,0 +1,26 @@
+{
+  "passed": false,
+  "error": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#so-action\")\n    - locator resolved to <select name=\"action\" id=\"so-action\" aria-invalid=\"true\" aria-describedby=\"so-action-error\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - element is not visible\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - element is not visible\n    - retrying select option action\n      - waiting 100ms\n    58 × waiting for element to be visible and enabled\n       - element is not visible\n     - retrying select option action\n       - waiting 500ms\n",
+  "checks_completed": [
+    {
+      "check": "Menu SO membuka empty state dan entry ke diagnosa",
+      "passed": true
+    },
+    {
+      "check": "SO lama tanpa workflow terbaca tanpa rewrite; cari/filter/detail/kosong bekerja",
+      "passed": true
+    },
+    {
+      "check": "Mulai wajib teknisi; assignment/start tersimpan setelah reload tanpa mengubah estimasi",
+      "passed": true
+    },
+    {
+      "check": "Tunda beralasan, ganti teknisi, lanjutkan; complete dari paused ditolak di handler",
+      "passed": true
+    },
+    {
+      "check": "Konfirmasi selesai bisa dibatalkan; hanya Owner membuka kembali dengan history tetap",
+      "passed": true
+    }
+  ]
+}

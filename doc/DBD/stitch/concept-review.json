@@ -1,0 +1,16 @@
+{
+  "mobileConcept": {
+    "name": "projects/10688800567528588050/screens/3811ee8a49bd46c98768026ad66fb315",
+    "poppinsDeclared": true,
+    "expectedTotal": true,
+    "zoomDisabled": false,
+    "review": "Screenshot reviewed, not a runtime test"
+  },
+  "detailConcept": {
+    "name": "projects/10688800567528588050/screens/47ca94e2a62746fa812f6864a057fc31",
+    "poppinsDeclared": true,
+    "expectedTotal": true,
+    "zoomDisabled": false,
+    "review": "Screenshot reviewed, not a runtime test"
+  }
+}

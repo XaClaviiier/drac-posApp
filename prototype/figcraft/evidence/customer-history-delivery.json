@@ -1,0 +1,150 @@
+{
+  "file": "C:\\Project-Opencode\\POS\\prototype\\figcraft\\pos-kasir.figcraft",
+  "sha256": "e05396b90be06e31676fc2aa96ea153c67af29a8c3777e7d7b3d9ff938f9cfc5",
+  "bytes": 2672449,
+  "pages": [
+    "Desktop",
+    "Ponsel",
+    "Referensi",
+    "Komponen"
+  ],
+  "nodeTypes": {
+    "PAGE": 4,
+    "FRAME": 442,
+    "RECTANGLE": 2792,
+    "LINE": 93,
+    "TEXT": 10001,
+    "VECTOR": 22,
+    "ELLIPSE": 4,
+    "INSTANCE": 3146,
+    "COMPONENT": 19,
+    "COMPONENT_SET": 3
+  },
+  "fonts": {
+    "Poppins": 10001
+  },
+  "imagePages": [
+    {
+      "page": "Desktop",
+      "count": 0
+    },
+    {
+      "page": "Ponsel",
+      "count": 0
+    },
+    {
+      "page": "Referensi",
+      "count": 2
+    },
+    {
+      "page": "Komponen",
+      "count": 0
+    }
+  ],
+  "referenceImageHashes": [
+    "be478be5083bc0253260980fbf148ec94a65755a99357fbce18d0382f8edefc2",
+    "e2af3df821fcd840a0365940966b9b1b32495280a4a9e68a10ca1f6a0ed68d36"
+  ],
+  "newFrames": 82,
+  "stateFields": 29,
+  "controlActions": 707,
+  "historyLinksUpdated": 60,
+  "nativeStepsPassed": 312,
+  "runtimeChecksPassed": 38,
+  "themesPassed": [
+    {
+      "device": "desktop",
+      "darkPixelCounts": [
+        0,
+        4552,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "device": "mobile",
+      "darkPixelCounts": [
+        0,
+        4614,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "unavailableDocumentGuards": [
+    {
+      "device": "desktop",
+      "document": "Diagnosa & Estimasi",
+      "passed": true
+    },
+    {
+      "device": "desktop",
+      "document": "Service Order",
+      "passed": true
+    },
+    {
+      "device": "desktop",
+      "document": "Invoice",
+      "passed": true
+    },
+    {
+      "device": "desktop",
+      "document": "Nota",
+      "passed": true
+    },
+    {
+      "device": "mobile",
+      "document": "Diagnosa & Estimasi",
+      "passed": true
+    },
+    {
+      "device": "mobile",
+      "document": "Service Order",
+      "passed": true
+    },
+    {
+      "device": "mobile",
+      "document": "Invoice",
+      "passed": true
+    },
+    {
+      "device": "mobile",
+      "document": "Nota",
+      "passed": true
+    }
+  ],
+  "realWheelScroll": {
+    "scroll": [
+      0.0,
+      498.0
+    ],
+    "range": [
+      0.0,
+      498.0
+    ],
+    "lowerControlClicked": true,
+    "passed": true
+  },
+  "nativeExports": [
+    "desktop-ch-customers-light.png",
+    "mobile-ch-customers-light.png",
+    "desktop-ch-timeline-light.png",
+    "mobile-ch-visit-old-dark.png",
+    "desktop-ch-old-invoice-dark.png",
+    "mobile-ch-old-receipt-dark.png"
+  ],
+  "temporaryTestNodesRemaining": 0,
+  "readback": {
+    "index": 0,
+    "reloaded": true
+  },
+  "allNewFramesReadBack": true,
+  "priorNodesPreserved": 13835,
+  "limits": [
+    "scripted sample inputs",
+    "one new registration fixture per demo reset",
+    "no real database, authentication or stock/payment writes",
+    "keyboard, screen reader and full reflow not verified",
+    "no real printing or PDF integration"
+  ]
+}

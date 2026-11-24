@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "method": "cash",
+      "underpaymentOrManualGuard": "passed",
+      "receiptAndPrint": "passed",
+      "longReference": null,
+      "widths": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "backKeepsFinal": "passed"
+    },
+    {
+      "method": "transfer",
+      "underpaymentOrManualGuard": "passed",
+      "receiptAndPrint": "passed",
+      "longReference": "100 characters tested",
+      "widths": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "backKeepsFinal": "passed"
+    },
+    {
+      "method": "qris",
+      "underpaymentOrManualGuard": "passed",
+      "receiptAndPrint": "passed",
+      "longReference": null,
+      "widths": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "backKeepsFinal": "passed"
+    }
+  ],
+  "limitations": [
+    "Font requests blocked for isolated check; fallback font used. Poppins load was verified earlier.",
+    "No application storage/backend/printer integration tested."
+  ],
+  "queueIntegration": "not connected: button explains destination only",
+  "actualPrototypeGatewayPresent": true,
+  "status": "concept checks passed; full application not ready"
+}

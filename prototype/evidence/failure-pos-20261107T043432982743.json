@@ -1,0 +1,39 @@
+{
+  "passed": false,
+  "error": "Locator expected to be enabled\nActual value: disabled \nCall log:\n  - Expect \"to_be_enabled\" locator(\"#pos-create-invoice\") with timeout 5000ms\n  - waiting for locator(\"#pos-create-invoice\")\n    14 × locator resolved to <button disabled type=\"button\" class=\"primary\" id=\"pos-create-invoice\">Buat invoice draf</button>\n       - unexpected value \"disabled\"\n\nAria snapshot:\n- button \"Buat invoice draf\" [disabled]",
+  "checks_completed": [
+    {
+      "check": "Kasir langsung POS dan reload mempertahankan preferensi tanpa write ledger",
+      "passed": true
+    },
+    {
+      "check": "Preview SO tanpa write; create eksplisit memakai satu editor invoice di kanan antrean",
+      "passed": true
+    },
+    {
+      "check": "Proyeksi siap/draf/belum lunas tepat dan unik; empat identitas, filter/kosong tanpa write",
+      "passed": true
+    },
+    {
+      "check": "Batal pindah preview/invoice mempertahankan isian, transaksi dan pilihan; role-switch tidak membuang input",
+      "passed": true
+    },
+    {
+      "check": "Bayar lunas menjaga nota terpilih tanpa auto-pindah; print POS hanya receipt dan tanpa write",
+      "passed": true
+    },
+    {
+      "check": "Desktop dua area, mobile list/detail, light/dark, 320px/200%, Enter/fokus dan native-print gate pada view aktif",
+      "passed": true
+    },
+    {
+      "check": "Preferensi invalid fallback Owner; write preferensi gagal tidak memblokir transaksi atau menulis ulang ledger",
+      "passed": true
+    },
+    {
+      "check": "Teknisi ditolak pada entry/handler POS, daftar/preview dibersihkan dan preferensi bukan login",
+      "passed": true
+    }
+  ],
+  "console_errors": []
+}

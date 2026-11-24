@@ -1,0 +1,1712 @@
+[
+  {
+    "source": "desktop-reg-list",
+    "target": "desktop-list",
+    "node": 2968,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list",
+    "target": "desktop-reg-list",
+    "node": 2972,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list",
+    "target": "desktop-reg-catalog",
+    "node": 2974,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list",
+    "target": "desktop-reg-new",
+    "node": 2980,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list",
+    "target": "desktop-reg-no-results",
+    "node": 2984,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list",
+    "target": "desktop-reg-locked",
+    "node": 2990,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-list",
+    "node": 2997,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-reg-list",
+    "node": 3001,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-reg-catalog",
+    "node": 3003,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-reg-new",
+    "node": 3009,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-reg-no-results",
+    "node": 3013,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-reg-saved",
+    "node": 3019,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-saved",
+    "target": "desktop-reg-locked",
+    "node": 3026,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-list",
+    "node": 3033,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-reg-list",
+    "node": 3037,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-reg-catalog",
+    "node": 3039,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-reg-new",
+    "node": 3045,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-reg-no-results",
+    "node": 3049,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-reg-known-saved",
+    "node": 3055,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-known",
+    "target": "desktop-reg-locked",
+    "node": 3062,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-list",
+    "node": 3069,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-reg-list",
+    "node": 3073,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-reg-catalog",
+    "node": 3075,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-reg-new",
+    "node": 3081,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-reg-no-results",
+    "node": 3085,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-reg-edited",
+    "node": 3091,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-list-edited",
+    "target": "desktop-reg-locked",
+    "node": 3098,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-list",
+    "node": 3105,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-reg-list",
+    "node": 3109,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-reg-catalog",
+    "node": 3111,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-reg-invalid",
+    "node": 3140,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-reg-list",
+    "node": 3142,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-reg-filled",
+    "node": 3144,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-new",
+    "target": "desktop-reg-known",
+    "node": 3146,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-invalid",
+    "target": "desktop-list",
+    "node": 3152,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-invalid",
+    "target": "desktop-reg-list",
+    "node": 3156,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-invalid",
+    "target": "desktop-reg-catalog",
+    "node": 3158,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-invalid",
+    "target": "desktop-reg-list",
+    "node": 3192,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-invalid",
+    "target": "desktop-reg-filled",
+    "node": 3194,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-invalid",
+    "target": "desktop-reg-known",
+    "node": 3196,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-filled",
+    "target": "desktop-list",
+    "node": 3202,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-filled",
+    "target": "desktop-reg-list",
+    "node": 3206,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-filled",
+    "target": "desktop-reg-catalog",
+    "node": 3208,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-filled",
+    "target": "desktop-reg-review",
+    "node": 3237,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-filled",
+    "target": "desktop-reg-discard",
+    "node": 3239,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-review",
+    "target": "desktop-list",
+    "node": 3245,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-review",
+    "target": "desktop-reg-list",
+    "node": 3249,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-review",
+    "target": "desktop-reg-catalog",
+    "node": 3251,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-review",
+    "target": "desktop-reg-saving",
+    "node": 3271,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-review",
+    "target": "desktop-reg-filled",
+    "node": 3273,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saving",
+    "target": "desktop-list",
+    "node": 3279,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saving",
+    "target": "desktop-reg-list",
+    "node": 3283,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saving",
+    "target": "desktop-reg-catalog",
+    "node": 3285,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saved",
+    "target": "desktop-list",
+    "node": 3303,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saved",
+    "target": "desktop-reg-list",
+    "node": 3307,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saved",
+    "target": "desktop-reg-catalog",
+    "node": 3309,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saved",
+    "target": "desktop-reg-edit",
+    "node": 3329,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-saved",
+    "target": "desktop-reg-list-saved",
+    "node": 3331,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edit",
+    "target": "desktop-list",
+    "node": 3339,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edit",
+    "target": "desktop-reg-list",
+    "node": 3343,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edit",
+    "target": "desktop-reg-catalog",
+    "node": 3345,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edit",
+    "target": "desktop-reg-edited",
+    "node": 3375,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edit",
+    "target": "desktop-reg-discard",
+    "node": 3377,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edited",
+    "target": "desktop-list",
+    "node": 3383,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edited",
+    "target": "desktop-reg-list",
+    "node": 3387,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edited",
+    "target": "desktop-reg-catalog",
+    "node": 3389,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edited",
+    "target": "desktop-reg-edit",
+    "node": 3409,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-edited",
+    "target": "desktop-reg-list-edited",
+    "node": 3411,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-locked",
+    "target": "desktop-list",
+    "node": 3422,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-locked",
+    "target": "desktop-reg-list",
+    "node": 3426,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-locked",
+    "target": "desktop-reg-catalog",
+    "node": 3428,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-locked",
+    "target": "desktop-reg-list",
+    "node": 3450,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-discard",
+    "target": "desktop-list",
+    "node": 3458,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-discard",
+    "target": "desktop-reg-list",
+    "node": 3462,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-discard",
+    "target": "desktop-reg-catalog",
+    "node": 3464,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-discard",
+    "target": "desktop-reg-filled",
+    "node": 3472,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-discard",
+    "target": "desktop-reg-list",
+    "node": 3474,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-empty",
+    "target": "desktop-list",
+    "node": 3480,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-empty",
+    "target": "desktop-reg-list",
+    "node": 3484,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-empty",
+    "target": "desktop-reg-catalog",
+    "node": 3486,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-empty",
+    "target": "desktop-reg-new",
+    "node": 3494,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-empty",
+    "target": "desktop-reg-list",
+    "node": 3496,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-no-results",
+    "target": "desktop-list",
+    "node": 3502,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-no-results",
+    "target": "desktop-reg-list",
+    "node": 3506,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-no-results",
+    "target": "desktop-reg-catalog",
+    "node": 3508,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-no-results",
+    "target": "desktop-reg-list",
+    "node": 3516,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-no-results",
+    "target": "desktop-reg-list",
+    "node": 3518,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-load-error",
+    "target": "desktop-list",
+    "node": 3524,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-load-error",
+    "target": "desktop-reg-list",
+    "node": 3528,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-load-error",
+    "target": "desktop-reg-catalog",
+    "node": 3530,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-load-error",
+    "target": "desktop-reg-list",
+    "node": 3538,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-load-error",
+    "target": "desktop-reg-list",
+    "node": 3540,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-offline",
+    "target": "desktop-list",
+    "node": 3546,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-offline",
+    "target": "desktop-reg-list",
+    "node": 3550,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-offline",
+    "target": "desktop-reg-catalog",
+    "node": 3552,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-offline",
+    "target": "desktop-reg-review",
+    "node": 3562,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-offline",
+    "target": "desktop-reg-list",
+    "node": 3564,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-save-error",
+    "target": "desktop-list",
+    "node": 3570,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-save-error",
+    "target": "desktop-reg-list",
+    "node": 3574,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-save-error",
+    "target": "desktop-reg-catalog",
+    "node": 3576,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-save-error",
+    "target": "desktop-reg-review",
+    "node": 3586,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-save-error",
+    "target": "desktop-reg-list",
+    "node": 3588,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-list",
+    "node": 3594,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-list",
+    "node": 3598,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-catalog",
+    "node": 3600,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-new",
+    "node": 3608,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-invalid",
+    "node": 3610,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-filled",
+    "node": 3612,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-known",
+    "node": 3614,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-locked",
+    "node": 3616,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-empty",
+    "node": 3618,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-no-results",
+    "node": 3620,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-load-error",
+    "node": 3622,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-offline",
+    "node": 3624,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-save-error",
+    "node": 3626,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-reg-list",
+    "node": 3628,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-catalog",
+    "target": "desktop-list",
+    "node": 3630,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known",
+    "target": "desktop-list",
+    "node": 3636,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known",
+    "target": "desktop-reg-list",
+    "node": 3640,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known",
+    "target": "desktop-reg-catalog",
+    "node": 3642,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known",
+    "target": "desktop-reg-known-review",
+    "node": 3673,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known",
+    "target": "desktop-reg-discard",
+    "node": 3675,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-review",
+    "target": "desktop-list",
+    "node": 3681,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-review",
+    "target": "desktop-reg-list",
+    "node": 3685,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-review",
+    "target": "desktop-reg-catalog",
+    "node": 3687,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-review",
+    "target": "desktop-reg-known-saving",
+    "node": 3707,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-review",
+    "target": "desktop-reg-known",
+    "node": 3709,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saving",
+    "target": "desktop-list",
+    "node": 3715,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saving",
+    "target": "desktop-reg-list",
+    "node": 3719,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saving",
+    "target": "desktop-reg-catalog",
+    "node": 3721,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saved",
+    "target": "desktop-list",
+    "node": 3739,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saved",
+    "target": "desktop-reg-list",
+    "node": 3743,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saved",
+    "target": "desktop-reg-catalog",
+    "node": 3745,
+    "passed": true
+  },
+  {
+    "source": "desktop-reg-known-saved",
+    "target": "desktop-reg-list-known",
+    "node": 3766,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list",
+    "target": "mobile-list",
+    "node": 3772,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list",
+    "target": "mobile-reg-list",
+    "node": 3776,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list",
+    "target": "mobile-reg-catalog",
+    "node": 3777,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list",
+    "target": "mobile-reg-new",
+    "node": 3783,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list",
+    "target": "mobile-reg-no-results",
+    "node": 3787,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list",
+    "target": "mobile-reg-locked",
+    "node": 3793,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-list",
+    "node": 3798,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-reg-list",
+    "node": 3802,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-reg-catalog",
+    "node": 3803,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-reg-new",
+    "node": 3809,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-reg-no-results",
+    "node": 3813,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-reg-saved",
+    "node": 3819,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-saved",
+    "target": "mobile-reg-locked",
+    "node": 3826,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-list",
+    "node": 3831,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-reg-list",
+    "node": 3835,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-reg-catalog",
+    "node": 3836,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-reg-new",
+    "node": 3842,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-reg-no-results",
+    "node": 3846,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-reg-known-saved",
+    "node": 3852,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-known",
+    "target": "mobile-reg-locked",
+    "node": 3859,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-list",
+    "node": 3864,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-reg-list",
+    "node": 3868,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-reg-catalog",
+    "node": 3869,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-reg-new",
+    "node": 3875,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-reg-no-results",
+    "node": 3879,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-reg-edited",
+    "node": 3885,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-list-edited",
+    "target": "mobile-reg-locked",
+    "node": 3892,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-list",
+    "node": 3897,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-reg-list",
+    "node": 3901,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-reg-catalog",
+    "node": 3902,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-reg-invalid",
+    "node": 3926,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-reg-list",
+    "node": 3928,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-reg-filled",
+    "node": 3930,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-new",
+    "target": "mobile-reg-known",
+    "node": 3932,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-invalid",
+    "target": "mobile-list",
+    "node": 3936,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-invalid",
+    "target": "mobile-reg-list",
+    "node": 3940,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-invalid",
+    "target": "mobile-reg-catalog",
+    "node": 3941,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-invalid",
+    "target": "mobile-reg-list",
+    "node": 3970,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-invalid",
+    "target": "mobile-reg-filled",
+    "node": 3972,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-invalid",
+    "target": "mobile-reg-known",
+    "node": 3974,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-filled",
+    "target": "mobile-list",
+    "node": 3978,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-filled",
+    "target": "mobile-reg-list",
+    "node": 3982,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-filled",
+    "target": "mobile-reg-catalog",
+    "node": 3983,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-filled",
+    "target": "mobile-reg-review",
+    "node": 4007,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-filled",
+    "target": "mobile-reg-discard",
+    "node": 4009,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-review",
+    "target": "mobile-list",
+    "node": 4013,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-review",
+    "target": "mobile-reg-list",
+    "node": 4017,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-review",
+    "target": "mobile-reg-catalog",
+    "node": 4018,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-review",
+    "target": "mobile-reg-saving",
+    "node": 4038,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-review",
+    "target": "mobile-reg-filled",
+    "node": 4040,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saving",
+    "target": "mobile-list",
+    "node": 4044,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saving",
+    "target": "mobile-reg-list",
+    "node": 4048,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saving",
+    "target": "mobile-reg-catalog",
+    "node": 4049,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saved",
+    "target": "mobile-list",
+    "node": 4065,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saved",
+    "target": "mobile-reg-list",
+    "node": 4069,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saved",
+    "target": "mobile-reg-catalog",
+    "node": 4070,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saved",
+    "target": "mobile-reg-edit",
+    "node": 4090,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-saved",
+    "target": "mobile-reg-list-saved",
+    "node": 4092,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edit",
+    "target": "mobile-list",
+    "node": 4096,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edit",
+    "target": "mobile-reg-list",
+    "node": 4100,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edit",
+    "target": "mobile-reg-catalog",
+    "node": 4101,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edit",
+    "target": "mobile-reg-edited",
+    "node": 4126,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edit",
+    "target": "mobile-reg-discard",
+    "node": 4128,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edited",
+    "target": "mobile-list",
+    "node": 4132,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edited",
+    "target": "mobile-reg-list",
+    "node": 4136,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edited",
+    "target": "mobile-reg-catalog",
+    "node": 4137,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edited",
+    "target": "mobile-reg-edit",
+    "node": 4157,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-edited",
+    "target": "mobile-reg-list-edited",
+    "node": 4159,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-locked",
+    "target": "mobile-list",
+    "node": 4166,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-locked",
+    "target": "mobile-reg-list",
+    "node": 4170,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-locked",
+    "target": "mobile-reg-catalog",
+    "node": 4171,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-locked",
+    "target": "mobile-reg-list",
+    "node": 4193,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-discard",
+    "target": "mobile-list",
+    "node": 4197,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-discard",
+    "target": "mobile-reg-list",
+    "node": 4201,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-discard",
+    "target": "mobile-reg-catalog",
+    "node": 4202,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-discard",
+    "target": "mobile-reg-filled",
+    "node": 4210,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-discard",
+    "target": "mobile-reg-list",
+    "node": 4212,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-empty",
+    "target": "mobile-list",
+    "node": 4216,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-empty",
+    "target": "mobile-reg-list",
+    "node": 4220,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-empty",
+    "target": "mobile-reg-catalog",
+    "node": 4221,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-empty",
+    "target": "mobile-reg-new",
+    "node": 4229,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-empty",
+    "target": "mobile-reg-list",
+    "node": 4231,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-no-results",
+    "target": "mobile-list",
+    "node": 4235,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-no-results",
+    "target": "mobile-reg-list",
+    "node": 4239,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-no-results",
+    "target": "mobile-reg-catalog",
+    "node": 4240,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-no-results",
+    "target": "mobile-reg-list",
+    "node": 4248,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-no-results",
+    "target": "mobile-reg-list",
+    "node": 4250,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-load-error",
+    "target": "mobile-list",
+    "node": 4254,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-load-error",
+    "target": "mobile-reg-list",
+    "node": 4258,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-load-error",
+    "target": "mobile-reg-catalog",
+    "node": 4259,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-load-error",
+    "target": "mobile-reg-list",
+    "node": 4267,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-load-error",
+    "target": "mobile-reg-list",
+    "node": 4269,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-offline",
+    "target": "mobile-list",
+    "node": 4273,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-offline",
+    "target": "mobile-reg-list",
+    "node": 4277,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-offline",
+    "target": "mobile-reg-catalog",
+    "node": 4278,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-offline",
+    "target": "mobile-reg-review",
+    "node": 4288,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-offline",
+    "target": "mobile-reg-list",
+    "node": 4290,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-save-error",
+    "target": "mobile-list",
+    "node": 4294,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-save-error",
+    "target": "mobile-reg-list",
+    "node": 4298,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-save-error",
+    "target": "mobile-reg-catalog",
+    "node": 4299,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-save-error",
+    "target": "mobile-reg-review",
+    "node": 4309,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-save-error",
+    "target": "mobile-reg-list",
+    "node": 4311,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-list",
+    "node": 4315,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-list",
+    "node": 4319,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-catalog",
+    "node": 4320,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-new",
+    "node": 4328,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-invalid",
+    "node": 4330,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-filled",
+    "node": 4332,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-known",
+    "node": 4334,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-locked",
+    "node": 4336,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-empty",
+    "node": 4338,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-no-results",
+    "node": 4340,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-load-error",
+    "node": 4342,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-offline",
+    "node": 4344,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-save-error",
+    "node": 4346,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-reg-list",
+    "node": 4348,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-catalog",
+    "target": "mobile-list",
+    "node": 4350,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known",
+    "target": "mobile-list",
+    "node": 4354,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known",
+    "target": "mobile-reg-list",
+    "node": 4358,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known",
+    "target": "mobile-reg-catalog",
+    "node": 4359,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known",
+    "target": "mobile-reg-known-review",
+    "node": 4385,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known",
+    "target": "mobile-reg-discard",
+    "node": 4387,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-review",
+    "target": "mobile-list",
+    "node": 4391,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-review",
+    "target": "mobile-reg-list",
+    "node": 4395,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-review",
+    "target": "mobile-reg-catalog",
+    "node": 4396,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-review",
+    "target": "mobile-reg-known-saving",
+    "node": 4416,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-review",
+    "target": "mobile-reg-known",
+    "node": 4418,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saving",
+    "target": "mobile-list",
+    "node": 4422,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saving",
+    "target": "mobile-reg-list",
+    "node": 4426,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saving",
+    "target": "mobile-reg-catalog",
+    "node": 4427,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saved",
+    "target": "mobile-list",
+    "node": 4443,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saved",
+    "target": "mobile-reg-list",
+    "node": 4447,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saved",
+    "target": "mobile-reg-catalog",
+    "node": 4448,
+    "passed": true
+  },
+  {
+    "source": "mobile-reg-known-saved",
+    "target": "mobile-reg-list-known",
+    "node": 4469,
+    "passed": true
+  },
+  {
+    "source": "desktop-list",
+    "target": "desktop-reg-list",
+    "node": 4471,
+    "passed": true
+  },
+  {
+    "source": "desktop-detail",
+    "target": "desktop-reg-list",
+    "node": 4472,
+    "passed": true
+  },
+  {
+    "source": "desktop-draft",
+    "target": "desktop-reg-list",
+    "node": 4473,
+    "passed": true
+  },
+  {
+    "source": "desktop-final",
+    "target": "desktop-reg-list",
+    "node": 4474,
+    "passed": true
+  },
+  {
+    "source": "desktop-cash",
+    "target": "desktop-reg-list",
+    "node": 4475,
+    "passed": true
+  },
+  {
+    "source": "desktop-cash-short",
+    "target": "desktop-reg-list",
+    "node": 4476,
+    "passed": true
+  },
+  {
+    "source": "desktop-qris",
+    "target": "desktop-reg-list",
+    "node": 4477,
+    "passed": true
+  },
+  {
+    "source": "desktop-qris-checked",
+    "target": "desktop-reg-list",
+    "node": 4478,
+    "passed": true
+  },
+  {
+    "source": "desktop-transfer",
+    "target": "desktop-reg-list",
+    "node": 4479,
+    "passed": true
+  },
+  {
+    "source": "desktop-transfer-filled",
+    "target": "desktop-reg-list",
+    "node": 4480,
+    "passed": true
+  },
+  {
+    "source": "desktop-transfer-checked",
+    "target": "desktop-reg-list",
+    "node": 4481,
+    "passed": true
+  },
+  {
+    "source": "desktop-paid-cash",
+    "target": "desktop-reg-list",
+    "node": 4482,
+    "passed": true
+  },
+  {
+    "source": "desktop-paid-qris",
+    "target": "desktop-reg-list",
+    "node": 4483,
+    "passed": true
+  },
+  {
+    "source": "desktop-paid-transfer",
+    "target": "desktop-reg-list",
+    "node": 4484,
+    "passed": true
+  },
+  {
+    "source": "mobile-list",
+    "target": "mobile-reg-list",
+    "node": 4485,
+    "passed": true
+  },
+  {
+    "source": "desktop-catalog",
+    "target": "desktop-reg-list",
+    "node": 4486,
+    "passed": true
+  },
+  {
+    "source": "mobile-catalog",
+    "target": "mobile-reg-list",
+    "node": 4488,
+    "passed": true
+  }
+]

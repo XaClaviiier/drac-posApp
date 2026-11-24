@@ -1,0 +1,35 @@
+{
+  "passed": false,
+  "error": "Locator expected to have count '0'\nActual value: 1 \nCall log:\n  - Expect \"to_have_count\" locator(\"#cashier-list .record\") with timeout 5000ms\n  - waiting for locator(\"#cashier-list .record\")\n    14 × locator resolved to 1 element\n       - unexpected value \"1\"\n",
+  "checks_completed": [
+    {
+      "check": "Antrean ke invoice final dan pembayaran penuh tunai dengan kembalian; SO tidak ditimpa",
+      "passed": true
+    },
+    {
+      "check": "Konflik menjaga guard tombol/beforeprint sampai reload eksplisit; nominal/status terbaru sesuai",
+      "passed": true
+    },
+    {
+      "check": "Koreksi menjaga uang lama dan kelebihan terpisah; transfer tepat/ref wajib, gateway wajib pengakuan simulasi",
+      "passed": true
+    },
+    {
+      "check": "Tab harga/alasan/aksi dan Enter memicu validasi berfokus tanpa write",
+      "passed": true
+    },
+    {
+      "check": "Light/dark desktop/tablet/mobile, 320px/200% dan cetak final tanpa kontrol/history atau write",
+      "passed": true
+    },
+    {
+      "check": "Legacy/kosong tanpa rewrite, satu invoice per SO; Teknisi baca dan Kasir tidak mengedit harga",
+      "passed": true
+    },
+    {
+      "check": "Owner harga lokal beralasan/aman; invoice final Rp0 Lunas tanpa pembayaran; riwayat tidak bocor",
+      "passed": true
+    }
+  ],
+  "console_errors": []
+}

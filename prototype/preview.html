@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preview alur | POS Bengkel</title><link rel="icon" href="data:,"><link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../focus-modality.css">
+  <script src="../focus-modality.js" defer></script>
+</head>
+<body>
+  <main class="preview-guide">
+    <p class="muted">Prototype POS Bengkel · revisi 11 November 2026</p>
+    <h1>Dari kendaraan masuk sampai nota</h1>
+    <p>Ikuti alur dari awal, atau buka tahap yang ingin diperiksa. Semua identitas dan harga adalah contoh.</p>
+    <div class="draft-notice"><div><strong>Latihan disimpan terpisah</strong><p>Contoh siap dicoba saat pertama dibuka. Perubahan latihan tetap ada setelah refresh.</p></div><a class="primary preview-link" href="index.html?demo=flow&amp;stage=list">Mulai preview</a></div>
+    <ol class="preview-stages">
+      <li><div><h2>Registrasi kendaraan</h2><p>Owner, Teknisi atau Kasir mencatat plat, nama, telepon dan keluhan. Setiap kedatangan menjadi kunjungan baru.</p><p class="muted">Coba registrasi baru, lalu buka detail untuk membuat diagnosa.</p></div><a href="index.html?demo=flow&amp;stage=list">Buka registrasi</a></li>
+      <li><div><h2>Diagnosa & Estimasi</h2><p>Teknisi memeriksa kendaraan, menambahkan jasa/part dan meminta persetujuan lisan. Buat SO tanpa mengisi ulang rincian.</p><p class="muted">DD 3107 MA belum diperiksa; gunakan untuk mencoba dari awal.</p></div><a href="index.html?demo=flow&amp;stage=diagnoses">Buka diagnosa</a></li>
+      <li><div><h2>Service Order & realisasi</h2><p>Tetapkan teknisi utama dan anggota. Mulai pekerjaan, tunda atau lanjutkan, lalu catat realisasi beserta alasan perubahan. Tambahan biaya memerlukan persetujuan pelanggan.</p><p class="muted">DD 1248 KL sedang dikerjakan. Estimasi disetujui tetap menjadi acuan.</p></div><a href="index.html?demo=flow&amp;stage=orders">Buka Service Order</a></li>
+      <li><div><h2>Selesai & serahkan ke kasir</h2><p>Simpan realisasi akhir, tutup pekerjaan, lalu serahkan secara eksplisit. SO dalam antrean terkunci; Owner menariknya dengan alasan sebelum merevisi.</p><p class="muted">DD 8921 AR sudah diserahkan dan siap dibuatkan invoice.</p></div><a href="index.html?demo=flow&amp;stage=cashier">Buka antrean Kasir</a></li>
+      <li><div><h2>Invoice, bayar & cetak nota</h2><p>Pilih peran Kasir atau Owner. Periksa tagihan, terbitkan invoice, lalu bayar penuh melalui simulasi tunai, transfer manual atau gateway. Cetak nota setelah lunas.</p><p class="muted">DD 5672 TS memiliki invoice belum lunas. Tidak ada DP, cicilan atau tempo pelanggan.</p></div><a href="index.html?demo=flow&amp;stage=invoices">Buka invoice</a></li>
+    </ol>
+    <h2>Yang perlu kamu periksa</h2>
+    <p>Urutan tindakan, kelengkapan informasi, batas akses peran dan kemudahan kembali ke dokumen sebelumnya. Ganti peran melalui pilihan Simulasi peran.</p>
+    <p class="section-note">Ini prototype lokal: belum ada login, server, reservasi stok atau pembayaran nyata. Pembelian, retur, perubahan master kendaraan dan penonaktifan master belum dibuat pada irisan ini. HPP otomatis dan laporan profit tetap ditunda.</p>
+    <a href="index.html">Buka prototype utama dengan data sebelumnya</a>
+  </main>
+</body>
+</html>

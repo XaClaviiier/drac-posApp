@@ -1,0 +1,28 @@
+{
+  "slice": "FIG-CUSTOMER-HISTORY-01",
+  "observations": [
+    {
+      "observed": "The preview remained on desktop-ch-new-visit after Periksa registrasi, although every branch of that action navigates to another frame.",
+      "inference": "A native pointer event may have been missed; no validation rejection was observed.",
+      "evidence": "customer-history-interrupted-navigation.json",
+      "change": "Allow one bounded pointer retry only while the preview remains at the source. A wrong destination still fails."
+    },
+    {
+      "observed": "After the desktop payment journey reached desktop-maya-paid, the history button was absent from the sampled hotspot list following a scroll request.",
+      "inference": "The viewport geometry may not have caught up with the requested scroll position.",
+      "evidence": "customer-history-before-scroll-wait.json",
+      "change": "Wait for both the requested scroll position and the target hotspot before sending input. Missing geometry still fails after a bounded wait. A focused return-to-top/history check passed."
+    }
+  ],
+  "completeRerun": {
+    "evidence": "customer-history-verification.json",
+    "nativeStepsPassed": 312,
+    "runtimeChecksPassed": 38,
+    "disabledControlsPassed": 6,
+    "devices": ["desktop", "mobile"]
+  },
+  "limits": [
+    "These observations concern the native FigCraft test driver, not a production browser or backend.",
+    "Pointer retry and scroll readiness do not establish the internal cause of the earlier failures."
+  ]
+}

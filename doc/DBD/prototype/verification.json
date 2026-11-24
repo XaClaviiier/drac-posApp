@@ -1,0 +1,375 @@
+{
+  "frames": 138,
+  "base_frames": 44,
+  "nodes": 11234,
+  "links": 1462,
+  "text_pairs": [
+    {
+      "foreground": [
+        0,
+        107,
+        235
+      ],
+      "background": [
+        241,
+        244,
+        248
+      ],
+      "ratio": 4.424
+    },
+    {
+      "foreground": [
+        0,
+        107,
+        235
+      ],
+      "background": [
+        247,
+        249,
+        252
+      ],
+      "ratio": 4.627
+    },
+    {
+      "foreground": [
+        0,
+        107,
+        235
+      ],
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "ratio": 4.881
+    },
+    {
+      "foreground": [
+        16,
+        35,
+        62
+      ],
+      "background": [
+        102,
+        170,
+        255
+      ],
+      "ratio": 6.576
+    },
+    {
+      "foreground": [
+        20,
+        122,
+        82
+      ],
+      "background": [
+        234,
+        247,
+        240
+      ],
+      "ratio": 4.843
+    },
+    {
+      "foreground": [
+        23,
+        43,
+        77
+      ],
+      "background": [
+        233,
+        242,
+        255
+      ],
+      "ratio": 12.497
+    },
+    {
+      "foreground": [
+        23,
+        43,
+        77
+      ],
+      "background": [
+        241,
+        244,
+        248
+      ],
+      "ratio": 12.783
+    },
+    {
+      "foreground": [
+        23,
+        43,
+        77
+      ],
+      "background": [
+        247,
+        249,
+        252
+      ],
+      "ratio": 13.371
+    },
+    {
+      "foreground": [
+        23,
+        43,
+        77
+      ],
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "ratio": 14.102
+    },
+    {
+      "foreground": [
+        83,
+        100,
+        123
+      ],
+      "background": [
+        241,
+        244,
+        248
+      ],
+      "ratio": 5.475
+    },
+    {
+      "foreground": [
+        83,
+        100,
+        123
+      ],
+      "background": [
+        247,
+        249,
+        252
+      ],
+      "ratio": 5.727
+    },
+    {
+      "foreground": [
+        83,
+        100,
+        123
+      ],
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "ratio": 6.04
+    },
+    {
+      "foreground": [
+        102,
+        170,
+        255
+      ],
+      "background": [
+        16,
+        19,
+        25
+      ],
+      "ratio": 7.757
+    },
+    {
+      "foreground": [
+        102,
+        170,
+        255
+      ],
+      "background": [
+        19,
+        24,
+        32
+      ],
+      "ratio": 7.428
+    },
+    {
+      "foreground": [
+        102,
+        170,
+        255
+      ],
+      "background": [
+        24,
+        29,
+        37
+      ],
+      "ratio": 7.056
+    },
+    {
+      "foreground": [
+        113,
+        217,
+        170
+      ],
+      "background": [
+        23,
+        55,
+        44
+      ],
+      "ratio": 7.539
+    },
+    {
+      "foreground": [
+        139,
+        91,
+        16
+      ],
+      "background": [
+        255,
+        245,
+        224
+      ],
+      "ratio": 5.383
+    },
+    {
+      "foreground": [
+        170,
+        184,
+        203
+      ],
+      "background": [
+        16,
+        19,
+        25
+      ],
+      "ratio": 9.234
+    },
+    {
+      "foreground": [
+        170,
+        184,
+        203
+      ],
+      "background": [
+        19,
+        24,
+        32
+      ],
+      "ratio": 8.843
+    },
+    {
+      "foreground": [
+        170,
+        184,
+        203
+      ],
+      "background": [
+        24,
+        29,
+        37
+      ],
+      "ratio": 8.401
+    },
+    {
+      "foreground": [
+        180,
+        35,
+        50
+      ],
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "ratio": 6.507
+    },
+    {
+      "foreground": [
+        237,
+        242,
+        250
+      ],
+      "background": [
+        16,
+        19,
+        25
+      ],
+      "ratio": 16.544
+    },
+    {
+      "foreground": [
+        237,
+        242,
+        250
+      ],
+      "background": [
+        19,
+        24,
+        32
+      ],
+      "ratio": 15.843
+    },
+    {
+      "foreground": [
+        237,
+        242,
+        250
+      ],
+      "background": [
+        24,
+        29,
+        37
+      ],
+      "ratio": 15.051
+    },
+    {
+      "foreground": [
+        237,
+        242,
+        250
+      ],
+      "background": [
+        32,
+        52,
+        78
+      ],
+      "ratio": 11.237
+    },
+    {
+      "foreground": [
+        242,
+        206,
+        135
+      ],
+      "background": [
+        59,
+        48,
+        28
+      ],
+      "ratio": 8.584
+    },
+    {
+      "foreground": [
+        255,
+        172,
+        183
+      ],
+      "background": [
+        24,
+        29,
+        37
+      ],
+      "ratio": 9.536
+    },
+    {
+      "foreground": [
+        255,
+        255,
+        255
+      ],
+      "background": [
+        0,
+        107,
+        235
+      ],
+      "ratio": 4.881
+    }
+  ],
+  "contrast_failures": [],
+  "method": "WCAG sRGB luminance; visible text first-ink backing surface; obscured modal background excluded",
+  "limitation": "Static artifact. Keyboard, reduced motion, form input and runtime actions require the browser phase."
+}

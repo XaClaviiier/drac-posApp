@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "isolated datasets",
+    "reload preservation",
+    "corrupt store preserved",
+    "team persistence",
+    "duplicate/main/unknown member rejected",
+    "cashier and handoff lock",
+    "desktop/mobile/dark rendered"
+  ],
+  "browser_errors": []
+}

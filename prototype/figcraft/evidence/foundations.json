@@ -1,0 +1,144 @@
+{
+  "collection": "VariableCollectionId:1",
+  "variables": {
+    "Canvas": "VariableID:1",
+    "Surface": "VariableID:2",
+    "Secondary": "VariableID:3",
+    "Text": "VariableID:4",
+    "Muted": "VariableID:5",
+    "Border": "VariableID:6",
+    "Input": "VariableID:7",
+    "Primary": "VariableID:8",
+    "OnPrimary": "VariableID:9",
+    "Selected": "VariableID:10",
+    "Service": "VariableID:11",
+    "Part": "VariableID:12",
+    "PartSurface": "VariableID:13",
+    "Success": "VariableID:14",
+    "SuccessSurface": "VariableID:15",
+    "Warning": "VariableID:16",
+    "WarningSurface": "VariableID:17",
+    "Error": "VariableID:18",
+    "ErrorSurface": "VariableID:19",
+    "PrimaryHover": "VariableID:20",
+    "PrimaryPressed": "VariableID:21",
+    "ControlHover": "VariableID:22",
+    "ControlPressed": "VariableID:23"
+  },
+  "roles": {
+    "Canvas": [
+      "#FAFAFA",
+      "#09090B"
+    ],
+    "Surface": [
+      "#FFFFFF",
+      "#18181B"
+    ],
+    "Secondary": [
+      "#F4F4F5",
+      "#202023"
+    ],
+    "Text": [
+      "#18181B",
+      "#FAFAFA"
+    ],
+    "Muted": [
+      "#52525B",
+      "#A1A1AA"
+    ],
+    "Border": [
+      "#E4E4E7",
+      "#323237"
+    ],
+    "Input": [
+      "#8B8B95",
+      "#71717A"
+    ],
+    "Primary": [
+      "#006BEB",
+      "#66AAFF"
+    ],
+    "OnPrimary": [
+      "#FFFFFF",
+      "#10233E"
+    ],
+    "Selected": [
+      "#E9F2FF",
+      "#20344E"
+    ],
+    "Service": [
+      "#0058C2",
+      "#66AAFF"
+    ],
+    "Part": [
+      "#0F766E",
+      "#7DD3C8"
+    ],
+    "PartSurface": [
+      "#F0FDFA",
+      "#123B36"
+    ],
+    "Success": [
+      "#147A52",
+      "#71D9AA"
+    ],
+    "SuccessSurface": [
+      "#EAF7F0",
+      "#17372C"
+    ],
+    "Warning": [
+      "#8B5B10",
+      "#F2CE87"
+    ],
+    "WarningSurface": [
+      "#FFF5E0",
+      "#3B301C"
+    ],
+    "Error": [
+      "#B42332",
+      "#FFACB7"
+    ],
+    "ErrorSurface": [
+      "#FFF1F2",
+      "#451C25"
+    ]
+  },
+  "styles": {
+    "Body": "S:1",
+    "Label": "S:2",
+    "Heading": "S:3",
+    "Plate": "S:4",
+    "Total": "S:5"
+  },
+  "buttons": {
+    "Primary": 2086,
+    "Secondary": 2097,
+    "InteractionArea": 2788
+  },
+  "variants": {
+    "Primary": {
+      "Default": 2086,
+      "Hover": 2089,
+      "Pressed": 2091,
+      "Focus": 2093,
+      "Disabled": 2095
+    },
+    "Secondary": {
+      "Default": 2097,
+      "Hover": 2100,
+      "Pressed": 2102,
+      "Focus": 2104,
+      "Disabled": 2106
+    },
+    "InteractionArea": {
+      "Default": 2788,
+      "Hover": 2790,
+      "Pressed": 2791,
+      "Focus": 2792,
+      "Disabled": 2793
+    }
+  },
+  "libraryPage": 2085,
+  "smallLabelsAdjusted": 25,
+  "colorBindings": 1796
+}

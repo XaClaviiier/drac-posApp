@@ -1,0 +1,90 @@
+{
+  "method": "WCAG sRGB relative luminance; threshold on unrounded ratio",
+  "pairs": [
+    {
+      "name": "Biru/putih",
+      "fg": "#FFFFFF",
+      "bg": "#006BEB",
+      "ratio": 4.88,
+      "pass": true
+    },
+    {
+      "name": "Jasa light",
+      "fg": "#0058C2",
+      "bg": "#E9F2FF",
+      "ratio": 5.86,
+      "pass": true
+    },
+    {
+      "name": "Part light",
+      "fg": "#0F766E",
+      "bg": "#F0FDFA",
+      "ratio": 5.25,
+      "pass": true
+    },
+    {
+      "name": "Lunas light",
+      "fg": "#147A52",
+      "bg": "#EAF7F0",
+      "ratio": 4.84,
+      "pass": true
+    },
+    {
+      "name": "Perhatian light",
+      "fg": "#8B5B10",
+      "bg": "#FFF5E0",
+      "ratio": 5.38,
+      "pass": true
+    },
+    {
+      "name": "Error light",
+      "fg": "#B42332",
+      "bg": "#FFF1F2",
+      "ratio": 5.92,
+      "pass": true
+    },
+    {
+      "name": "Biru dark",
+      "fg": "#10233E",
+      "bg": "#66AAFF",
+      "ratio": 6.58,
+      "pass": true
+    },
+    {
+      "name": "Jasa dark",
+      "fg": "#66AAFF",
+      "bg": "#20344E",
+      "ratio": 5.27,
+      "pass": true
+    },
+    {
+      "name": "Part dark",
+      "fg": "#7DD3C8",
+      "bg": "#123B36",
+      "ratio": 7.05,
+      "pass": true
+    },
+    {
+      "name": "Lunas dark",
+      "fg": "#71D9AA",
+      "bg": "#17372C",
+      "ratio": 7.54,
+      "pass": true
+    },
+    {
+      "name": "Perhatian dark",
+      "fg": "#F2CE87",
+      "bg": "#3B301C",
+      "ratio": 8.58,
+      "pass": true
+    },
+    {
+      "name": "Error dark",
+      "fg": "#FFACB7",
+      "bg": "#451C25",
+      "ratio": 8.19,
+      "pass": true
+    }
+  ],
+  "scope": "Palette pairs only; not an application accessibility audit"
+}

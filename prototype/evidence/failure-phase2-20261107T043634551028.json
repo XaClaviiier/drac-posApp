@@ -1,0 +1,34 @@
+{
+  "passed": false,
+  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#create-service-order\")\n    - locator resolved to <button type=\"button\" class=\"primary\" id=\"create-service-order\">Lihat Service Order</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+  "checks_completed": [
+    {
+      "check": "Store Fase 1 terbaca; identitas dan keluhan terhubung tanpa entry ulang",
+      "passed": true
+    },
+    {
+      "check": "Itemized jasa/part dan total tepat; record serta draf registrasi tetap utuh",
+      "passed": true
+    },
+    {
+      "check": "Hapus baris/fokus bekerja; persetujuan tidak otomatis",
+      "passed": true
+    },
+    {
+      "check": "Qty nol/negatif/pecahan/overflow dan harga invalid ditolak; alasan harga wajib",
+      "passed": true
+    },
+    {
+      "check": "Draf estimasi pulih setelah reload; log perubahan harga tersedia untuk Owner",
+      "passed": true
+    },
+    {
+      "check": "Gagal approval tidak mengubah status; approved terkunci termasuk event buatan/reload",
+      "passed": true
+    },
+    {
+      "check": "SO hanya dari approved; gagal write atomik; klik ulang membuka snapshot sama",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rincian Transaksi SO-0261 - Bengkel AC</title>
+<!-- Google Fonts: Poppins (400, 500, 600, 700) -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0054bb",
+            "primary-fixed-dim": "#afc6ff",
+            "surface-tint": "#0059c6",
+            "background": "#fbf8ff",
+            "on-surface": "#1a1b22",
+            "surface-container-low": "#f4f2fd",
+            "surface-container-highest": "#e3e1ec",
+            "surface-variant": "#e3e1ec",
+            "on-primary-container": "#f6f6ff",
+            "tertiary-fixed-dim": "#7ed9a9",
+            "on-tertiary-fixed": "#002112",
+            "on-tertiary-fixed-variant": "#005234",
+            "inverse-primary": "#afc6ff",
+            "tertiary-fixed": "#9af5c4",
+            "tertiary-container": "#1e8058",
+            "on-error-container": "#93000a",
+            "on-secondary-fixed": "#00201d",
+            "secondary": "#006a63",
+            "primary-fixed": "#d9e2ff",
+            "on-surface-variant": "#424754",
+            "primary-container": "#006beb",
+            "inverse-surface": "#2f3038",
+            "tertiary": "#006642",
+            "on-tertiary": "#ffffff",
+            "secondary-container": "#99efe5",
+            "surface-bright": "#fbf8ff",
+            "surface": "#fbf8ff",
+            "on-background": "#1a1b22",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary": "#ffffff",
+            "on-primary": "#ffffff",
+            "error-container": "#ffdad6",
+            "surface-container-high": "#e8e7f1",
+            "secondary-fixed-dim": "#80d5cb",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#006f67",
+            "on-error": "#ffffff",
+            "on-secondary-fixed-variant": "#00504a",
+            "on-primary-fixed-variant": "#004398",
+            "secondary-fixed": "#9cf2e8",
+            "on-tertiary-container": "#dbffe7",
+            "outline-variant": "#c2c6d7",
+            "surface-dim": "#dad9e3",
+            "on-primary-fixed": "#001a43",
+            "surface-container": "#eeedf7",
+            "inverse-on-surface": "#f1effa",
+            "outline": "#727786"
+          },
+          fontFamily: {
+            sans: ["Poppins", "sans-serif"],
+            "headline-sm": ["Poppins", "sans-serif"],
+            "label-lg": ["Poppins", "sans-serif"],
+            "label-md": ["Poppins", "sans-serif"],
+            "body-sm": ["Poppins", "sans-serif"],
+            "currency-grid": ["Poppins", "sans-serif"],
+            "headline-xl": ["Poppins", "sans-serif"],
+            "currency-display": ["Poppins", "sans-serif"],
+            "headline-lg": ["Poppins", "sans-serif"],
+            "body-lg": ["Poppins", "sans-serif"],
+            "headline-md": ["Poppins", "sans-serif"],
+            "body-md": ["Poppins", "sans-serif"],
+            "label-sm": ["Poppins", "sans-serif"]
+          },
+          fontSize: {
+            "headline-sm": ["16px", { lineHeight: "24px", fontWeight: "600" }],
+            "label-lg": ["14px", { lineHeight: "20px", fontWeight: "600" }],
+            "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.01em", fontWeight: "600" }],
+            "body-sm": ["13px", { lineHeight: "18px", fontWeight: "400" }],
+            "currency-grid": ["14px", { lineHeight: "20px", fontWeight: "600" }],
+            "headline-xl": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "currency-display": ["28px", { lineHeight: "36px", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "headline-lg": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600" }],
+            "body-lg": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+            "headline-md": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "600" }],
+            "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }],
+            "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.02em", fontWeight: "600" }]
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #FAFAFA;
+      color: #18181B;
+      -webkit-font-smoothing: antialiased;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+  </style>
+</head>
+<body class="bg-[#FAFAFA] text-[#18181B] min-h-screen flex antialiased">
+<!-- ========================================================================= -->
+<!-- SIDE NAVIGATION (Bengkel AC - POS Kasir Shell)                            -->
+<!-- ========================================================================= -->
+<aside class="fixed top-0 left-0 h-screen w-52 bg-white border-r border-[#E4E4E7] flex flex-col justify-between z-30 select-none">
+<!-- Top Header & Menu Items -->
+<div class="p-4">
+<!-- Brand & Product Identity -->
+<div class="pb-5 mb-4 border-b border-[#E4E4E7]">
+<h1 class="text-[17px] font-semibold tracking-tight text-[#18181B] leading-none mb-1">Bengkel AC</h1>
+<p class="text-[11px] font-normal text-[#52525B]">Sistem Servis &amp; Kasir</p>
+</div>
+<!-- Navigation Tabs -->
+<nav class="space-y-1">
+<!-- Active Tab: POS Kasir -->
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-[#E9F2FF] text-[#006BEB] font-medium text-[13px] transition-colors duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="point_of_sale">point_of_sale</span>
+<span>POS Kasir</span>
+</a>
+<!-- Inactive Tab: Registrasi -->
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-[#52525B] hover:text-[#18181B] hover:bg-[#F4F4F5] font-normal text-[13px] transition-colors duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="app_registration">app_registration</span>
+<span>Registrasi</span>
+</a>
+</nav>
+</div>
+<!-- Bottom Footer Item: Kasir Profile -->
+<div class="p-4 border-t border-[#E4E4E7]">
+<div class="flex items-center gap-3 px-2 py-1.5 rounded-lg text-[#18181B]">
+<div class="w-8 h-8 rounded-full bg-[#E9F2FF] text-[#006BEB] flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]" data-icon="account_circle">account_circle</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-medium leading-tight truncate">Kasir</span>
+<span class="text-[11px] text-[#52525B] leading-tight">Aktif</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- ========================================================================= -->
+<!-- MAIN WORKSPACE                                                            -->
+<!-- ========================================================================= -->
+<div class="pl-52 w-full flex flex-col min-h-screen">
+<!-- Top Bar: Minimal Header Context -->
+<header class="h-14 bg-white border-b border-[#E4E4E7] px-8 flex items-center justify-between sticky top-0 z-20">
+<div class="flex items-center gap-2 text-[13px] text-[#52525B]">
+<span class="font-medium text-[#18181B]">Bengkel AC</span>
+<span>/</span>
+<span>POS Kasir</span>
+<span>/</span>
+<span class="text-[#18181B] font-medium">SO-0261</span>
+</div>
+<div class="flex items-center gap-4">
+<!-- Sample / Concept Badge -->
+<span class="inline-flex items-center px-2.5 py-1 rounded-md text-[11px] font-medium bg-[#F4F4F5] text-[#52525B] border border-[#E4E4E7]">
+          Konsep · Data contoh
+        </span>
+<!-- Kasir indicator -->
+<div class="flex items-center gap-1.5 text-[12px] text-[#52525B] pl-2 border-l border-[#E4E4E7]">
+<span class="w-2 h-2 rounded-full bg-[#147A52]"></span>
+<span>Kasir</span>
+</div>
+</div>
+</header>
+<!-- Page Content Container -->
+<main class="flex-1 p-8 max-w-[1440px] w-full mx-auto space-y-6">
+<!-- Navigation Link Back -->
+<div>
+<a class="inline-flex items-center gap-2 text-[13px] font-medium text-[#52525B] hover:text-[#006BEB] transition-colors py-1" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span>Kembali ke antrean</span>
+</a>
+</div>
+<!-- Transaction Header Banner -->
+<section class="bg-white border border-[#E4E4E7] rounded-xl p-6 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-1.5">
+<div class="flex items-center gap-3 flex-wrap">
+<h2 class="text-[28px] font-semibold text-[#18181B] tracking-tight leading-none">Rincian transaksi</h2>
+<span class="px-2.5 py-1 rounded-md bg-[#F4F4F5] text-[#18181B] text-[12px] font-medium border border-[#E4E4E7]">
+                SO-0261
+              </span>
+</div>
+<div class="flex items-center gap-3 text-[14px] text-[#52525B] flex-wrap pt-0.5">
+<span class="text-[20px] font-semibold text-[#18181B] tracking-wide">B 1234 ABC</span>
+<span class="text-[#E4E4E7]">•</span>
+<span class="text-[#18181B] font-medium">Rina Prasetyo</span>
+<span class="text-[#E4E4E7]">•</span>
+<span class="text-[13px]">Diserahkan 09.10</span>
+</div>
+</div>
+<!-- Status Badges Container -->
+<div class="flex items-center gap-2.5 self-start md:self-center">
+<!-- Status Pekerjaan: Selesai -->
+<div class="flex flex-col items-start gap-1">
+<span class="text-[11px] font-medium text-[#52525B] uppercase tracking-wider">Status Pekerjaan</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-[12px] font-medium bg-[#EAF7F0] text-[#147A52]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#147A52]"></span>
+                Selesai
+              </span>
+</div>
+<div class="h-8 w-px bg-[#E4E4E7] mx-1"></div>
+<!-- Status Tagihan: Siap ditagih -->
+<div class="flex flex-col items-start gap-1">
+<span class="text-[11px] font-medium text-[#52525B] uppercase tracking-wider">Status Tagihan</span>
+<span class="inline-flex items-center px-3 py-1 rounded-md text-[12px] font-medium bg-[#E9F2FF] text-[#0058C2]">
+                Siap ditagih
+              </span>
+</div>
+</div>
+</div>
+<!-- Stepper Progress Bar (Phase Indicators) -->
+<div class="mt-6 pt-5 border-t border-[#E4E4E7]">
+<div class="grid grid-cols-4 gap-3 text-center">
+<!-- Step 1: Active -->
+<div class="flex flex-col items-center">
+<div class="w-full flex items-center justify-center gap-2 pb-2 border-b-2 border-[#006BEB] text-[#006BEB]">
+<span class="w-5 h-5 rounded-full bg-[#006BEB] text-white text-[11px] font-semibold flex items-center justify-center">1</span>
+<span class="text-[13px] font-semibold">Periksa realisasi</span>
+</div>
+</div>
+<!-- Step 2: Pending -->
+<div class="flex flex-col items-center">
+<div class="w-full flex items-center justify-center gap-2 pb-2 border-b-2 border-[#E4E4E7] text-[#71717A]">
+<span class="w-5 h-5 rounded-full bg-[#F4F4F5] text-[#71717A] text-[11px] font-medium flex items-center justify-center">2</span>
+<span class="text-[13px] font-medium">Buat invoice</span>
+</div>
+</div>
+<!-- Step 3: Pending -->
+<div class="flex flex-col items-center">
+<div class="w-full flex items-center justify-center gap-2 pb-2 border-b-2 border-[#E4E4E7] text-[#71717A]">
+<span class="w-5 h-5 rounded-full bg-[#F4F4F5] text-[#71717A] text-[11px] font-medium flex items-center justify-center">3</span>
+<span class="text-[13px] font-medium">Pembayaran</span>
+</div>
+</div>
+<!-- Step 4: Pending -->
+<div class="flex flex-col items-center">
+<div class="w-full flex items-center justify-center gap-2 pb-2 border-b-2 border-[#E4E4E7] text-[#71717A]">
+<span class="w-5 h-5 rounded-full bg-[#F4F4F5] text-[#71717A] text-[11px] font-medium flex items-center justify-center">4</span>
+<span class="text-[13px] font-medium">Nota cetak</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2-COLUMN WORKFLOW LAYOUT -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+<!-- =================================================================== -->
+<!-- LEFT COLUMN: Main Read-Only Realized Work (8 Cols)                  -->
+<!-- =================================================================== -->
+<div class="lg:col-span-8 space-y-6">
+<div class="bg-white border border-[#E4E4E7] rounded-xl p-6 shadow-sm">
+<!-- Header section of the table card -->
+<div class="pb-4 mb-4 border-b border-[#E4E4E7]">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="text-[18px] font-semibold text-[#18181B]">Rincian realisasi pengerjaan</h3>
+<p class="text-[13px] text-[#52525B] mt-0.5">
+                    Data pekerjaan servis dan suku cadang yang diselesaikan mekanik sesuai Service Order SO-0261.
+                  </p>
+</div>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-medium bg-[#F4F4F5] text-[#52525B] border border-[#E4E4E7]">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+                  Mode Baca Saja
+                </span>
+</div>
+</div>
+<!-- Itemized Read-Only Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="border-b border-[#E4E4E7] text-[12px] font-semibold text-[#52525B] uppercase tracking-wider">
+<th class="py-3 px-2 font-medium">Item &amp; Deskripsi</th>
+<th class="py-3 px-3 font-medium">Kategori</th>
+<th class="py-3 px-3 font-medium text-center">Qty</th>
+<th class="py-3 px-3 font-medium text-right">Harga satuan</th>
+<th class="py-3 px-2 font-medium text-right">Subtotal</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#E4E4E7] text-[13px]">
+<!-- Row 1: Servis AC (JASA) -->
+<tr class="hover:bg-[#FAFAFA] transition-colors">
+<td class="py-4 px-2">
+<div class="font-medium text-[#18181B] text-[14px]">Servis AC</div>
+<div class="text-[12px] text-[#52525B] mt-0.5">Pembersihan kompresor &amp; cek kebocoran</div>
+</td>
+<td class="py-4 px-3 align-middle">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-[#E9F2FF] text-[#0058C2]">
+                        JASA
+                      </span>
+</td>
+<td class="py-4 px-3 align-middle text-center text-[#52525B]">
+                      1 pekerjaan
+                    </td>
+<td class="py-4 px-3 align-middle text-right font-medium text-[#18181B] tabular-nums">
+                      Rp150.000
+                    </td>
+<td class="py-4 px-2 align-middle text-right font-semibold text-[#18181B] tabular-nums">
+                      Rp150.000
+                    </td>
+</tr>
+<!-- Row 2: Filter kabin (PART) -->
+<tr class="hover:bg-[#FAFAFA] transition-colors">
+<td class="py-4 px-2">
+<div class="font-medium text-[#18181B] text-[14px]">Filter kabin</div>
+<div class="text-[12px] text-[#52525B] mt-0.5">Penggantian filter kabin standar OEM</div>
+</td>
+<td class="py-4 px-3 align-middle">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-[#F0FDFA] text-[#0F766E]">
+                        PART
+                      </span>
+</td>
+<td class="py-4 px-3 align-middle text-center text-[#52525B]">
+                      1 pcs
+                    </td>
+<td class="py-4 px-3 align-middle text-right font-medium text-[#18181B] tabular-nums">
+                      Rp85.000
+                    </td>
+<td class="py-4 px-2 align-middle text-right font-semibold text-[#18181B] tabular-nums">
+                      Rp85.000
+                    </td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Read-only note footer inside card -->
+<div class="mt-4 pt-3 flex items-center gap-2 text-[12px] text-[#52525B] border-t border-[#E4E4E7]">
+<span class="material-symbols-outlined text-[16px] text-[#71717A]">info</span>
+<span>Kasir tidak dapat mengubah kuantitas atau harga realisasi bengkel.</span>
+</div>
+<!-- Summary Breakdown Section -->
+<div class="mt-6 pt-4 border-t border-[#E4E4E7] flex justify-end">
+<div class="w-full sm:w-80 space-y-2.5">
+<div class="flex justify-between items-center text-[13px] text-[#52525B]">
+<span>Subtotal jasa</span>
+<span class="font-medium text-[#18181B] tabular-nums">Rp150.000</span>
+</div>
+<div class="flex justify-between items-center text-[13px] text-[#52525B]">
+<span>Subtotal part</span>
+<span class="font-medium text-[#18181B] tabular-nums">Rp85.000</span>
+</div>
+<div class="border-b border-[#E4E4E7] pt-1"></div>
+<div class="flex justify-between items-baseline pt-1">
+<span class="text-[14px] font-semibold text-[#18181B]">Total realisasi</span>
+<span class="text-[20px] font-bold text-[#18181B] tabular-nums tracking-tight">Rp235.000</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- =================================================================== -->
+<!-- RIGHT COLUMN: Action & Verification Summary Panel (4 Cols)          -->
+<!-- =================================================================== -->
+<div class="lg:col-span-4 sticky top-20 space-y-4">
+<div class="bg-white border border-[#E4E4E7] rounded-xl p-6 shadow-sm space-y-5">
+<!-- Header -->
+<div>
+<h3 class="text-[18px] font-semibold text-[#18181B]">Lanjutkan ke invoice</h3>
+<p class="text-[13px] text-[#52525B] mt-1 leading-relaxed">
+                Periksa rincian realisasi sebelum membuat invoice draf.
+              </p>
+</div>
+<!-- Total Box -->
+<div class="bg-[#F4F4F5] border border-[#E4E4E7] rounded-lg p-4">
+<span class="text-[12px] font-medium text-[#52525B] block mb-1">Total tagihan realisasi</span>
+<div class="text-[26px] font-bold text-[#18181B] tracking-tight tabular-nums">
+                Rp235.000
+              </div>
+<div class="text-[11px] text-[#52525B] mt-1">2 item pengerjaan tercatat</div>
+</div>
+<!-- Helper Notice / Info Banner -->
+<div class="bg-[#E9F2FF] border border-[#d2e4ff] rounded-lg p-3.5 flex items-start gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-[#006BEB] shrink-0 mt-0.5">info</span>
+<p class="text-[12px] text-[#004398] leading-relaxed">
+                Invoice belum dibuat. Pembayaran kasir dan cetak struk/nota baru tersedia setelah invoice diterbitkan.
+              </p>
+</div>
+<!-- Action Buttons -->
+<div class="space-y-2.5 pt-1">
+<!-- Primary CTA -->
+<button class="w-full h-11 bg-[#006BEB] hover:bg-[#0058C2] text-white font-medium text-[14px] rounded-lg flex items-center justify-center gap-2 transition-colors shadow-sm focus:outline-none focus:ring-2 focus:ring-[#006BEB] focus:ring-offset-2" type="button">
+<span>Buat invoice draf</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<!-- Secondary Action -->
+<button class="w-full h-11 bg-white hover:bg-[#F4F4F5] border border-[#E4E4E7] text-[#52525B] hover:text-[#18181B] font-medium text-[14px] rounded-lg flex items-center justify-center gap-2 transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">description</span>
+<span>Buka Service Order</span>
+</button>
+</div>
+<!-- Meta Checklist -->
+<div class="pt-4 border-t border-[#E4E4E7] space-y-2.5">
+<div class="flex items-start gap-2 text-[12px] text-[#52525B]">
+<span class="material-symbols-outlined text-[16px] text-[#147A52] shrink-0 mt-0.5">check_circle</span>
+<span>Data pekerjaan telah ditandai selesai oleh teknisi</span>
+</div>
+<div class="flex items-start gap-2 text-[12px] text-[#52525B]">
+<span class="material-symbols-outlined text-[16px] text-[#147A52] shrink-0 mt-0.5">check_circle</span>
+<span>Suku cadang tercatat dari inventaris</span>
+</div>
+<div class="flex items-start gap-2 text-[12px] text-[#52525B]">
+<span class="material-symbols-outlined text-[16px] text-[#71717A] shrink-0 mt-0.5">info</span>
+<span>Belum ada nomor invoice diterbitkan</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>

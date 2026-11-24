@@ -1,0 +1,470 @@
+﻿{
+  "file": "prototype/figcraft/pos-kasir.figcraft",
+  "images": 2,
+  "missingFonts": [],
+  "name": "POS Kasir - Poppins - Manual Payments",
+  "nodes": 2879,
+  "notes": [],
+  "pages": [
+    {
+      "frames": [
+        {
+          "height": 1000.0,
+          "id": 2,
+          "name": "desktop-list",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 258,
+          "name": "desktop-detail",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 309,
+          "name": "desktop-draft",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 361,
+          "name": "desktop-final",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 413,
+          "name": "desktop-cash",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 486,
+          "name": "desktop-cash-short",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 560,
+          "name": "desktop-qris",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 632,
+          "name": "desktop-qris-checked",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 705,
+          "name": "desktop-transfer",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 782,
+          "name": "desktop-transfer-filled",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 859,
+          "name": "desktop-transfer-checked",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 937,
+          "name": "desktop-paid-cash",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 990,
+          "name": "desktop-paid-qris",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 1039,
+          "name": "desktop-paid-transfer",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2108,
+          "name": "desktop-catalog",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2109,
+          "name": "desktop-empty",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2110,
+          "name": "desktop-no-results",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2111,
+          "name": "desktop-loading",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2112,
+          "name": "desktop-load-error",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2113,
+          "name": "desktop-offline",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2114,
+          "name": "desktop-needs-owner",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2115,
+          "name": "desktop-zero-draft",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2116,
+          "name": "desktop-zero-paid",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2117,
+          "name": "desktop-payment-error",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2118,
+          "name": "desktop-payment-status",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2119,
+          "name": "desktop-print-cash",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2120,
+          "name": "desktop-print-qris",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2121,
+          "name": "desktop-print-transfer",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1000.0,
+          "id": 2122,
+          "name": "desktop-print-zero",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 1,
+      "name": "Desktop",
+      "nodes": 1543,
+      "topLevel": 29
+    },
+    {
+      "frames": [
+        {
+          "height": 844.0,
+          "id": 1090,
+          "name": "mobile-list",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1204,
+          "name": "mobile-detail",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1251,
+          "name": "mobile-draft",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1298,
+          "name": "mobile-final",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1344,
+          "name": "mobile-cash",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1410,
+          "name": "mobile-cash-short",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1478,
+          "name": "mobile-qris",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1545,
+          "name": "mobile-qris-checked",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1613,
+          "name": "mobile-transfer",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1684,
+          "name": "mobile-transfer-filled",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1755,
+          "name": "mobile-transfer-checked",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1827,
+          "name": "mobile-paid-cash",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1873,
+          "name": "mobile-paid-qris",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 1915,
+          "name": "mobile-paid-transfer",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2123,
+          "name": "mobile-catalog",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2124,
+          "name": "mobile-empty",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2125,
+          "name": "mobile-no-results",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2126,
+          "name": "mobile-loading",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2127,
+          "name": "mobile-load-error",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2128,
+          "name": "mobile-offline",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2129,
+          "name": "mobile-needs-owner",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2130,
+          "name": "mobile-zero-draft",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2131,
+          "name": "mobile-zero-paid",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2132,
+          "name": "mobile-payment-error",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2133,
+          "name": "mobile-payment-status",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2134,
+          "name": "mobile-print-cash",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2135,
+          "name": "mobile-print-qris",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2136,
+          "name": "mobile-print-transfer",
+          "type": "FRAME",
+          "width": 390.0
+        },
+        {
+          "height": 844.0,
+          "id": 2137,
+          "name": "mobile-print-zero",
+          "type": "FRAME",
+          "width": 390.0
+        }
+      ],
+      "id": 2079,
+      "name": "Ponsel",
+      "nodes": 1300,
+      "topLevel": 29
+    },
+    {
+      "frames": [],
+      "id": 2080,
+      "name": "Referensi",
+      "nodes": 4,
+      "topLevel": 4
+    },
+    {
+      "frames": [
+        {
+          "height": 340.0,
+          "id": 2088,
+          "name": "Component 1",
+          "type": "COMPONENT_SET",
+          "width": 260.0
+        },
+        {
+          "height": 340.0,
+          "id": 2099,
+          "name": "Component 2",
+          "type": "COMPONENT_SET",
+          "width": 260.0
+        },
+        {
+          "height": 340.0,
+          "id": 2789,
+          "name": "Component 3",
+          "type": "COMPONENT_SET",
+          "width": 260.0
+        }
+      ],
+      "id": 2085,
+      "name": "Komponen",
+      "nodes": 28,
+      "topLevel": 3
+    }
+  ],
+  "styles": 5,
+  "variables": 23
+}

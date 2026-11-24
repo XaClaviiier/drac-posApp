@@ -1,0 +1,50 @@
+{
+  "passed": false,
+  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#actual-items .estimate-item\").first.get_by_role(\"button\")\n",
+  "checks_completed": [
+    {
+      "check": "Antrean kasir membuka keadaan kosong dengan petunjuk dan tanpa invoice palsu",
+      "passed": true
+    },
+    {
+      "check": "SO legacy tanpa handoff terbaca tanpa write; SO aktif tidak bisa diserahkan",
+      "passed": true
+    },
+    {
+      "check": "Konfirmasi batal dan editor dirty menolak penyerahan tanpa autosave",
+      "passed": true
+    },
+    {
+      "check": "Teknisi menyerahkan realisasi Selesai, Kasir melihat antrean tepat tanpa mengubah biaya",
+      "passed": true
+    },
+    {
+      "check": "Queued mengunci biaya/reopen untuk Owner sekalipun; handler Kasir dan submit ganda tidak menulis",
+      "passed": true
+    },
+    {
+      "check": "Owner menarik beralasan lalu merevisi/menyerahkan ulang; riwayat aman dan antrean tidak duplikat",
+      "passed": true
+    },
+    {
+      "check": "Role switch keluar antrean dan membersihkan daftar/riwayat Owner dari DOM Teknisi",
+      "passed": true
+    },
+    {
+      "check": "Gagal write penyerahan/penarikan mempertahankan state/isian; retry tidak replay",
+      "passed": true
+    },
+    {
+      "check": "Konflik penarikan menahan aksi stale, menjaga alasan, dan navigasi dirty tidak membuang isian",
+      "passed": true
+    },
+    {
+      "check": "Antrean light/dark desktop/tablet/mobile, 320px/200%, keyboard/fokus dan history/error diperiksa",
+      "passed": true
+    },
+    {
+      "check": "Gate mandiri: terminal tanpa realisasi ditolak Owner/Teknisi; Kasir tidak menyerahkan SO eligible",
+      "passed": true
+    }
+  ]
+}

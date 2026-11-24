@@ -1,0 +1,47 @@
+[
+  {
+    "name": "export",
+    "arguments": {
+      "ids": [
+        2
+      ],
+      "format": "png",
+      "path": "C:\\Project-Opencode\\POS\\doc\\DBD\\figcraft-handoff-v1\\trial\\desktop-native-refined.png",
+      "scale": 1
+    }
+  },
+  {
+    "name": "export",
+    "arguments": {
+      "ids": [
+        258
+      ],
+      "format": "png",
+      "path": "C:\\Project-Opencode\\POS\\doc\\DBD\\figcraft-handoff-v1\\trial\\mobile-native-refined.png",
+      "scale": 1
+    }
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 4,
+      "fields": [
+        "name",
+        "type",
+        "fontFamily",
+        "fontStyle",
+        "characters",
+        "width",
+        "height"
+      ],
+      "maxBytes": 500000
+    }
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "text.missingFonts",
+      "params": {}
+    }
+  }
+]

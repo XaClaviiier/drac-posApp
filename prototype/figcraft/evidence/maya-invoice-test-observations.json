@@ -1,0 +1,17 @@
+{
+  "scope": "Native prototype verification, not production integration",
+  "harnessCorrections": [
+    "Editing an interaction while the preview was running invalidated the state being measured. Predicate hotspots are now installed before preview and removed after testing.",
+    "The F9 injection experiment did not navigate. Runtime predicates use real pointer clicks instead; this does not verify keyboard support.",
+    "Reading the verifier source as AST with the Windows default encoding produced a different dash literal. The source reader now explicitly uses UTF-8.",
+    "The disabled-control helper initially required the Primary disabled master. The transfer prerequisite correctly used the Secondary disabled master; the helper now accepts either disabled master and still requires no active interaction.",
+    "A mobile return/header click was not registered. Pointer leave and longer event spacing were added; financial writes are not blindly retried. Later checks stopped when the preview had null geometry and screenshots required a visible window."
+  ],
+  "checkpointPolicy": "Passed desktop cases and passed mobile journeys were retained. The remaining mobile tail completed after restoring window availability.",
+  "cleanup": "Temporary assertion hotspots are deleted and the receipt back action restored before saving. Final delivery inspection must contain zero __runtime_assert nodes.",
+  "windowAvailability": {
+    "resolved": true,
+    "method": "User confirmed the window was visible; asynchronous restore/raise of the existing FigCraft process restored preview geometry. No application process was killed.",
+    "result": "The mobile tail completed after window access returned."
+  }
+}

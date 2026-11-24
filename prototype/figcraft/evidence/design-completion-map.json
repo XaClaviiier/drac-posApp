@@ -1,0 +1,1872 @@
+{
+  "frames": {
+    "desktop-list": 2,
+    "desktop-detail": 258,
+    "desktop-draft": 309,
+    "desktop-final": 361,
+    "desktop-cash": 413,
+    "desktop-cash-short": 486,
+    "desktop-qris": 560,
+    "desktop-qris-checked": 632,
+    "desktop-transfer": 705,
+    "desktop-transfer-filled": 782,
+    "desktop-transfer-checked": 859,
+    "desktop-paid-cash": 937,
+    "desktop-paid-qris": 990,
+    "desktop-paid-transfer": 1039,
+    "mobile-list": 1090,
+    "mobile-detail": 1204,
+    "mobile-draft": 1251,
+    "mobile-final": 1298,
+    "mobile-cash": 1344,
+    "mobile-cash-short": 1410,
+    "mobile-qris": 1478,
+    "mobile-qris-checked": 1545,
+    "mobile-transfer": 1613,
+    "mobile-transfer-filled": 1684,
+    "mobile-transfer-checked": 1755,
+    "mobile-paid-cash": 1827,
+    "mobile-paid-qris": 1873,
+    "mobile-paid-transfer": 1915,
+    "desktop-catalog": 2108,
+    "desktop-empty": 2109,
+    "desktop-no-results": 2110,
+    "desktop-loading": 2111,
+    "desktop-load-error": 2112,
+    "desktop-offline": 2113,
+    "desktop-needs-owner": 2114,
+    "desktop-zero-draft": 2115,
+    "desktop-zero-paid": 2116,
+    "desktop-payment-error": 2117,
+    "desktop-payment-status": 2118,
+    "desktop-print-cash": 2119,
+    "desktop-print-qris": 2120,
+    "desktop-print-transfer": 2121,
+    "desktop-print-zero": 2122,
+    "mobile-catalog": 2123,
+    "mobile-empty": 2124,
+    "mobile-no-results": 2125,
+    "mobile-loading": 2126,
+    "mobile-load-error": 2127,
+    "mobile-offline": 2128,
+    "mobile-needs-owner": 2129,
+    "mobile-zero-draft": 2130,
+    "mobile-zero-paid": 2131,
+    "mobile-payment-error": 2132,
+    "mobile-payment-status": 2133,
+    "mobile-print-cash": 2134,
+    "mobile-print-qris": 2135,
+    "mobile-print-transfer": 2136,
+    "mobile-print-zero": 2137
+  },
+  "newFrames": {
+    "desktop-catalog": 2108,
+    "desktop-empty": 2109,
+    "desktop-no-results": 2110,
+    "desktop-loading": 2111,
+    "desktop-load-error": 2112,
+    "desktop-offline": 2113,
+    "desktop-needs-owner": 2114,
+    "desktop-zero-draft": 2115,
+    "desktop-zero-paid": 2116,
+    "desktop-payment-error": 2117,
+    "desktop-payment-status": 2118,
+    "desktop-print-cash": 2119,
+    "desktop-print-qris": 2120,
+    "desktop-print-transfer": 2121,
+    "desktop-print-zero": 2122,
+    "mobile-catalog": 2123,
+    "mobile-empty": 2124,
+    "mobile-no-results": 2125,
+    "mobile-loading": 2126,
+    "mobile-load-error": 2127,
+    "mobile-offline": 2128,
+    "mobile-needs-owner": 2129,
+    "mobile-zero-draft": 2130,
+    "mobile-zero-paid": 2131,
+    "mobile-payment-error": 2132,
+    "mobile-payment-status": 2133,
+    "mobile-print-cash": 2134,
+    "mobile-print-qris": 2135,
+    "mobile-print-transfer": 2136,
+    "mobile-print-zero": 2137
+  },
+  "edges": [
+    {
+      "source": "desktop-list",
+      "target": "desktop-detail",
+      "node": 2794,
+      "label": "Pilih SO-0261"
+    },
+    {
+      "source": "desktop-detail",
+      "target": "desktop-draft",
+      "node": 2795,
+      "label": "Lanjut"
+    },
+    {
+      "source": "desktop-detail",
+      "target": "desktop-list",
+      "node": 2796,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-draft",
+      "target": "desktop-cash",
+      "node": 2797,
+      "label": "Lanjut"
+    },
+    {
+      "source": "desktop-draft",
+      "target": "desktop-list",
+      "node": 2798,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-final",
+      "target": "desktop-cash",
+      "node": 2799,
+      "label": "Lanjut"
+    },
+    {
+      "source": "desktop-final",
+      "target": "desktop-list",
+      "node": 2800,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-cash",
+      "node": 2801,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-qris",
+      "node": 2802,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-transfer",
+      "node": 2803,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-final",
+      "node": 2804,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-cash-short",
+      "node": 2805,
+      "label": "Contoh uang tunai"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-paid-cash",
+      "node": 2806,
+      "label": "Konfirmasi tunai"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-list",
+      "node": 2807,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-cash",
+      "node": 2808,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-qris",
+      "node": 2809,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-transfer",
+      "node": 2810,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-final",
+      "node": 2811,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-cash",
+      "node": 2812,
+      "label": "Contoh uang tunai"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-list",
+      "node": 2813,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-cash",
+      "node": 2814,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-qris",
+      "node": 2815,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-transfer",
+      "node": 2816,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-final",
+      "node": 2817,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-qris-checked",
+      "node": 2818,
+      "label": "Periksa dana QRIS"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-list",
+      "node": 2819,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-cash",
+      "node": 2820,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-qris",
+      "node": 2821,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-transfer",
+      "node": 2822,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-final",
+      "node": 2823,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-qris",
+      "node": 2824,
+      "label": "Periksa dana QRIS"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-paid-qris",
+      "node": 2825,
+      "label": "Konfirmasi QRIS"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-list",
+      "node": 2826,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-cash",
+      "node": 2827,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-qris",
+      "node": 2828,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-transfer",
+      "node": 2829,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-final",
+      "node": 2830,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-transfer-filled",
+      "node": 2831,
+      "label": "Isi contoh referensi"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-transfer",
+      "node": 2832,
+      "label": "Periksa mutasi"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-list",
+      "node": 2833,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-cash",
+      "node": 2834,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-qris",
+      "node": 2835,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-transfer",
+      "node": 2836,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-final",
+      "node": 2837,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-transfer-filled",
+      "node": 2838,
+      "label": "Isi contoh referensi"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-transfer-checked",
+      "node": 2839,
+      "label": "Periksa mutasi"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-list",
+      "node": 2840,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-cash",
+      "node": 2841,
+      "label": "Metode cash"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-qris",
+      "node": 2842,
+      "label": "Metode qris"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-transfer",
+      "node": 2843,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-final",
+      "node": 2844,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-transfer-filled",
+      "node": 2845,
+      "label": "Isi contoh referensi"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-transfer-filled",
+      "node": 2846,
+      "label": "Periksa mutasi"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-paid-transfer",
+      "node": 2847,
+      "label": "Konfirmasi transfer"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-list",
+      "node": 2848,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-paid-cash",
+      "target": "desktop-list",
+      "node": 2849,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-paid-qris",
+      "target": "desktop-list",
+      "node": 2850,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-paid-transfer",
+      "target": "desktop-list",
+      "node": 2851,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-list",
+      "target": "mobile-detail",
+      "node": 2852,
+      "label": "Pilih SO-0261"
+    },
+    {
+      "source": "mobile-detail",
+      "target": "mobile-draft",
+      "node": 2853,
+      "label": "Lanjut"
+    },
+    {
+      "source": "mobile-detail",
+      "target": "mobile-list",
+      "node": 2854,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-draft",
+      "target": "mobile-cash",
+      "node": 2855,
+      "label": "Lanjut"
+    },
+    {
+      "source": "mobile-draft",
+      "target": "mobile-list",
+      "node": 2856,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-final",
+      "target": "mobile-cash",
+      "node": 2857,
+      "label": "Lanjut"
+    },
+    {
+      "source": "mobile-final",
+      "target": "mobile-list",
+      "node": 2858,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-cash",
+      "node": 2859,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-qris",
+      "node": 2860,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-transfer",
+      "node": 2861,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-final",
+      "node": 2862,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-cash-short",
+      "node": 2863,
+      "label": "Contoh uang tunai"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-paid-cash",
+      "node": 2864,
+      "label": "Konfirmasi tunai"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-list",
+      "node": 2865,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-cash",
+      "node": 2866,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-qris",
+      "node": 2867,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-transfer",
+      "node": 2868,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-final",
+      "node": 2869,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-cash",
+      "node": 2870,
+      "label": "Contoh uang tunai"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-list",
+      "node": 2871,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-cash",
+      "node": 2872,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-qris",
+      "node": 2873,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-transfer",
+      "node": 2874,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-final",
+      "node": 2875,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-qris-checked",
+      "node": 2876,
+      "label": "Periksa dana QRIS"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-list",
+      "node": 2877,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-cash",
+      "node": 2878,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-qris",
+      "node": 2879,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-transfer",
+      "node": 2880,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-final",
+      "node": 2881,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-qris",
+      "node": 2882,
+      "label": "Periksa dana QRIS"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-paid-qris",
+      "node": 2883,
+      "label": "Konfirmasi QRIS"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-list",
+      "node": 2884,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-cash",
+      "node": 2885,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-qris",
+      "node": 2886,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-transfer",
+      "node": 2887,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-final",
+      "node": 2888,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-transfer-filled",
+      "node": 2889,
+      "label": "Isi contoh referensi"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-transfer",
+      "node": 2890,
+      "label": "Periksa mutasi"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-list",
+      "node": 2891,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-cash",
+      "node": 2892,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-qris",
+      "node": 2893,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-transfer",
+      "node": 2894,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-final",
+      "node": 2895,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-transfer-filled",
+      "node": 2896,
+      "label": "Isi contoh referensi"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-transfer-checked",
+      "node": 2897,
+      "label": "Periksa mutasi"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-list",
+      "node": 2898,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-cash",
+      "node": 2899,
+      "label": "Metode cash"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-qris",
+      "node": 2900,
+      "label": "Metode qris"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-transfer",
+      "node": 2901,
+      "label": "Metode transfer"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-final",
+      "node": 2902,
+      "label": "Kembali ke invoice"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-transfer-filled",
+      "node": 2903,
+      "label": "Isi contoh referensi"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-transfer-filled",
+      "node": 2904,
+      "label": "Periksa mutasi"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-paid-transfer",
+      "node": 2905,
+      "label": "Konfirmasi transfer"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-list",
+      "node": 2906,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-paid-cash",
+      "target": "mobile-list",
+      "node": 2907,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-paid-qris",
+      "target": "mobile-list",
+      "node": 2908,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-paid-transfer",
+      "target": "mobile-list",
+      "node": 2909,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-empty",
+      "node": 2147,
+      "label": "Antrean kosong"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-no-results",
+      "node": 2149,
+      "label": "Pencarian tanpa hasil"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-loading",
+      "node": 2151,
+      "label": "Memuat antrean"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-load-error",
+      "node": 2153,
+      "label": "Gagal memuat antrean"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-offline",
+      "node": 2155,
+      "label": "Pembayaran offline"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-needs-owner",
+      "node": 2157,
+      "label": "Draf perlu Owner"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-zero-draft",
+      "node": 2159,
+      "label": "Invoice Rp0"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-payment-error",
+      "node": 2161,
+      "label": "Gagal mencatat pembayaran"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-list",
+      "node": 2163,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-empty",
+      "target": "desktop-list",
+      "node": 2174,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-no-results",
+      "target": "desktop-list",
+      "node": 2185,
+      "label": "Hapus pencarian"
+    },
+    {
+      "source": "desktop-loading",
+      "target": "desktop-list",
+      "node": 2199,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-load-error",
+      "target": "desktop-loading",
+      "node": 2210,
+      "label": "Coba lagi"
+    },
+    {
+      "source": "desktop-offline",
+      "target": "desktop-cash",
+      "node": 2224,
+      "label": "Coba lagi"
+    },
+    {
+      "source": "desktop-offline",
+      "target": "desktop-list",
+      "node": 2226,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-needs-owner",
+      "target": "desktop-list",
+      "node": 2240,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-zero-draft",
+      "target": "desktop-zero-paid",
+      "node": 2254,
+      "label": "Terbitkan invoice"
+    },
+    {
+      "source": "desktop-zero-draft",
+      "target": "desktop-list",
+      "node": 2256,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-zero-paid",
+      "target": "desktop-print-zero",
+      "node": 2270,
+      "label": "Pratinjau nota"
+    },
+    {
+      "source": "desktop-zero-paid",
+      "target": "desktop-list",
+      "node": 2272,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-payment-error",
+      "target": "desktop-payment-status",
+      "node": 2284,
+      "label": "Periksa status"
+    },
+    {
+      "source": "desktop-payment-error",
+      "target": "desktop-list",
+      "node": 2286,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-payment-status",
+      "target": "desktop-cash",
+      "node": 2298,
+      "label": "Kembali ke pembayaran"
+    },
+    {
+      "source": "desktop-payment-status",
+      "target": "desktop-list",
+      "node": 2300,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "desktop-print-cash",
+      "target": "desktop-paid-cash",
+      "node": 2317,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "desktop-print-qris",
+      "target": "desktop-paid-qris",
+      "node": 2335,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "desktop-print-transfer",
+      "target": "desktop-paid-transfer",
+      "node": 2353,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "desktop-print-zero",
+      "target": "desktop-zero-paid",
+      "node": 2371,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-empty",
+      "node": 2379,
+      "label": "Antrean kosong"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-no-results",
+      "node": 2381,
+      "label": "Pencarian tanpa hasil"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-loading",
+      "node": 2383,
+      "label": "Memuat antrean"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-load-error",
+      "node": 2385,
+      "label": "Gagal memuat antrean"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-offline",
+      "node": 2387,
+      "label": "Pembayaran offline"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-needs-owner",
+      "node": 2389,
+      "label": "Draf perlu Owner"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-zero-draft",
+      "node": 2391,
+      "label": "Invoice Rp0"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-payment-error",
+      "node": 2393,
+      "label": "Gagal mencatat pembayaran"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-list",
+      "node": 2395,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-empty",
+      "target": "mobile-list",
+      "node": 2402,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-no-results",
+      "target": "mobile-list",
+      "node": 2409,
+      "label": "Hapus pencarian"
+    },
+    {
+      "source": "mobile-loading",
+      "target": "mobile-list",
+      "node": 2419,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-load-error",
+      "target": "mobile-loading",
+      "node": 2426,
+      "label": "Coba lagi"
+    },
+    {
+      "source": "mobile-offline",
+      "target": "mobile-cash",
+      "node": 2436,
+      "label": "Coba lagi"
+    },
+    {
+      "source": "mobile-offline",
+      "target": "mobile-list",
+      "node": 2438,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-needs-owner",
+      "target": "mobile-list",
+      "node": 2448,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-zero-draft",
+      "target": "mobile-zero-paid",
+      "node": 2458,
+      "label": "Terbitkan invoice"
+    },
+    {
+      "source": "mobile-zero-draft",
+      "target": "mobile-list",
+      "node": 2460,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-zero-paid",
+      "target": "mobile-print-zero",
+      "node": 2470,
+      "label": "Pratinjau nota"
+    },
+    {
+      "source": "mobile-zero-paid",
+      "target": "mobile-list",
+      "node": 2472,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-payment-error",
+      "target": "mobile-payment-status",
+      "node": 2480,
+      "label": "Periksa status"
+    },
+    {
+      "source": "mobile-payment-error",
+      "target": "mobile-list",
+      "node": 2482,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-payment-status",
+      "target": "mobile-cash",
+      "node": 2490,
+      "label": "Kembali ke pembayaran"
+    },
+    {
+      "source": "mobile-payment-status",
+      "target": "mobile-list",
+      "node": 2492,
+      "label": "Kembali ke antrean"
+    },
+    {
+      "source": "mobile-print-cash",
+      "target": "mobile-paid-cash",
+      "node": 2505,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "mobile-print-qris",
+      "target": "mobile-paid-qris",
+      "node": 2519,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "mobile-print-transfer",
+      "target": "mobile-paid-transfer",
+      "node": 2533,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "mobile-print-zero",
+      "target": "mobile-zero-paid",
+      "node": 2547,
+      "label": "Tutup pratinjau"
+    },
+    {
+      "source": "desktop-paid-cash",
+      "target": "desktop-print-cash",
+      "node": 2910,
+      "label": "Pratinjau cetak"
+    },
+    {
+      "source": "desktop-paid-qris",
+      "target": "desktop-print-qris",
+      "node": 2911,
+      "label": "Pratinjau cetak"
+    },
+    {
+      "source": "desktop-paid-transfer",
+      "target": "desktop-print-transfer",
+      "node": 2912,
+      "label": "Pratinjau cetak"
+    },
+    {
+      "source": "mobile-paid-cash",
+      "target": "mobile-print-cash",
+      "node": 2913,
+      "label": "Pratinjau cetak"
+    },
+    {
+      "source": "mobile-paid-qris",
+      "target": "mobile-print-qris",
+      "node": 2914,
+      "label": "Pratinjau cetak"
+    },
+    {
+      "source": "mobile-paid-transfer",
+      "target": "mobile-print-transfer",
+      "node": 2915,
+      "label": "Pratinjau cetak"
+    },
+    {
+      "source": "desktop-list",
+      "target": "desktop-catalog",
+      "node": 2556,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-detail",
+      "target": "desktop-catalog",
+      "node": 2560,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-draft",
+      "target": "desktop-catalog",
+      "node": 2564,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-final",
+      "target": "desktop-catalog",
+      "node": 2568,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-catalog",
+      "node": 2572,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-catalog",
+      "node": 2576,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-catalog",
+      "node": 2580,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-catalog",
+      "node": 2584,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-catalog",
+      "node": 2588,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-catalog",
+      "node": 2592,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-catalog",
+      "node": 2596,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-paid-cash",
+      "target": "desktop-catalog",
+      "node": 2600,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-paid-qris",
+      "target": "desktop-catalog",
+      "node": 2604,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-paid-transfer",
+      "target": "desktop-catalog",
+      "node": 2608,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-list",
+      "target": "mobile-catalog",
+      "node": 2612,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-detail",
+      "target": "mobile-catalog",
+      "node": 2616,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-draft",
+      "target": "mobile-catalog",
+      "node": 2620,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-final",
+      "target": "mobile-catalog",
+      "node": 2624,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-cash",
+      "target": "mobile-catalog",
+      "node": 2628,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-cash-short",
+      "target": "mobile-catalog",
+      "node": 2632,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-qris",
+      "target": "mobile-catalog",
+      "node": 2636,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-qris-checked",
+      "target": "mobile-catalog",
+      "node": 2640,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-transfer",
+      "target": "mobile-catalog",
+      "node": 2644,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-transfer-filled",
+      "target": "mobile-catalog",
+      "node": 2648,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-transfer-checked",
+      "target": "mobile-catalog",
+      "node": 2652,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-paid-cash",
+      "target": "mobile-catalog",
+      "node": 2656,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-paid-qris",
+      "target": "mobile-catalog",
+      "node": 2660,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-paid-transfer",
+      "target": "mobile-catalog",
+      "node": 2664,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-catalog",
+      "node": 2668,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-empty",
+      "target": "desktop-catalog",
+      "node": 2672,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-no-results",
+      "target": "desktop-catalog",
+      "node": 2676,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-loading",
+      "target": "desktop-catalog",
+      "node": 2680,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-load-error",
+      "target": "desktop-catalog",
+      "node": 2684,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-offline",
+      "target": "desktop-catalog",
+      "node": 2688,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-needs-owner",
+      "target": "desktop-catalog",
+      "node": 2692,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-zero-draft",
+      "target": "desktop-catalog",
+      "node": 2696,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-zero-paid",
+      "target": "desktop-catalog",
+      "node": 2700,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-payment-error",
+      "target": "desktop-catalog",
+      "node": 2704,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-payment-status",
+      "target": "desktop-catalog",
+      "node": 2708,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-print-cash",
+      "target": "desktop-catalog",
+      "node": 2712,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-print-qris",
+      "target": "desktop-catalog",
+      "node": 2716,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-print-transfer",
+      "target": "desktop-catalog",
+      "node": 2720,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-print-zero",
+      "target": "desktop-catalog",
+      "node": 2724,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-catalog",
+      "node": 2728,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-empty",
+      "target": "mobile-catalog",
+      "node": 2732,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-no-results",
+      "target": "mobile-catalog",
+      "node": 2736,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-loading",
+      "target": "mobile-catalog",
+      "node": 2740,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-load-error",
+      "target": "mobile-catalog",
+      "node": 2744,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-offline",
+      "target": "mobile-catalog",
+      "node": 2748,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-needs-owner",
+      "target": "mobile-catalog",
+      "node": 2752,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-zero-draft",
+      "target": "mobile-catalog",
+      "node": 2756,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-zero-paid",
+      "target": "mobile-catalog",
+      "node": 2760,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-payment-error",
+      "target": "mobile-catalog",
+      "node": 2764,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-payment-status",
+      "target": "mobile-catalog",
+      "node": 2768,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-print-cash",
+      "target": "mobile-catalog",
+      "node": 2772,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-print-qris",
+      "target": "mobile-catalog",
+      "node": 2776,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-print-transfer",
+      "target": "mobile-catalog",
+      "node": 2780,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-print-zero",
+      "target": "mobile-catalog",
+      "node": 2784,
+      "label": "Demo"
+    }
+  ],
+  "instances": [
+    2147,
+    2149,
+    2151,
+    2153,
+    2155,
+    2157,
+    2159,
+    2161,
+    2163,
+    2174,
+    2185,
+    2199,
+    2210,
+    2222,
+    2224,
+    2226,
+    2238,
+    2240,
+    2254,
+    2256,
+    2270,
+    2272,
+    2284,
+    2286,
+    2298,
+    2300,
+    2317,
+    2335,
+    2353,
+    2371,
+    2379,
+    2381,
+    2383,
+    2385,
+    2387,
+    2389,
+    2391,
+    2393,
+    2395,
+    2402,
+    2409,
+    2419,
+    2426,
+    2434,
+    2436,
+    2438,
+    2446,
+    2448,
+    2458,
+    2460,
+    2470,
+    2472,
+    2480,
+    2482,
+    2490,
+    2492,
+    2505,
+    2519,
+    2533,
+    2547,
+    2556,
+    2558,
+    2560,
+    2562,
+    2564,
+    2566,
+    2568,
+    2570,
+    2572,
+    2574,
+    2576,
+    2578,
+    2580,
+    2582,
+    2584,
+    2586,
+    2588,
+    2590,
+    2592,
+    2594,
+    2596,
+    2598,
+    2600,
+    2602,
+    2604,
+    2606,
+    2608,
+    2610,
+    2612,
+    2614,
+    2616,
+    2618,
+    2620,
+    2622,
+    2624,
+    2626,
+    2628,
+    2630,
+    2632,
+    2634,
+    2636,
+    2638,
+    2640,
+    2642,
+    2644,
+    2646,
+    2648,
+    2650,
+    2652,
+    2654,
+    2656,
+    2658,
+    2660,
+    2662,
+    2664,
+    2666,
+    2668,
+    2670,
+    2672,
+    2674,
+    2676,
+    2678,
+    2680,
+    2682,
+    2684,
+    2686,
+    2688,
+    2690,
+    2692,
+    2694,
+    2696,
+    2698,
+    2700,
+    2702,
+    2704,
+    2706,
+    2708,
+    2710,
+    2712,
+    2714,
+    2716,
+    2718,
+    2720,
+    2722,
+    2724,
+    2726,
+    2728,
+    2730,
+    2732,
+    2734,
+    2736,
+    2738,
+    2740,
+    2742,
+    2744,
+    2746,
+    2748,
+    2750,
+    2752,
+    2754,
+    2756,
+    2758,
+    2760,
+    2762,
+    2764,
+    2766,
+    2768,
+    2770,
+    2772,
+    2774,
+    2776,
+    2778,
+    2780,
+    2782,
+    2784,
+    2786,
+    2794,
+    2795,
+    2796,
+    2797,
+    2798,
+    2799,
+    2800,
+    2801,
+    2802,
+    2803,
+    2804,
+    2805,
+    2806,
+    2807,
+    2808,
+    2809,
+    2810,
+    2811,
+    2812,
+    2813,
+    2814,
+    2815,
+    2816,
+    2817,
+    2818,
+    2819,
+    2820,
+    2821,
+    2822,
+    2823,
+    2824,
+    2825,
+    2826,
+    2827,
+    2828,
+    2829,
+    2830,
+    2831,
+    2832,
+    2833,
+    2834,
+    2835,
+    2836,
+    2837,
+    2838,
+    2839,
+    2840,
+    2841,
+    2842,
+    2843,
+    2844,
+    2845,
+    2846,
+    2847,
+    2848,
+    2849,
+    2850,
+    2851,
+    2852,
+    2853,
+    2854,
+    2855,
+    2856,
+    2857,
+    2858,
+    2859,
+    2860,
+    2861,
+    2862,
+    2863,
+    2864,
+    2865,
+    2866,
+    2867,
+    2868,
+    2869,
+    2870,
+    2871,
+    2872,
+    2873,
+    2874,
+    2875,
+    2876,
+    2877,
+    2878,
+    2879,
+    2880,
+    2881,
+    2882,
+    2883,
+    2884,
+    2885,
+    2886,
+    2887,
+    2888,
+    2889,
+    2890,
+    2891,
+    2892,
+    2893,
+    2894,
+    2895,
+    2896,
+    2897,
+    2898,
+    2899,
+    2900,
+    2901,
+    2902,
+    2903,
+    2904,
+    2905,
+    2906,
+    2907,
+    2908,
+    2909,
+    2910,
+    2911,
+    2912,
+    2913,
+    2914,
+    2915
+  ],
+  "themeControls": {
+    "desktop-list": 2558,
+    "desktop-detail": 2562,
+    "desktop-draft": 2566,
+    "desktop-final": 2570,
+    "desktop-cash": 2574,
+    "desktop-cash-short": 2578,
+    "desktop-qris": 2582,
+    "desktop-qris-checked": 2586,
+    "desktop-transfer": 2590,
+    "desktop-transfer-filled": 2594,
+    "desktop-transfer-checked": 2598,
+    "desktop-paid-cash": 2602,
+    "desktop-paid-qris": 2606,
+    "desktop-paid-transfer": 2610,
+    "mobile-list": 2614,
+    "mobile-detail": 2618,
+    "mobile-draft": 2622,
+    "mobile-final": 2626,
+    "mobile-cash": 2630,
+    "mobile-cash-short": 2634,
+    "mobile-qris": 2638,
+    "mobile-qris-checked": 2642,
+    "mobile-transfer": 2646,
+    "mobile-transfer-filled": 2650,
+    "mobile-transfer-checked": 2654,
+    "mobile-paid-cash": 2658,
+    "mobile-paid-qris": 2662,
+    "mobile-paid-transfer": 2666,
+    "desktop-catalog": 2670,
+    "desktop-empty": 2674,
+    "desktop-no-results": 2678,
+    "desktop-loading": 2682,
+    "desktop-load-error": 2686,
+    "desktop-offline": 2690,
+    "desktop-needs-owner": 2694,
+    "desktop-zero-draft": 2698,
+    "desktop-zero-paid": 2702,
+    "desktop-payment-error": 2706,
+    "desktop-payment-status": 2710,
+    "desktop-print-cash": 2714,
+    "desktop-print-qris": 2718,
+    "desktop-print-transfer": 2722,
+    "desktop-print-zero": 2726,
+    "mobile-catalog": 2730,
+    "mobile-empty": 2734,
+    "mobile-no-results": 2738,
+    "mobile-loading": 2742,
+    "mobile-load-error": 2746,
+    "mobile-offline": 2750,
+    "mobile-needs-owner": 2754,
+    "mobile-zero-draft": 2758,
+    "mobile-zero-paid": 2762,
+    "mobile-payment-error": 2766,
+    "mobile-payment-status": 2770,
+    "mobile-print-cash": 2774,
+    "mobile-print-qris": 2778,
+    "mobile-print-transfer": 2782,
+    "mobile-print-zero": 2786
+  }
+}

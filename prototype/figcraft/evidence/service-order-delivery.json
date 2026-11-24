@@ -1,0 +1,116 @@
+{
+  "file": "C:\\Project-Opencode\\POS\\prototype\\figcraft\\pos-kasir.figcraft",
+  "sha256": "5a2de849384cbff3cd71e8b8240d2fea97b26035cd0147009db26bce1dd40b2c",
+  "bytes": 758950,
+  "pages": [
+    "Desktop",
+    "Ponsel",
+    "Referensi",
+    "Komponen"
+  ],
+  "nodeTypes": {
+    "PAGE": 4,
+    "FRAME": 302,
+    "RECTANGLE": 2344,
+    "LINE": 93,
+    "TEXT": 7160,
+    "VECTOR": 22,
+    "ELLIPSE": 4,
+    "INSTANCE": 1981,
+    "COMPONENT": 19,
+    "COMPONENT_SET": 3
+  },
+  "fonts": {
+    "Poppins": 7160
+  },
+  "imagePages": [
+    {
+      "page": "Desktop",
+      "count": 0
+    },
+    {
+      "page": "Ponsel",
+      "count": 0
+    },
+    {
+      "page": "Referensi",
+      "count": 2
+    },
+    {
+      "page": "Komponen",
+      "count": 0
+    }
+  ],
+  "referenceImageHashes": [
+    "be478be5083bc0253260980fbf148ec94a65755a99357fbce18d0382f8edefc2",
+    "e2af3df821fcd840a0365940966b9b1b32495280a4a9e68a10ca1f6a0ed68d36"
+  ],
+  "newFrames": 92,
+  "newControlActions": 534,
+  "stateFields": 32,
+  "stateImplementation": "independent finite-value native modes",
+  "journeyStepsPassed": 228,
+  "completionRoleChecksPassed": 18,
+  "previousModuleChecksPassed": 80,
+  "realWheelScroll": {
+    "scroll": [
+      0.0,
+      724.0
+    ],
+    "range": [
+      0.0,
+      724.0
+    ],
+    "passed": true,
+    "scrolledControlsClickedAndSaved": true
+  },
+  "themesPassed": [
+    {
+      "device": "desktop",
+      "darkPixelCounts": [
+        0,
+        288020,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "device": "mobile",
+      "darkPixelCounts": [
+        0,
+        75241,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "nativeExports": [
+    "desktop-so-running-light.png",
+    "mobile-so-running-light.png",
+    "desktop-so-real-edit-light.png",
+    "mobile-so-real-edit-light.png",
+    "desktop-so-owner-queued-dark.png",
+    "mobile-so-owner-queued-dark.png",
+    "desktop-so-assign-two-light.png",
+    "mobile-so-real-consent-ready-dark.png"
+  ],
+  "screenshots": [
+    "service-order-mobile-real-edit-wheel.png",
+    "service-order-desktop-theme-final-0.png",
+    "service-order-desktop-theme-final-1.png",
+    "service-order-desktop-theme-final-2.png",
+    "service-order-mobile-theme-final-0.png",
+    "service-order-mobile-theme-final-1.png",
+    "service-order-mobile-theme-final-2.png"
+  ],
+  "limits": [
+    "sample inputs",
+    "native prototype state, not database",
+    "SO fixture is the two-item Rp150.000 estimate",
+    "no real stock reservation or invoice integration",
+    "selected earlier-module regression only",
+    "full keyboard/screen-reader/reflow not verified",
+    "Owner price history is a sample",
+    "no actual stock allocation, payment, printer or Maya invoice journey"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-17",
+  "slice": "AUTH-01",
+  "status": "completed_auth_slice",
+  "scope": "Real username/password cookie sessions, account workspace authorization and logout; no business modules or deployment",
+  "runtime": {
+    "php": "8.4.27",
+    "node": "24.16.0",
+    "mysql": {
+      "engine": "8.4.13",
+      "database": "pos_development",
+      "account": "pos_app@127.0.0.1",
+      "system_schema_access": "denied"
+    },
+    "mysql_bind": "127.0.0.1:13306",
+    "mysqlx_enabled": false,
+    "supervised_runtime": "pos-auth-mysql-runtime",
+    "supervised_web": "pos-auth-web",
+    "application_url": "http://127.0.0.1:8088/login"
+  },
+  "locked_php": {
+    "laravel/framework": "v13.42.0",
+    "laravel/sanctum": "v4.4.0",
+    "spatie/laravel-permission": "8.5.0",
+    "pestphp/pest": "v4.7.8"
+  },
+  "locked_js": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.5",
+    "react-hook-form": "7.92.0",
+    "zod": "4.6.7",
+    "@tanstack/react-query": "5.107.1",
+    "tailwindcss": "4.3.5",
+    "vite": "8.3.8",
+    "vitest": "5.1.0",
+    "@playwright/test": "1.65.1",
+    "typescript": "5.9.3"
+  },
+  "artifact_sha256": {
+    "application/composer.lock": "c30badeb53e0546befb40ced86559a0c9c2a7b857d936be50b88449bb96ac6b9",
+    "application/package-lock.json": "24b3b88c36ca1d13320c27422e17fbf13690c76074b761a147a250f245a9dfe4",
+    "application/public/build/manifest.json": "8dba3ce586d8d4b35811fd29d07f90e942c1e33e6b9432778d2b15e3dd671f5d"
+  },
+  "backend": {
+    "command": "php vendor/bin/pest --compact",
+    "tests_passed": 49,
+    "assertions": 272,
+    "database": "pos_auth_testing",
+    "engine": "MySQL 8.4.13"
+  },
+  "frontend": {
+    "command": "npm test",
+    "tests_passed": 11,
+    "uuid_contract_regression": "Observed four failures with UUID fixture against numeric client ID schema, then passed after z.uuid().",
+    "expired_logout_regression": "Observed failing account/cache recovery on logout401, then all11 passed after clear-on-confirmed401."
+  },
+  "build": {
+    "command": "npm run build",
+    "strict_typescript": true,
+    "vite_success": true
+  },
+  "browser": {
+    "command": "npx --no-install playwright test",
+    "tests_passed": 6,
+    "failures": 0,
+    "database": "pos_auth_e2e",
+    "local_csrf_middleware_active": true,
+    "coverage": [
+      "Three real browser logins with server DB roles",
+      "Nine per-role API workspace checks",
+      "Old cookie replay denied401 after logout",
+      "Wrong password generic response",
+      "No-CSRF credential POST rejected419",
+      "Poppins loaded, light/dark, initial nonkeyboard outline absent, Tab focus visible, mobile reflow"
+    ],
+    "screenshots": {
+      "auth-desktop-dark.png": "c4d997d22a214d91e3817a9a09cf159d0b10038bef93c78f1582fa1066e213db",
+      "auth-desktop-light.png": "118f88a7b244221f1119dbf363f2ceb21386ff58508c75116e316f6e3c9d9a2c",
+      "auth-mobile-account.png": "21b321c23cc549cfdccdff60ea45878d4606e7b34e99a0c695fb037ad5c84463",
+      "auth-mobile-dark.png": "d4efa3e9852d529d18c964c1ffda23e444d9eb54dbede74c8a24ebbdcd912c0c",
+      "auth-mobile-light.png": "bf469881298cf346c3fc78e40ce40f7720e2b853ae1723aeff64d40bfe90c474"
+    },
+    "traces_enabled": false
+  },
+  "local_bootstrap": {
+    "official_archive": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.13-winx64.zip",
+    "vendor_md5_match": true,
+    "vendor_md5": "7b94489d5524dea9b27097068bea25a8",
+    "rerun_guard_rejects_existing_data": true,
+    "app_cannot_read_mysql_system_schema": true
+  },
+  "reviews": {
+    "security": "Focused independent static review: no important evidence-backed finding.",
+    "interface": "Final verdict: listed findings resolved (logout401 recovery, keyboard-only focus, Indonesian permission labels, settled theme captures). Reviewer inspected all five final screenshots; correctness is scoped to the listed findings."
+  },
+  "observations": [
+    "Database-session test initially omitted cookies because Laravel JSON test helper drops them unless withCredentials is enabled. Corrected fixture sends encrypted cookie and forgets guards; original assertions retained and all49 pass.",
+    "Initial frontend schema assumed numeric ID; backend uses UUID. Contract fixtures now UUID and runtime parser z.uuid().",
+    "Vitest4.0.18 brought incompatible Vite7 plugin types beside Vite8. Pin changed to registry-verified Vitest5.1.0 compatible with Vite8; strict checks retained. Invalid TestingLibrary ByRole exact options removed without changing matching contract.",
+    "One early MySQL runtime launch encountered an InnoDB file still held during bootstrap shutdown. No permissions were weakened; startup succeeded after owned bootstrap stopped. Bootstrap now waits for owned PID file removal before returning. Rerun refusal verified; full first-install shutdown timing after this guard was not re-executed.",
+    "Theme captures now await actual animation completion; no rendered UI state was altered for screenshots."
+  ],
+  "existing_databases_modified": false,
+  "windows_service_installed": false,
+  "docker_used": false,
+  "default_passwords_created": false,
+  "production_users_created": false,
+  "e2e_accounts_deactivated_and_credentials_removed": true,
+  "limits": [
+    "No shared-hosting/provider deployment has been tested.",
+    "Local HTTP is loopback-only; production HTTPS and secure cookies remain required.",
+    "Registration, diagnoses, service orders, inventory, invoices, reports, PWA/offline not implemented in this slice.",
+    "Distributed attack protections and audit retention require deployment policy.",
+    "Actual session idle timeout was not separately exercised by a live browser waiting120minutes; expiration UX and invalidated cookie replay were tested."
+  ]
+}

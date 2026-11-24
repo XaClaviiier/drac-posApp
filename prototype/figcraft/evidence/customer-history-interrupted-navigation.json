@@ -1,0 +1,585 @@
+{
+  "steps": [
+    {
+      "source": "desktop-ch-hub",
+      "label": "Ulang contoh pelanggan / riwayat",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Cari nama / plat",
+      "target": "desktop-ch-search",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-search",
+      "label": "Cari telepon 0812 0000 0147",
+      "target": "desktop-ch-phones",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-phones",
+      "label": "Buka Arif",
+      "target": "desktop-ch-arif",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-arif",
+      "label": "Riwayat pelanggan",
+      "target": "desktop-ch-history-empty",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-history-empty",
+      "label": "Kembali ke pelanggan",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Buka Maya",
+      "target": "desktop-ch-customer",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer",
+      "label": "Lihat kendaraan",
+      "target": "desktop-ch-vehicles",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-vehicles",
+      "label": "Buka kendaraan",
+      "target": "desktop-ch-vehicle",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-vehicle",
+      "label": "Registrasi kunjungan baru",
+      "target": "desktop-ch-choose",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-choose",
+      "label": "Pilih Arif Ramadhan",
+      "target": "desktop-ch-new-visit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-new-visit",
+      "label": "Periksa registrasi",
+      "target": "desktop-ch-visit-invalid",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-invalid",
+      "label": "Isi keluhan contoh",
+      "target": "desktop-ch-new-visit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-new-visit",
+      "label": "Periksa registrasi",
+      "target": "desktop-ch-review",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-review",
+      "label": "Simpan registrasi baru",
+      "target": "desktop-ch-saved",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-saved",
+      "label": "Lihat riwayat kendaraan",
+      "target": "desktop-ch-timeline-new",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline-new",
+      "label": "Pelanggan",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Buka Maya",
+      "target": "desktop-ch-customer",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer",
+      "label": "Riwayat pelanggan",
+      "target": "desktop-ch-timeline",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline",
+      "label": "Pelanggan",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Buka Arif",
+      "target": "desktop-ch-arif",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-arif",
+      "label": "Riwayat pelanggan",
+      "target": "desktop-ch-timeline-arif",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline-arif",
+      "label": "Pelanggan",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Buka Maya",
+      "target": "desktop-ch-customer",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer",
+      "label": "Ubah telepon master",
+      "target": "desktop-ch-customer-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer-edit",
+      "label": "Kosongkan telepon contoh",
+      "target": "desktop-ch-customer-invalid",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer-invalid",
+      "label": "Simpan telepon",
+      "target": "desktop-ch-customer-invalid",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer-invalid",
+      "label": "Isi contoh telepon baru",
+      "target": "desktop-ch-customer-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer-edit",
+      "label": "Simpan telepon",
+      "target": "desktop-ch-customer",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer",
+      "label": "Demo",
+      "target": "desktop-ch-hub",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-hub",
+      "label": "Demo: sebagai Owner",
+      "target": "desktop-ch-vehicle-owner",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-vehicle-owner",
+      "label": "Ubah plat (Owner)",
+      "target": "desktop-ch-plate-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-edit",
+      "label": "Contoh \"dd 2248 kl\"",
+      "target": "desktop-ch-plate-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-edit",
+      "label": "Simpan perubahan plat",
+      "target": "desktop-ch-plate-invalid",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-invalid",
+      "label": "Isi alasan contoh",
+      "target": "desktop-ch-plate-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-edit",
+      "label": "Contoh plat sudah digunakan",
+      "target": "desktop-ch-plate-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-edit",
+      "label": "Simpan perubahan plat",
+      "target": "desktop-ch-plate-collision",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-collision",
+      "label": "Contoh \"dd 2248 kl\"",
+      "target": "desktop-ch-plate-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-edit",
+      "label": "Simpan perubahan plat",
+      "target": "desktop-ch-vehicle-owner",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-vehicle-owner",
+      "label": "Ubah plat (Owner)",
+      "target": "desktop-ch-plate-edit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-edit",
+      "label": "Batal",
+      "target": "desktop-ch-vehicle-owner",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-vehicle-owner",
+      "label": "Riwayat perubahan plat",
+      "target": "desktop-ch-plate-log",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-log",
+      "label": "Riwayat kendaraan",
+      "target": "desktop-ch-timeline-new",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline-new",
+      "label": "Buka kunjungan 0150",
+      "target": "desktop-ch-saved",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-saved",
+      "label": "Lihat riwayat kendaraan",
+      "target": "desktop-ch-timeline-new",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline-new",
+      "label": "Buka kunjungan 0140",
+      "target": "desktop-ch-visit-old",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-old",
+      "label": "Diagnosa & Estimasi",
+      "target": "desktop-ch-old-diagnosis",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-old-diagnosis",
+      "label": "Kembali ke kunjungan 0140",
+      "target": "desktop-ch-visit-old",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-old",
+      "label": "Service Order",
+      "target": "desktop-ch-old-so",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-old-so",
+      "label": "Kembali ke kunjungan 0140",
+      "target": "desktop-ch-visit-old",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-old",
+      "label": "Invoice",
+      "target": "desktop-ch-old-invoice",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-old-invoice",
+      "label": "Kembali ke kunjungan 0140",
+      "target": "desktop-ch-visit-old",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-old",
+      "label": "Nota",
+      "target": "desktop-ch-old-receipt",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-old-receipt",
+      "label": "Kembali ke kunjungan 0140",
+      "target": "desktop-ch-visit-old",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-old",
+      "label": "Cari",
+      "target": "desktop-ch-search",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-search",
+      "label": "Cari \"dd 1248 kl\"",
+      "target": "desktop-ch-no-results",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-no-results",
+      "label": "Kembali mencari",
+      "target": "desktop-ch-search",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-search",
+      "label": "Cari \" dd 2248 kl \"",
+      "target": "desktop-ch-vehicle-owner",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-vehicle-owner",
+      "label": "Pelanggan",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Cari nama / plat",
+      "target": "desktop-ch-search",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-search",
+      "label": "Cari telepon 0812 0000 0147",
+      "target": "desktop-ch-arif",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-arif",
+      "label": "Demo",
+      "target": "desktop-ch-hub",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-hub",
+      "label": "Ulang contoh pelanggan / riwayat",
+      "target": "desktop-ch-customers",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customers",
+      "label": "Buka Maya",
+      "target": "desktop-ch-customer",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer",
+      "label": "Nonaktifkan pelanggan",
+      "target": "desktop-ch-deactivate-customer",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-deactivate-customer",
+      "label": "Konfirmasi nonaktifkan",
+      "target": "desktop-ch-customer-inactive",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer-inactive",
+      "label": "Riwayat pelanggan",
+      "target": "desktop-ch-timeline",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline",
+      "label": "Registrasi kunjungan baru",
+      "target": "desktop-ch-choose-inactive",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-choose-inactive",
+      "label": "Pilih Arif Ramadhan",
+      "target": "desktop-ch-new-visit",
+      "passed": true,
+      "navigationPointerRetried": false
+    },
+    {
+      "source": "desktop-ch-new-visit",
+      "label": "Isi keluhan contoh",
+      "target": "desktop-ch-new-visit",
+      "passed": true,
+      "navigationPointerRetried": false
+    }
+  ],
+  "runtimeChecks": [
+    {
+      "source": "desktop-ch-phones",
+      "expression": "CHPhone == \"0812 0000 0147\" and not CHNewSaved",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-history-empty",
+      "expression": "CHScope == \"arif\" and not CHNewSaved",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-saved",
+      "expression": "CHNewSaved and CHRegCustomerId == \"DEMO-C0150\" and CHRegName == \"Arif Ramadhan\" and CHRegPhone == \"0812 0000 0147\" and CHRegPlate == \"DD 1248 KL\"",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline",
+      "expression": "CHScope == \"maya\" and CHNewSaved and CHRegName == \"Arif Ramadhan\"",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-timeline-arif",
+      "expression": "CHScope == \"arif\" and CHNewSaved and CHRegName == \"Arif Ramadhan\"",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer",
+      "expression": "CHPhone == \"0812 0000 0148\"",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-collision",
+      "expression": "CHPlateKey == \"DD1248KL\" and CHDraftKey == \"B1234ABC\" and not CHPlateChanged",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-plate-log",
+      "expression": "CHPlateKey == \"DD2248KL\" and CHPlateChanged and CHSavedPlateReason == \"Plat kendaraan berubah; diverifikasi Owner.\" and CHSavedPlateActor == \"Owner \u00b7 sesi demo\" and not CHReasonValid",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-saved",
+      "expression": "CHNewSaved and CHRegCustomerId == \"DEMO-C0150\" and CHRegName == \"Arif Ramadhan\" and CHRegPhone == \"0812 0000 0147\" and CHRegPlate == \"DD 1248 KL\"",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-visit-old",
+      "expression": "CHPhone == \"0812 0000 0148\" and CHPlateKey == \"DD2248KL\"",
+      "passed": true,
+      "probePointerRetried": false
+    },
+    {
+      "source": "desktop-ch-customer-inactive",
+      "expression": "not CHCustomerActive",
+      "passed": true,
+      "probePointerRetried": false
+    }
+  ],
+  "disabledControls": [
+    {
+      "frame": "desktop-ch-vehicle",
+      "label": "Ubah plat \u00b7 hanya Owner",
+      "passed": true
+    },
+    {
+      "frame": "desktop-ch-choose-inactive",
+      "label": "Maya Lestari \u00b7 nonaktif",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "customer-history-desktop-plate-log.png",
+    "customer-history-desktop-old-snapshot.png"
+  ],
+  "failure": {
+    "source": "desktop-ch-new-visit",
+    "label": "Periksa registrasi",
+    "expected": "desktop-ch-review",
+    "actual": "desktop-ch-new-visit",
+    "observation": "All action branches navigate away; the preview remained at source. Pointer delivery suspected, not a validation rejection."
+  }
+}

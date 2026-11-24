@@ -1,0 +1,446 @@
+{
+  "baselineNodes": 13835,
+  "currentNodes": 16526,
+  "allPriorNodesPreserved": true,
+  "changedPriorNodes": [
+    {
+      "id": 1,
+      "name": "Desktop",
+      "fields": [
+        "children",
+        "flows"
+      ]
+    },
+    {
+      "id": 2079,
+      "name": "Ponsel",
+      "fields": [
+        "children",
+        "flows"
+      ]
+    },
+    {
+      "id": 12034,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12063,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12102,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12144,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12171,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12214,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12254,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12296,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12336,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12373,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12410,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12451,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12492,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12533,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12564,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12594,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12624,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12647,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12658,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12701,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12726,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12751,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12790,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12811,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12836,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12861,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12886,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12911,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12936,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12961,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 12995,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13021,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13053,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13088,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13112,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13148,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13185,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13224,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13261,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13295,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13329,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13367,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13405,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13443,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13471,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13498,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13525,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13547,
+      "name": "Riwayat kunjungan",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13556,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13596,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13618,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13640,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13672,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13690,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13712,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13734,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13756,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13778,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13800,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    },
+    {
+      "id": 13822,
+      "name": "Riwayat",
+      "fields": [
+        "interactions"
+      ]
+    }
+  ],
+  "allowedChanges": "60 POS history links plus the two pages children/flows",
+  "sha256": "e05396b90be06e31676fc2aa96ea153c67af29a8c3777e7d7b3d9ff938f9cfc5",
+  "passed": true
+}

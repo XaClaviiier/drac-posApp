@@ -1,0 +1,2223 @@
+{
+  "frames": {
+    "desktop-reg-list": 2916,
+    "desktop-reg-list-saved": 2917,
+    "desktop-reg-list-known": 2918,
+    "desktop-reg-list-edited": 2919,
+    "desktop-reg-new": 2920,
+    "desktop-reg-invalid": 2921,
+    "desktop-reg-filled": 2922,
+    "desktop-reg-review": 2923,
+    "desktop-reg-saving": 2924,
+    "desktop-reg-saved": 2925,
+    "desktop-reg-edit": 2926,
+    "desktop-reg-edited": 2927,
+    "desktop-reg-locked": 2928,
+    "desktop-reg-discard": 2929,
+    "desktop-reg-empty": 2930,
+    "desktop-reg-no-results": 2931,
+    "desktop-reg-load-error": 2932,
+    "desktop-reg-offline": 2933,
+    "desktop-reg-save-error": 2934,
+    "desktop-reg-catalog": 2935,
+    "desktop-reg-known": 2936,
+    "desktop-reg-known-review": 2937,
+    "desktop-reg-known-saving": 2938,
+    "desktop-reg-known-saved": 2939,
+    "mobile-reg-list": 2940,
+    "mobile-reg-list-saved": 2941,
+    "mobile-reg-list-known": 2942,
+    "mobile-reg-list-edited": 2943,
+    "mobile-reg-new": 2944,
+    "mobile-reg-invalid": 2945,
+    "mobile-reg-filled": 2946,
+    "mobile-reg-review": 2947,
+    "mobile-reg-saving": 2948,
+    "mobile-reg-saved": 2949,
+    "mobile-reg-edit": 2950,
+    "mobile-reg-edited": 2951,
+    "mobile-reg-locked": 2952,
+    "mobile-reg-discard": 2953,
+    "mobile-reg-empty": 2954,
+    "mobile-reg-no-results": 2955,
+    "mobile-reg-load-error": 2956,
+    "mobile-reg-offline": 2957,
+    "mobile-reg-save-error": 2958,
+    "mobile-reg-catalog": 2959,
+    "mobile-reg-known": 2960,
+    "mobile-reg-known-review": 2961,
+    "mobile-reg-known-saving": 2962,
+    "mobile-reg-known-saved": 2963
+  },
+  "edges": [
+    {
+      "source": "desktop-reg-list",
+      "target": "desktop-list",
+      "node": 2968,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-list",
+      "target": "desktop-reg-list",
+      "node": 2972,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-list",
+      "target": "desktop-reg-catalog",
+      "node": 2974,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-list",
+      "target": "desktop-reg-new",
+      "node": 2980,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "desktop-reg-list",
+      "target": "desktop-reg-no-results",
+      "node": 2984,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "desktop-reg-list",
+      "target": "desktop-reg-locked",
+      "node": 2990,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-list",
+      "node": 2997,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-reg-list",
+      "node": 3001,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-reg-catalog",
+      "node": 3003,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-reg-new",
+      "node": 3009,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-reg-no-results",
+      "node": 3013,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-reg-saved",
+      "node": 3019,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-list-saved",
+      "target": "desktop-reg-locked",
+      "node": 3026,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-list",
+      "node": 3033,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-reg-list",
+      "node": 3037,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-reg-catalog",
+      "node": 3039,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-reg-new",
+      "node": 3045,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-reg-no-results",
+      "node": 3049,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-reg-known-saved",
+      "node": 3055,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-list-known",
+      "target": "desktop-reg-locked",
+      "node": 3062,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-list",
+      "node": 3069,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-reg-list",
+      "node": 3073,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-reg-catalog",
+      "node": 3075,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-reg-new",
+      "node": 3081,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-reg-no-results",
+      "node": 3085,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-reg-edited",
+      "node": 3091,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-list-edited",
+      "target": "desktop-reg-locked",
+      "node": 3098,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-list",
+      "node": 3105,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-reg-list",
+      "node": 3109,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-reg-catalog",
+      "node": 3111,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-reg-invalid",
+      "node": 3140,
+      "label": "Periksa registrasi"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-reg-list",
+      "node": 3142,
+      "label": "Batal"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-reg-filled",
+      "node": 3144,
+      "label": "Demo: isi contoh lengkap"
+    },
+    {
+      "source": "desktop-reg-new",
+      "target": "desktop-reg-known",
+      "node": 3146,
+      "label": "Demo: plat sudah terdaftar"
+    },
+    {
+      "source": "desktop-reg-invalid",
+      "target": "desktop-list",
+      "node": 3152,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-invalid",
+      "target": "desktop-reg-list",
+      "node": 3156,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-invalid",
+      "target": "desktop-reg-catalog",
+      "node": 3158,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-invalid",
+      "target": "desktop-reg-list",
+      "node": 3192,
+      "label": "Batal"
+    },
+    {
+      "source": "desktop-reg-invalid",
+      "target": "desktop-reg-filled",
+      "node": 3194,
+      "label": "Demo: isi contoh lengkap"
+    },
+    {
+      "source": "desktop-reg-invalid",
+      "target": "desktop-reg-known",
+      "node": 3196,
+      "label": "Demo: plat sudah terdaftar"
+    },
+    {
+      "source": "desktop-reg-filled",
+      "target": "desktop-list",
+      "node": 3202,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-filled",
+      "target": "desktop-reg-list",
+      "node": 3206,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-filled",
+      "target": "desktop-reg-catalog",
+      "node": 3208,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-filled",
+      "target": "desktop-reg-review",
+      "node": 3237,
+      "label": "Periksa registrasi"
+    },
+    {
+      "source": "desktop-reg-filled",
+      "target": "desktop-reg-discard",
+      "node": 3239,
+      "label": "Batal"
+    },
+    {
+      "source": "desktop-reg-review",
+      "target": "desktop-list",
+      "node": 3245,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-review",
+      "target": "desktop-reg-list",
+      "node": 3249,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-review",
+      "target": "desktop-reg-catalog",
+      "node": 3251,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-review",
+      "target": "desktop-reg-saving",
+      "node": 3271,
+      "label": "Simpan registrasi"
+    },
+    {
+      "source": "desktop-reg-review",
+      "target": "desktop-reg-filled",
+      "node": 3273,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "desktop-reg-saving",
+      "target": "desktop-list",
+      "node": 3279,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-saving",
+      "target": "desktop-reg-list",
+      "node": 3283,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-saving",
+      "target": "desktop-reg-catalog",
+      "node": 3285,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-saved",
+      "target": "desktop-list",
+      "node": 3303,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-saved",
+      "target": "desktop-reg-list",
+      "node": 3307,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-saved",
+      "target": "desktop-reg-catalog",
+      "node": 3309,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-saved",
+      "target": "desktop-reg-edit",
+      "node": 3329,
+      "label": "Koreksi registrasi"
+    },
+    {
+      "source": "desktop-reg-saved",
+      "target": "desktop-reg-list-saved",
+      "node": 3331,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "desktop-reg-edit",
+      "target": "desktop-list",
+      "node": 3339,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-edit",
+      "target": "desktop-reg-list",
+      "node": 3343,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-edit",
+      "target": "desktop-reg-catalog",
+      "node": 3345,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-edit",
+      "target": "desktop-reg-edited",
+      "node": 3375,
+      "label": "Simpan koreksi"
+    },
+    {
+      "source": "desktop-reg-edit",
+      "target": "desktop-reg-discard",
+      "node": 3377,
+      "label": "Batal"
+    },
+    {
+      "source": "desktop-reg-edited",
+      "target": "desktop-list",
+      "node": 3383,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-edited",
+      "target": "desktop-reg-list",
+      "node": 3387,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-edited",
+      "target": "desktop-reg-catalog",
+      "node": 3389,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-edited",
+      "target": "desktop-reg-edit",
+      "node": 3409,
+      "label": "Koreksi registrasi"
+    },
+    {
+      "source": "desktop-reg-edited",
+      "target": "desktop-reg-list-edited",
+      "node": 3411,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "desktop-reg-locked",
+      "target": "desktop-list",
+      "node": 3422,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-locked",
+      "target": "desktop-reg-list",
+      "node": 3426,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-locked",
+      "target": "desktop-reg-catalog",
+      "node": 3428,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-locked",
+      "target": "desktop-reg-list",
+      "node": 3450,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "desktop-reg-discard",
+      "target": "desktop-list",
+      "node": 3458,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-discard",
+      "target": "desktop-reg-list",
+      "node": 3462,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-discard",
+      "target": "desktop-reg-catalog",
+      "node": 3464,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-discard",
+      "target": "desktop-reg-filled",
+      "node": 3472,
+      "label": "Lanjutkan mengisi",
+      "historyBack": true
+    },
+    {
+      "source": "desktop-reg-discard",
+      "target": "desktop-reg-list",
+      "node": 3474,
+      "label": "Tinggalkan isian"
+    },
+    {
+      "source": "desktop-reg-empty",
+      "target": "desktop-list",
+      "node": 3480,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-empty",
+      "target": "desktop-reg-list",
+      "node": 3484,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-empty",
+      "target": "desktop-reg-catalog",
+      "node": 3486,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-empty",
+      "target": "desktop-reg-new",
+      "node": 3494,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "desktop-reg-empty",
+      "target": "desktop-reg-list",
+      "node": 3496,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "desktop-reg-no-results",
+      "target": "desktop-list",
+      "node": 3502,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-no-results",
+      "target": "desktop-reg-list",
+      "node": 3506,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-no-results",
+      "target": "desktop-reg-catalog",
+      "node": 3508,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-no-results",
+      "target": "desktop-reg-list",
+      "node": 3516,
+      "label": "Hapus pencarian"
+    },
+    {
+      "source": "desktop-reg-no-results",
+      "target": "desktop-reg-list",
+      "node": 3518,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "desktop-reg-load-error",
+      "target": "desktop-list",
+      "node": 3524,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-load-error",
+      "target": "desktop-reg-list",
+      "node": 3528,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-load-error",
+      "target": "desktop-reg-catalog",
+      "node": 3530,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-load-error",
+      "target": "desktop-reg-list",
+      "node": 3538,
+      "label": "Coba muat lagi"
+    },
+    {
+      "source": "desktop-reg-load-error",
+      "target": "desktop-reg-list",
+      "node": 3540,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "desktop-reg-offline",
+      "target": "desktop-list",
+      "node": 3546,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-offline",
+      "target": "desktop-reg-list",
+      "node": 3550,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-offline",
+      "target": "desktop-reg-catalog",
+      "node": 3552,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-offline",
+      "target": "desktop-reg-review",
+      "node": 3562,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "desktop-reg-offline",
+      "target": "desktop-reg-list",
+      "node": 3564,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "desktop-reg-save-error",
+      "target": "desktop-list",
+      "node": 3570,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-save-error",
+      "target": "desktop-reg-list",
+      "node": 3574,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-save-error",
+      "target": "desktop-reg-catalog",
+      "node": 3576,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-save-error",
+      "target": "desktop-reg-review",
+      "node": 3586,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "desktop-reg-save-error",
+      "target": "desktop-reg-list",
+      "node": 3588,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-list",
+      "node": 3594,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-list",
+      "node": 3598,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-catalog",
+      "node": 3600,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-new",
+      "node": 3608,
+      "label": "Form kosong"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-invalid",
+      "node": 3610,
+      "label": "Validasi isian wajib"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-filled",
+      "node": 3612,
+      "label": "Isian contoh lengkap"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-known",
+      "node": 3614,
+      "label": "Plat sudah terdaftar"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-locked",
+      "node": 3616,
+      "label": "Koreksi setelah SO dibuat"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-empty",
+      "node": 3618,
+      "label": "Daftar kosong"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-no-results",
+      "node": 3620,
+      "label": "Pencarian tanpa hasil"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-load-error",
+      "node": 3622,
+      "label": "Gagal memuat daftar"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-offline",
+      "node": 3624,
+      "label": "Offline saat menyimpan"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-save-error",
+      "node": 3626,
+      "label": "Gagal simpan"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-reg-list",
+      "node": 3628,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "desktop-reg-catalog",
+      "target": "desktop-list",
+      "node": 3630,
+      "label": "Buka POS Kasir"
+    },
+    {
+      "source": "desktop-reg-known",
+      "target": "desktop-list",
+      "node": 3636,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-known",
+      "target": "desktop-reg-list",
+      "node": 3640,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-known",
+      "target": "desktop-reg-catalog",
+      "node": 3642,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-known",
+      "target": "desktop-reg-known-review",
+      "node": 3673,
+      "label": "Periksa registrasi"
+    },
+    {
+      "source": "desktop-reg-known",
+      "target": "desktop-reg-discard",
+      "node": 3675,
+      "label": "Batal"
+    },
+    {
+      "source": "desktop-reg-known-review",
+      "target": "desktop-list",
+      "node": 3681,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-known-review",
+      "target": "desktop-reg-list",
+      "node": 3685,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-known-review",
+      "target": "desktop-reg-catalog",
+      "node": 3687,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-known-review",
+      "target": "desktop-reg-known-saving",
+      "node": 3707,
+      "label": "Simpan registrasi"
+    },
+    {
+      "source": "desktop-reg-known-review",
+      "target": "desktop-reg-known",
+      "node": 3709,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "desktop-reg-known-saving",
+      "target": "desktop-list",
+      "node": 3715,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-known-saving",
+      "target": "desktop-reg-list",
+      "node": 3719,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-known-saving",
+      "target": "desktop-reg-catalog",
+      "node": 3721,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-known-saved",
+      "target": "desktop-list",
+      "node": 3739,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "desktop-reg-known-saved",
+      "target": "desktop-reg-list",
+      "node": 3743,
+      "label": "Registrasi"
+    },
+    {
+      "source": "desktop-reg-known-saved",
+      "target": "desktop-reg-catalog",
+      "node": 3745,
+      "label": "Demo"
+    },
+    {
+      "source": "desktop-reg-known-saved",
+      "target": "desktop-reg-list-known",
+      "node": 3766,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "mobile-reg-list",
+      "target": "mobile-list",
+      "node": 3772,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-list",
+      "target": "mobile-reg-list",
+      "node": 3776,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-list",
+      "target": "mobile-reg-catalog",
+      "node": 3777,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-list",
+      "target": "mobile-reg-new",
+      "node": 3783,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "mobile-reg-list",
+      "target": "mobile-reg-no-results",
+      "node": 3787,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "mobile-reg-list",
+      "target": "mobile-reg-locked",
+      "node": 3793,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-list",
+      "node": 3798,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-reg-list",
+      "node": 3802,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-reg-catalog",
+      "node": 3803,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-reg-new",
+      "node": 3809,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-reg-no-results",
+      "node": 3813,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-reg-saved",
+      "node": 3819,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-list-saved",
+      "target": "mobile-reg-locked",
+      "node": 3826,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-list",
+      "node": 3831,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-reg-list",
+      "node": 3835,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-reg-catalog",
+      "node": 3836,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-reg-new",
+      "node": 3842,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-reg-no-results",
+      "node": 3846,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-reg-known-saved",
+      "node": 3852,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-list-known",
+      "target": "mobile-reg-locked",
+      "node": 3859,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-list",
+      "node": 3864,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-reg-list",
+      "node": 3868,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-reg-catalog",
+      "node": 3869,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-reg-new",
+      "node": 3875,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-reg-no-results",
+      "node": 3879,
+      "label": "Contoh pencarian tanpa hasil"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-reg-edited",
+      "node": 3885,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-list-edited",
+      "target": "mobile-reg-locked",
+      "node": 3892,
+      "label": "Lihat registrasi"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-list",
+      "node": 3897,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-reg-list",
+      "node": 3901,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-reg-catalog",
+      "node": 3902,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-reg-invalid",
+      "node": 3926,
+      "label": "Periksa registrasi"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-reg-list",
+      "node": 3928,
+      "label": "Batal"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-reg-filled",
+      "node": 3930,
+      "label": "Demo: isi contoh lengkap"
+    },
+    {
+      "source": "mobile-reg-new",
+      "target": "mobile-reg-known",
+      "node": 3932,
+      "label": "Demo: plat sudah terdaftar"
+    },
+    {
+      "source": "mobile-reg-invalid",
+      "target": "mobile-list",
+      "node": 3936,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-invalid",
+      "target": "mobile-reg-list",
+      "node": 3940,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-invalid",
+      "target": "mobile-reg-catalog",
+      "node": 3941,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-invalid",
+      "target": "mobile-reg-list",
+      "node": 3970,
+      "label": "Batal"
+    },
+    {
+      "source": "mobile-reg-invalid",
+      "target": "mobile-reg-filled",
+      "node": 3972,
+      "label": "Demo: isi contoh lengkap"
+    },
+    {
+      "source": "mobile-reg-invalid",
+      "target": "mobile-reg-known",
+      "node": 3974,
+      "label": "Demo: plat sudah terdaftar"
+    },
+    {
+      "source": "mobile-reg-filled",
+      "target": "mobile-list",
+      "node": 3978,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-filled",
+      "target": "mobile-reg-list",
+      "node": 3982,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-filled",
+      "target": "mobile-reg-catalog",
+      "node": 3983,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-filled",
+      "target": "mobile-reg-review",
+      "node": 4007,
+      "label": "Periksa registrasi"
+    },
+    {
+      "source": "mobile-reg-filled",
+      "target": "mobile-reg-discard",
+      "node": 4009,
+      "label": "Batal"
+    },
+    {
+      "source": "mobile-reg-review",
+      "target": "mobile-list",
+      "node": 4013,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-review",
+      "target": "mobile-reg-list",
+      "node": 4017,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-review",
+      "target": "mobile-reg-catalog",
+      "node": 4018,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-review",
+      "target": "mobile-reg-saving",
+      "node": 4038,
+      "label": "Simpan registrasi"
+    },
+    {
+      "source": "mobile-reg-review",
+      "target": "mobile-reg-filled",
+      "node": 4040,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "mobile-reg-saving",
+      "target": "mobile-list",
+      "node": 4044,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-saving",
+      "target": "mobile-reg-list",
+      "node": 4048,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-saving",
+      "target": "mobile-reg-catalog",
+      "node": 4049,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-saved",
+      "target": "mobile-list",
+      "node": 4065,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-saved",
+      "target": "mobile-reg-list",
+      "node": 4069,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-saved",
+      "target": "mobile-reg-catalog",
+      "node": 4070,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-saved",
+      "target": "mobile-reg-edit",
+      "node": 4090,
+      "label": "Koreksi registrasi"
+    },
+    {
+      "source": "mobile-reg-saved",
+      "target": "mobile-reg-list-saved",
+      "node": 4092,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "mobile-reg-edit",
+      "target": "mobile-list",
+      "node": 4096,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-edit",
+      "target": "mobile-reg-list",
+      "node": 4100,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-edit",
+      "target": "mobile-reg-catalog",
+      "node": 4101,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-edit",
+      "target": "mobile-reg-edited",
+      "node": 4126,
+      "label": "Simpan koreksi"
+    },
+    {
+      "source": "mobile-reg-edit",
+      "target": "mobile-reg-discard",
+      "node": 4128,
+      "label": "Batal"
+    },
+    {
+      "source": "mobile-reg-edited",
+      "target": "mobile-list",
+      "node": 4132,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-edited",
+      "target": "mobile-reg-list",
+      "node": 4136,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-edited",
+      "target": "mobile-reg-catalog",
+      "node": 4137,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-edited",
+      "target": "mobile-reg-edit",
+      "node": 4157,
+      "label": "Koreksi registrasi"
+    },
+    {
+      "source": "mobile-reg-edited",
+      "target": "mobile-reg-list-edited",
+      "node": 4159,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "mobile-reg-locked",
+      "target": "mobile-list",
+      "node": 4166,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-locked",
+      "target": "mobile-reg-list",
+      "node": 4170,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-locked",
+      "target": "mobile-reg-catalog",
+      "node": 4171,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-locked",
+      "target": "mobile-reg-list",
+      "node": 4193,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "mobile-reg-discard",
+      "target": "mobile-list",
+      "node": 4197,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-discard",
+      "target": "mobile-reg-list",
+      "node": 4201,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-discard",
+      "target": "mobile-reg-catalog",
+      "node": 4202,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-discard",
+      "target": "mobile-reg-filled",
+      "node": 4210,
+      "label": "Lanjutkan mengisi",
+      "historyBack": true
+    },
+    {
+      "source": "mobile-reg-discard",
+      "target": "mobile-reg-list",
+      "node": 4212,
+      "label": "Tinggalkan isian"
+    },
+    {
+      "source": "mobile-reg-empty",
+      "target": "mobile-list",
+      "node": 4216,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-empty",
+      "target": "mobile-reg-list",
+      "node": 4220,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-empty",
+      "target": "mobile-reg-catalog",
+      "node": 4221,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-empty",
+      "target": "mobile-reg-new",
+      "node": 4229,
+      "label": "Registrasi baru"
+    },
+    {
+      "source": "mobile-reg-empty",
+      "target": "mobile-reg-list",
+      "node": 4231,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "mobile-reg-no-results",
+      "target": "mobile-list",
+      "node": 4235,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-no-results",
+      "target": "mobile-reg-list",
+      "node": 4239,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-no-results",
+      "target": "mobile-reg-catalog",
+      "node": 4240,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-no-results",
+      "target": "mobile-reg-list",
+      "node": 4248,
+      "label": "Hapus pencarian"
+    },
+    {
+      "source": "mobile-reg-no-results",
+      "target": "mobile-reg-list",
+      "node": 4250,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "mobile-reg-load-error",
+      "target": "mobile-list",
+      "node": 4254,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-load-error",
+      "target": "mobile-reg-list",
+      "node": 4258,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-load-error",
+      "target": "mobile-reg-catalog",
+      "node": 4259,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-load-error",
+      "target": "mobile-reg-list",
+      "node": 4267,
+      "label": "Coba muat lagi"
+    },
+    {
+      "source": "mobile-reg-load-error",
+      "target": "mobile-reg-list",
+      "node": 4269,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "mobile-reg-offline",
+      "target": "mobile-list",
+      "node": 4273,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-offline",
+      "target": "mobile-reg-list",
+      "node": 4277,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-offline",
+      "target": "mobile-reg-catalog",
+      "node": 4278,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-offline",
+      "target": "mobile-reg-review",
+      "node": 4288,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "mobile-reg-offline",
+      "target": "mobile-reg-list",
+      "node": 4290,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "mobile-reg-save-error",
+      "target": "mobile-list",
+      "node": 4294,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-save-error",
+      "target": "mobile-reg-list",
+      "node": 4298,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-save-error",
+      "target": "mobile-reg-catalog",
+      "node": 4299,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-save-error",
+      "target": "mobile-reg-review",
+      "node": 4309,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "mobile-reg-save-error",
+      "target": "mobile-reg-list",
+      "node": 4311,
+      "label": "Kembali ke daftar"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-list",
+      "node": 4315,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-list",
+      "node": 4319,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-catalog",
+      "node": 4320,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-new",
+      "node": 4328,
+      "label": "Form kosong"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-invalid",
+      "node": 4330,
+      "label": "Validasi isian wajib"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-filled",
+      "node": 4332,
+      "label": "Isian contoh lengkap"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-known",
+      "node": 4334,
+      "label": "Plat sudah terdaftar"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-locked",
+      "node": 4336,
+      "label": "Koreksi setelah SO dibuat"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-empty",
+      "node": 4338,
+      "label": "Daftar kosong"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-no-results",
+      "node": 4340,
+      "label": "Pencarian tanpa hasil"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-load-error",
+      "node": 4342,
+      "label": "Gagal memuat daftar"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-offline",
+      "node": 4344,
+      "label": "Offline saat menyimpan"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-save-error",
+      "node": 4346,
+      "label": "Gagal simpan"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-reg-list",
+      "node": 4348,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "mobile-reg-catalog",
+      "target": "mobile-list",
+      "node": 4350,
+      "label": "Buka POS Kasir"
+    },
+    {
+      "source": "mobile-reg-known",
+      "target": "mobile-list",
+      "node": 4354,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-known",
+      "target": "mobile-reg-list",
+      "node": 4358,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-known",
+      "target": "mobile-reg-catalog",
+      "node": 4359,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-known",
+      "target": "mobile-reg-known-review",
+      "node": 4385,
+      "label": "Periksa registrasi"
+    },
+    {
+      "source": "mobile-reg-known",
+      "target": "mobile-reg-discard",
+      "node": 4387,
+      "label": "Batal"
+    },
+    {
+      "source": "mobile-reg-known-review",
+      "target": "mobile-list",
+      "node": 4391,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-known-review",
+      "target": "mobile-reg-list",
+      "node": 4395,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-known-review",
+      "target": "mobile-reg-catalog",
+      "node": 4396,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-known-review",
+      "target": "mobile-reg-known-saving",
+      "node": 4416,
+      "label": "Simpan registrasi"
+    },
+    {
+      "source": "mobile-reg-known-review",
+      "target": "mobile-reg-known",
+      "node": 4418,
+      "label": "Periksa isian"
+    },
+    {
+      "source": "mobile-reg-known-saving",
+      "target": "mobile-list",
+      "node": 4422,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-known-saving",
+      "target": "mobile-reg-list",
+      "node": 4426,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-known-saving",
+      "target": "mobile-reg-catalog",
+      "node": 4427,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-known-saved",
+      "target": "mobile-list",
+      "node": 4443,
+      "label": "POS Kasir"
+    },
+    {
+      "source": "mobile-reg-known-saved",
+      "target": "mobile-reg-list",
+      "node": 4447,
+      "label": "Registrasi"
+    },
+    {
+      "source": "mobile-reg-known-saved",
+      "target": "mobile-reg-catalog",
+      "node": 4448,
+      "label": "Demo"
+    },
+    {
+      "source": "mobile-reg-known-saved",
+      "target": "mobile-reg-list-known",
+      "node": 4469,
+      "label": "Kembali ke registrasi"
+    },
+    {
+      "source": "desktop-list",
+      "target": "desktop-reg-list",
+      "node": 4471,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-detail",
+      "target": "desktop-reg-list",
+      "node": 4472,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-draft",
+      "target": "desktop-reg-list",
+      "node": 4473,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-final",
+      "target": "desktop-reg-list",
+      "node": 4474,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-cash",
+      "target": "desktop-reg-list",
+      "node": 4475,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-cash-short",
+      "target": "desktop-reg-list",
+      "node": 4476,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-qris",
+      "target": "desktop-reg-list",
+      "node": 4477,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-qris-checked",
+      "target": "desktop-reg-list",
+      "node": 4478,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-transfer",
+      "target": "desktop-reg-list",
+      "node": 4479,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-transfer-filled",
+      "target": "desktop-reg-list",
+      "node": 4480,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-transfer-checked",
+      "target": "desktop-reg-list",
+      "node": 4481,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-paid-cash",
+      "target": "desktop-reg-list",
+      "node": 4482,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-paid-qris",
+      "target": "desktop-reg-list",
+      "node": 4483,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-paid-transfer",
+      "target": "desktop-reg-list",
+      "node": 4484,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "mobile-list",
+      "target": "mobile-reg-list",
+      "node": 4485,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "desktop-catalog",
+      "target": "desktop-reg-list",
+      "node": 4486,
+      "label": "Buka Registrasi"
+    },
+    {
+      "source": "mobile-catalog",
+      "target": "mobile-reg-list",
+      "node": 4488,
+      "label": "Buka Registrasi"
+    }
+  ],
+  "themeControls": {
+    "desktop-reg-list": 2976,
+    "desktop-reg-list-saved": 3005,
+    "desktop-reg-list-known": 3041,
+    "desktop-reg-list-edited": 3077,
+    "desktop-reg-new": 3113,
+    "desktop-reg-invalid": 3160,
+    "desktop-reg-filled": 3210,
+    "desktop-reg-review": 3253,
+    "desktop-reg-saving": 3287,
+    "desktop-reg-saved": 3311,
+    "desktop-reg-edit": 3347,
+    "desktop-reg-edited": 3391,
+    "desktop-reg-locked": 3430,
+    "desktop-reg-discard": 3466,
+    "desktop-reg-empty": 3488,
+    "desktop-reg-no-results": 3510,
+    "desktop-reg-load-error": 3532,
+    "desktop-reg-offline": 3554,
+    "desktop-reg-save-error": 3578,
+    "desktop-reg-catalog": 3602,
+    "desktop-reg-known": 3644,
+    "desktop-reg-known-review": 3689,
+    "desktop-reg-known-saving": 3723,
+    "desktop-reg-known-saved": 3747,
+    "mobile-reg-list": 3779,
+    "mobile-reg-list-saved": 3805,
+    "mobile-reg-list-known": 3838,
+    "mobile-reg-list-edited": 3871,
+    "mobile-reg-new": 3904,
+    "mobile-reg-invalid": 3943,
+    "mobile-reg-filled": 3985,
+    "mobile-reg-review": 4020,
+    "mobile-reg-saving": 4051,
+    "mobile-reg-saved": 4072,
+    "mobile-reg-edit": 4103,
+    "mobile-reg-edited": 4139,
+    "mobile-reg-locked": 4173,
+    "mobile-reg-discard": 4204,
+    "mobile-reg-empty": 4223,
+    "mobile-reg-no-results": 4242,
+    "mobile-reg-load-error": 4261,
+    "mobile-reg-offline": 4280,
+    "mobile-reg-save-error": 4301,
+    "mobile-reg-catalog": 4322,
+    "mobile-reg-known": 4361,
+    "mobile-reg-known-review": 4398,
+    "mobile-reg-known-saving": 4429,
+    "mobile-reg-known-saved": 4450
+  },
+  "instances": [
+    2968,
+    2972,
+    2974,
+    2976,
+    2980,
+    2984,
+    2990,
+    2997,
+    3001,
+    3003,
+    3005,
+    3009,
+    3013,
+    3019,
+    3026,
+    3033,
+    3037,
+    3039,
+    3041,
+    3045,
+    3049,
+    3055,
+    3062,
+    3069,
+    3073,
+    3075,
+    3077,
+    3081,
+    3085,
+    3091,
+    3098,
+    3105,
+    3109,
+    3111,
+    3113,
+    3140,
+    3142,
+    3144,
+    3146,
+    3152,
+    3156,
+    3158,
+    3160,
+    3190,
+    3192,
+    3194,
+    3196,
+    3202,
+    3206,
+    3208,
+    3210,
+    3237,
+    3239,
+    3245,
+    3249,
+    3251,
+    3253,
+    3271,
+    3273,
+    3279,
+    3283,
+    3285,
+    3287,
+    3297,
+    3303,
+    3307,
+    3309,
+    3311,
+    3329,
+    3331,
+    3339,
+    3343,
+    3345,
+    3347,
+    3375,
+    3377,
+    3383,
+    3387,
+    3389,
+    3391,
+    3409,
+    3411,
+    3422,
+    3426,
+    3428,
+    3430,
+    3448,
+    3450,
+    3458,
+    3462,
+    3464,
+    3466,
+    3472,
+    3474,
+    3480,
+    3484,
+    3486,
+    3488,
+    3494,
+    3496,
+    3502,
+    3506,
+    3508,
+    3510,
+    3516,
+    3518,
+    3524,
+    3528,
+    3530,
+    3532,
+    3538,
+    3540,
+    3546,
+    3550,
+    3552,
+    3554,
+    3562,
+    3564,
+    3570,
+    3574,
+    3576,
+    3578,
+    3586,
+    3588,
+    3594,
+    3598,
+    3600,
+    3602,
+    3608,
+    3610,
+    3612,
+    3614,
+    3616,
+    3618,
+    3620,
+    3622,
+    3624,
+    3626,
+    3628,
+    3630,
+    3636,
+    3640,
+    3642,
+    3644,
+    3673,
+    3675,
+    3681,
+    3685,
+    3687,
+    3689,
+    3707,
+    3709,
+    3715,
+    3719,
+    3721,
+    3723,
+    3733,
+    3739,
+    3743,
+    3745,
+    3747,
+    3766,
+    3772,
+    3776,
+    3777,
+    3779,
+    3783,
+    3787,
+    3793,
+    3798,
+    3802,
+    3803,
+    3805,
+    3809,
+    3813,
+    3819,
+    3826,
+    3831,
+    3835,
+    3836,
+    3838,
+    3842,
+    3846,
+    3852,
+    3859,
+    3864,
+    3868,
+    3869,
+    3871,
+    3875,
+    3879,
+    3885,
+    3892,
+    3897,
+    3901,
+    3902,
+    3904,
+    3926,
+    3928,
+    3930,
+    3932,
+    3936,
+    3940,
+    3941,
+    3943,
+    3968,
+    3970,
+    3972,
+    3974,
+    3978,
+    3982,
+    3983,
+    3985,
+    4007,
+    4009,
+    4013,
+    4017,
+    4018,
+    4020,
+    4038,
+    4040,
+    4044,
+    4048,
+    4049,
+    4051,
+    4061,
+    4065,
+    4069,
+    4070,
+    4072,
+    4090,
+    4092,
+    4096,
+    4100,
+    4101,
+    4103,
+    4126,
+    4128,
+    4132,
+    4136,
+    4137,
+    4139,
+    4157,
+    4159,
+    4166,
+    4170,
+    4171,
+    4173,
+    4191,
+    4193,
+    4197,
+    4201,
+    4202,
+    4204,
+    4210,
+    4212,
+    4216,
+    4220,
+    4221,
+    4223,
+    4229,
+    4231,
+    4235,
+    4239,
+    4240,
+    4242,
+    4248,
+    4250,
+    4254,
+    4258,
+    4259,
+    4261,
+    4267,
+    4269,
+    4273,
+    4277,
+    4278,
+    4280,
+    4288,
+    4290,
+    4294,
+    4298,
+    4299,
+    4301,
+    4309,
+    4311,
+    4315,
+    4319,
+    4320,
+    4322,
+    4328,
+    4330,
+    4332,
+    4334,
+    4336,
+    4338,
+    4340,
+    4342,
+    4344,
+    4346,
+    4348,
+    4350,
+    4354,
+    4358,
+    4359,
+    4361,
+    4385,
+    4387,
+    4391,
+    4395,
+    4396,
+    4398,
+    4416,
+    4418,
+    4422,
+    4426,
+    4427,
+    4429,
+    4439,
+    4443,
+    4447,
+    4448,
+    4450,
+    4469,
+    4471,
+    4472,
+    4473,
+    4474,
+    4475,
+    4476,
+    4477,
+    4478,
+    4479,
+    4480,
+    4481,
+    4482,
+    4483,
+    4484,
+    4485,
+    4486,
+    4488
+  ],
+  "timers": [
+    {
+      "source": "desktop-reg-saving",
+      "target": "desktop-reg-saved",
+      "milliseconds": 1000
+    },
+    {
+      "source": "desktop-reg-known-saving",
+      "target": "desktop-reg-known-saved",
+      "milliseconds": 1000
+    },
+    {
+      "source": "mobile-reg-saving",
+      "target": "mobile-reg-saved",
+      "milliseconds": 1000
+    },
+    {
+      "source": "mobile-reg-known-saving",
+      "target": "mobile-reg-known-saved",
+      "milliseconds": 1000
+    }
+  ],
+  "fixtures": {
+    "new": {
+      "plate": "DD 1248 KL",
+      "customer": "Maya Lestari",
+      "phone": "0812 0000 0147",
+      "address": "Tidak diisi",
+      "complaint": "AC kurang dingin saat siang.",
+      "reference": "REG-DEMO-0147",
+      "customerId": "DEMO-C0147",
+      "vehicleId": "DEMO-V0147"
+    },
+    "returning": {
+      "plate": "B 1234 ABC",
+      "customer": "Maya Lestari",
+      "phone": "0812 0000 0261",
+      "address": "Tidak diisi",
+      "complaint": "AC kurang dingin saat siang.",
+      "reference": "REG-DEMO-0148",
+      "customerId": "DEMO-C0147",
+      "vehicleId": "DEMO-V0261"
+    },
+    "locked": {
+      "plate": "B 1234 ABC",
+      "customer": "Rina Prasetyo",
+      "phone": "0812 0000 0261",
+      "address": "Tidak diisi",
+      "complaint": "AC kurang dingin.",
+      "reference": "REG-DEMO-0144",
+      "customerId": "DEMO-C0261",
+      "vehicleId": "DEMO-V0261"
+    },
+    "corrected": {
+      "plate": "DD 1248 KL",
+      "customer": "Maya Lestari",
+      "phone": "0812 0000 0147",
+      "address": "Tidak diisi",
+      "complaint": "AC kurang dingin dan ada bunyi saat dinyalakan.",
+      "reference": "REG-DEMO-0147",
+      "customerId": "DEMO-C0147",
+      "vehicleId": "DEMO-V0147"
+    }
+  }
+}

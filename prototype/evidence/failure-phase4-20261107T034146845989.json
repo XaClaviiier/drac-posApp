@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "error": "Kanvas cetak harus putih, termasuk dari tema gelap",
+  "checks_completed": [
+    {
+      "check": "Antrean ke invoice final dan pembayaran penuh tunai dengan kembalian; SO tidak ditimpa",
+      "passed": true
+    },
+    {
+      "check": "Konflik menjaga guard tombol/beforeprint sampai reload eksplisit; nominal/status terbaru sesuai",
+      "passed": true
+    },
+    {
+      "check": "Koreksi menjaga uang lama dan kelebihan terpisah; transfer tepat/ref wajib, gateway wajib pengakuan simulasi",
+      "passed": true
+    }
+  ]
+}

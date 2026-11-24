@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-12T10:27:22.236470+00:00",
+  "checks": [
+    {
+      "check": "Antrean kasir membuka keadaan kosong dengan petunjuk dan tanpa invoice palsu",
+      "passed": true
+    },
+    {
+      "check": "SO legacy tanpa handoff terbaca tanpa write; SO aktif tidak bisa diserahkan",
+      "passed": true
+    },
+    {
+      "check": "Konfirmasi batal dan editor dirty menolak penyerahan tanpa autosave",
+      "passed": true
+    },
+    {
+      "check": "Teknisi menyerahkan realisasi Selesai, Kasir melihat antrean tepat tanpa mengubah biaya",
+      "passed": true
+    },
+    {
+      "check": "Queued mengunci biaya/reopen untuk Owner sekalipun; handler Kasir dan submit ganda tidak menulis",
+      "passed": true
+    },
+    {
+      "check": "Owner menarik beralasan lalu merevisi/menyerahkan ulang; riwayat aman dan antrean tidak duplikat",
+      "passed": true
+    },
+    {
+      "check": "Role switch keluar antrean dan membersihkan daftar/riwayat Owner dari DOM Teknisi",
+      "passed": true
+    },
+    {
+      "check": "Gagal write penyerahan/penarikan mempertahankan state/isian; retry tidak replay",
+      "passed": true
+    },
+    {
+      "check": "Konflik penarikan menahan aksi stale, menjaga alasan, dan navigasi dirty tidak membuang isian",
+      "passed": true
+    },
+    {
+      "check": "Antrean light/dark desktop/tablet/mobile, 320px/200%, keyboard/fokus dan history/error diperiksa",
+      "passed": true
+    },
+    {
+      "check": "Riwayat terminal legacy tanpa realisasi tetap terbaca tanpa rewrite; handoff Owner/Teknisi ditolak, Kasir tetap read-only",
+      "passed": true
+    },
+    {
+      "check": "Selesai Rp0 berlabel tanpa biaya; Dibatalkan Rp0 ditolak, berbiaya hanya Owner dengan total realisasi",
+      "passed": true
+    },
+    {
+      "check": "Peristiwa ke-100 tersimpan/pulih; ke-101 ditolak tanpa memangkas riwayat",
+      "passed": true
+    },
+    {
+      "check": "History malformed, referensi, aktor, waktu dan mutasi dalam lock ditolak tanpa reseed",
+      "passed": true
+    }
+  ],
+  "console_errors": []
+}

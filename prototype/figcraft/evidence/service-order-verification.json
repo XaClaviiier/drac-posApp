@@ -1,0 +1,49 @@
+{
+  "newFrames": 92,
+  "journeyStepsPassed": 228,
+  "devices": [
+    "desktop",
+    "mobile"
+  ],
+  "screenshots": [
+    "service-order-desktop-teknisi-b.png",
+    "service-order-desktop-running-160.png",
+    "service-order-desktop-completed-160.png",
+    "service-order-desktop-owner-queued-160.png",
+    "service-order-desktop-owner-reopened-160.png",
+    "service-order-desktop-unchanged-160.png",
+    "service-order-desktop-part-released-60.png",
+    "service-order-mobile-teknisi-b.png",
+    "service-order-mobile-running-160.png",
+    "service-order-mobile-completed-160.png",
+    "service-order-mobile-owner-queued-160.png",
+    "service-order-mobile-owner-reopened-160.png",
+    "service-order-mobile-unchanged-160.png",
+    "service-order-mobile-part-released-60.png"
+  ],
+  "nativeStringBindings": true,
+  "fonts": {
+    "families": []
+  },
+  "guards": [
+    "unassigned-start-disabled",
+    "missing-reason",
+    "invalid-pcs",
+    "per-line-additional-consent-even-when-total-drops",
+    "consent-reset-on-change",
+    "missing-realization-handoff",
+    "cancel-zero-not-billable",
+    "role-readonly",
+    "final-invoice-lock",
+    "offline",
+    "conflict",
+    "failed-write",
+    "pending-navigation-confirmation"
+  ],
+  "limits": [
+    "sample inputs",
+    "native prototype state, not database",
+    "SO fixture is the two-item Rp150.000 estimate",
+    "no real stock reservation or invoice integration"
+  ]
+}

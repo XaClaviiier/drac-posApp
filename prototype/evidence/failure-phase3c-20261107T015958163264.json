@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "error": "Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#nav-cashier\")\n",
+  "checks_completed": []
+}
