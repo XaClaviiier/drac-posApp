@@ -2,6 +2,8 @@ __pycache__/
 *.py[cod]
 /debug.log
 /.local/
+/prototype/
+/doc/
 
 # Local credentials and runtime data never belong in the public repository.
 .env
