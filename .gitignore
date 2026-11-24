@@ -6,6 +6,7 @@ __pycache__/
 /doc/
 /focus-modality.css
 /focus-modality.js
+/.claude/skills/
 
 # Local credentials and runtime data never belong in the public repository.
 .env
